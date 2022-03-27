@@ -4,7 +4,7 @@ Ky fjalor drejtshkrimi i gjuhës shqipe është produkt i punës së vyer të gj
 
 Mbi 800 mijë fjalëforma janë përftuar nga zbatimi i rregullave të "Drejtshkrimit të gjuhës shqipe" (1973), duke analizuar "Fjalorin e gjuhës së sotme shqipe" (1980), "Fjalorin e gjuhës shqipe" (2006) dhe "Fjalorin drejtshkrimor të gjuhës shqipe" të vitit 2015. Fjalësi aktual është ndër më të pasurit për shqipen, që mundësohet falas në internet.
 
-Me gjithë përpjekjen për të pakësuar të metat nga hedhja me dorë e rregullave dhe e zërave të fjalorit, ka vend për vërejtje. Prandaj më kontaktoni nëse vini re gabime dhe mund të më sugjeroni fjalë a kategori gramatikore, që vëreni se mungojnë.
+Me gjithë përpjekjen për të pakësuar të metat nga hedhja me dorë e rregullave dhe e zërave të fjalorit, ka vend për vërejtje. Prandaj më kontaktoni nëse vini re gabime dhe mund të më sugjeroni fjalë a kategori gramatikore që mungojnë.
 
 Ju faleminderit hartuesve të veprave të mësipërme:
 
