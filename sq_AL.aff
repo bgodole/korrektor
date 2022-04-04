@@ -2563,7 +2563,7 @@ SFX G5 yhet fshin yhet po:verb is:v_dsht is:pl3
 SFX G5 yhet ftë yhet po:verb is:v_dsht is:sg3
 
 SFX G6 Y 1
-SFX G6 0 sh [bcçdfghjklmpqrstz] po:verb is:v_dsht is:sg2
+SFX G6 0 sh [bcçdefghjklmpqrstz] po:verb is:v_dsht is:sg2
 
 SFX G7 Y 3
 SFX G7 0 sha [bcçdfghjklmpqrstz] po:verb is:v_dsht is:sg1
@@ -2855,11 +2855,13 @@ SFX H9 as itnani as po:verb is:urdh is:pl2
 SFX H9 as ituni as po:verb is:urdh is:pl2
 SFX H9 as itni as po:verb is:urdh is:pl2
 
-SFX H0 Y 7
+SFX G0 Y 1
+SFX G0 0 ani [^gn]j po:verb is:urdh is:pl2
+
+SFX H0 Y 6
 SFX H0 0 ma [abcçdfghijklmnpqrstvz] po:verb is:urdh is:sg2
 SFX H0 0 më [abcçdfghijklmnpqrstvz] po:verb is:urdh is:sg2
 SFX H0 0 na [abcçdfghijklmnpqrstvz] po:verb is:urdh is:pl2
-SFX H0 0 ani [^g]j po:verb is:urdh is:pl2
 SFX H0 0 mani [abcçdfghijklmnpqrstvz] po:verb is:urdh is:pl2
 SFX H0 0 mëni [abcçdfghijklmnpqrstvz] po:verb is:urdh is:pl2
 SFX H0 0 nani [abcçdfghijklmnpqrstvz] po:verb is:urdh is:pl2
@@ -3387,12 +3389,12 @@ SFX I5 em uni em po:verb is:urdh is:pl2
 SFX I5 as 0 bas po:verb is:urdh is:sg2
 SFX I5 as ni bas po:verb is:urdh is:pl2
 SFX I5 j hu [aeëiouy]j po:verb is:urdh is:sg2
-SFX I5 j ju [aeëiouy]j po:verb is:urdh is:sg2
+SFX I5 0 u [aeëiouy]j po:verb is:urdh is:sg2
 SFX I5 j ma [aeëiouy]j po:verb is:urdh is:sg2
 SFX I5 j më [aeëiouy]j po:verb is:urdh is:sg2
 SFX I5 j na [aeëiouy]j po:verb is:urdh is:sg2
 SFX I5 j huni [aeëiouy]j po:verb is:urdh is:pl2
-SFX I5 j juni [aeëiouy]j po:verb is:urdh is:pl2
+SFX I5 0 uni [aeëiouy]j po:verb is:urdh is:pl2
 SFX I5 j mani [aeëiouy]j po:verb is:urdh is:pl2
 SFX I5 j mëni [aeëiouy]j po:verb is:urdh is:pl2
 SFX I5 j nani [aeëiouy]j po:verb is:urdh is:pl2
@@ -5017,7 +5019,7 @@ SFX P5 k qe k po:adj is:pl is:fem
 SFX P5 nëre nare ëre po:adj is:pl is:fem
 SFX P5 ua a ua po:adj is:pl is:fem
 
-SFX P6 Y 100
+SFX P6 Y 101
 SFX P6 0 nj [^t]i po:adj is:pl is:mas
 SFX P6 adh ëdhenj adh po:adj is:pl is:mas
 SFX P6 ah eh ah po:adj is:pl is:mas
@@ -5101,6 +5103,7 @@ SFX P6 0 vjeçar [deërty] po:adj is:sg is:mas
 SFX P6 0 vjeçari [deërty] po:adj is:sg is:mas
 SFX P6 0 vjeçarin [deërty] po:adj is:sg is:mas
 SFX P6 0 vjeçarit [deërty] po:adj is:sg is:mas
+SFX P6 0 vjeçarë [^j][deërty] po:adj is:pl is:mas
 SFX P6 0 vjeçarësh [deërty] po:adj is:pl is:mas
 SFX P6 0 vjeçarët [deërty] po:adj is:pl is:mas
 SFX P6 0 vjeçarëve [deërty] po:adj is:pl is:mas
