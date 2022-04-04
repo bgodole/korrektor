@@ -3399,10 +3399,7 @@ SFX I5 j nani [aeëiouy]j po:verb is:urdh is:pl2
 
 # EMRAT FEM.
 
-SFX I6 Y 71
-SFX I6 0 en [ae][cr] po:noun is:sg is:fem
-SFX I6 0 es [ae][cr] po:noun is:sg is:fem
-SFX I6 0 eje [ae][cr] po:noun is:sg is:fem
+SFX I6 Y 68
 SFX I6 a në [ei]a po:noun is:sg is:fem
 SFX I6 a së [ei]a po:noun is:sg is:fem
 SFX I6 ado ëndo ado po:noun is:sg is:fem
