@@ -13,3 +13,18 @@ Ju faleminderit hartuesve të veprave të mësipërme:
 — (2006) Jani Thomai, Miço Samara, Pavli Haxhillazi, Hajri Shehu, Thanas Feka, Valter Memisha, Artan Goga.
 
 — (2015) Ali Dhrimo, Rami Memushaj.
+
+# Përdorimi
+
+Ky program mund të tregojë gabimet drejtshkrimore në gjuhën shqipe. Përdoret në aplikacionet si LibreOffice dhe OpenOffice, të cilat shfrytëzojnë paketën "hunspell" për drejtshkrimin.
+
+Instalimi në LibreOffice kryhet nëpërmjet "përgjegjësit të detyrave shtesë". Fillimisht ju duhet varianti më i fundit i korrektorit. Skedarin e duhur ".oxt" e gjeni te faqja [Releases](https://github.com/bgodole/korrektori/releases).
+
+![hapat 1-2](https://user-images.githubusercontent.com/15838230/161724739-dce7ec56-9de7-4c3a-96c3-821f36e2dcd3.png)
+---
+
+Më tej, hapni një dokument të çfarëdoshëm që është ruajtur paraprakisht në gjuhën shqipe. Gjuhën e dokumentit mund ta ndryshoni edhe vetë ndërkohë që e keni hapur.
+
+Dalloni fjalët e nënvizuara me të kuqe, sepse kjo tregon gabime të mundshme në shkrim ose fjalë të sakta që programi nuk i njeh. Kur i klikoni fjalët e nënvizuara me tastin e djathtë të mausit, ju sugjerohet si ta korrektoni fjalën e gabuar ose të shtoni çfarë mungon në fjalorin tuaj personal.
+
+![hapat 3-4](https://user-images.githubusercontent.com/15838230/161724825-af01de1c-bef1-4dc3-bac7-129ab4dd9afe.png)
