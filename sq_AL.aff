@@ -4119,10 +4119,10 @@ SFX L7 ë allarë ë po:noun is:pl is:mas
 SFX L7 ë allarësh ë po:noun is:pl is:mas
 SFX L7 ë allarët ë po:noun is:pl is:mas
 SFX L7 ë allarëve ë po:noun is:pl is:mas
-SFX L7 ërr urrë ër po:noun is:pl is:mas
-SFX L7 ërr urrësh ër po:noun is:pl is:mas
-SFX L7 ërr urrët ër po:noun is:pl is:mas
-SFX L7 ërr urrëve ër po:noun is:pl is:mas
+SFX L7 ërr urrë ërr po:noun is:pl is:mas
+SFX L7 ërr urrësh ërr po:noun is:pl is:mas
+SFX L7 ërr urrët ërr po:noun is:pl is:mas
+SFX L7 ërr urrëve ërr po:noun is:pl is:mas
 SFX L7 i ët [lt]i po:noun is:pl is:mas
 SFX L7 i ëve [lt]i po:noun is:pl is:mas
 SFX L7 ua oj ua po:noun is:pl is:mas
@@ -4166,8 +4166,8 @@ SFX L9 ë in ë po:noun is:sg is:mas
 SFX L9 ë it ë po:noun is:sg is:mas
 SFX L9 ër ri ër po:noun is:sg is:mas
 SFX L9 ër rin ër po:noun is:sg is:mas
-SFX L9 ër rri ër po:noun is:sg is:mas
-SFX L9 ër rrin ër po:noun is:sg is:mas
+SFX L9 ërr rri ërr po:noun is:sg is:mas
+SFX L9 ërr rrin ërr po:noun is:sg is:mas
 SFX L9 k qish k po:noun is:pl is:mas
 SFX L9 k qit k po:noun is:pl is:mas
 
@@ -4353,7 +4353,7 @@ SFX M7 0 rësh [aeiu] po:noun is:pl is:mas
 SFX M7 0 rët [aeiu] po:noun is:pl is:mas
 SFX M7 0 rëve [aeiu] po:noun is:pl is:mas
 SFX M7 ër rit ër po:noun is:sg is:mas
-SFX M7 ërr rrit ër po:noun is:sg is:mas
+SFX M7 ërr rrit ërr po:noun is:sg is:mas
 
 SFX M8 Y 2
 SFX M8 0 ë [^aiuy] po:noun is:pl is:mas
