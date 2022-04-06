@@ -116,10 +116,10 @@ SFX A7 in uar rrin po:verb is:v_dfkr is:mas
 SFX A7 in uara rrin po:verb is:v_dfkr is:fem
 SFX A7 in uari rrin po:noun po:asnj
 SFX A7 in uarit rrin po:noun po:asnj
-SFX A7 n yer en po:verb is:v_dfkr is:mas
-SFX A7 n yera en po:verb is:v_dfkr is:fem
-SFX A7 n yeri en po:noun po:asnj
-SFX A7 n yerit en po:noun po:asnj
+SFX A7 en yer en po:verb is:v_dfkr is:mas
+SFX A7 en yera en po:verb is:v_dfkr is:fem
+SFX A7 en yeri en po:noun po:asnj
+SFX A7 en yerit en po:noun po:asnj
 SFX A7 as itur as po:verb is:v_dfkr is:mas
 SFX A7 as itura as po:verb is:v_dfkr is:fem
 SFX A7 as ituri as po:noun po:asnj
