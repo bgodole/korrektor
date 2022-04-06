@@ -137,7 +137,7 @@ SFX A7 s kura es po:verb is:v_dfkr is:fem
 SFX A7 s kuri es po:noun po:asnj
 SFX A7 s kurit es po:noun po:asnj
 
-SFX A8 Y 184
+SFX A8 Y 180
 SFX A8 bie prurë bie po:verb is:v_dfkr is:mas
 SFX A8 bie prura bie po:verb is:v_dfkr is:mas
 SFX A8 bie prurët bie po:noun po:asnj
@@ -178,10 +178,6 @@ SFX A8 le jetur le po:verb is:v_dfkr is:mas
 SFX A8 le jetura le po:verb is:v_dfkr is:fem
 SFX A8 le jeturi le po:noun po:asnj
 SFX A8 le jeturit le po:noun po:asnj
-SFX A8 oj ar oj po:verb is:v_dfkr is:mas
-SFX A8 oj ara oj po:verb is:v_dfkr is:fem
-SFX A8 oj ari oj po:noun po:asnj
-SFX A8 oj arit oj po:noun po:asnj
 SFX A8 shoh parë shoh po:verb is:v_dfkr is:mas
 SFX A8 shoh para shoh po:verb is:v_dfkr is:fem
 SFX A8 shoh parët shoh po:noun po:asnj
@@ -825,21 +821,17 @@ SFX C2 ohet ua ohet po:verb is:j_dfkt is:sg3
 SFX C2 ohet uan ohet po:verb is:j_dfkt is:pl3
 SFX C2 s 0 s po:verb is:j_dfkt is:sg3
 
-SFX C3 Y 5
+SFX C3 Y 4
 SFX C3 em 0 em po:verb is:j_dfkt is:sg3
 SFX C3 j 0 [ae]j po:verb is:j_dfkt is:sg3
 SFX C3 jerdh ordh jerdh po:verb is:j_dfkt is:sg3
 SFX C3 jerg orgj jerg po:verb is:j_dfkt is:sg3
-SFX C3 oj a oj po:verb is:j_dfkt is:sg3
 
-SFX C4 Y 10
+SFX C4 Y 7
 SFX C4 j i oj po:verb is:v_dfkt is:sg3
-SFX C4 oj uam [^u]oj po:verb is:v_dfkt is:pl1
-SFX C4 oj uat [^u]oj po:verb is:v_dfkt is:pl2
-SFX C4 oj uan [^u]oj po:verb is:v_dfkt is:pl3
-SFX C4 oj am uoj po:verb is:v_dfkt is:pl1
-SFX C4 oj at uoj po:verb is:v_dfkt is:pl2
-SFX C4 oj an uoj po:verb is:v_dfkt is:pl3
+SFX C4 oj uam oj po:verb is:v_dfkt is:pl1
+SFX C4 oj uat oj po:verb is:v_dfkt is:pl2
+SFX C4 oj uan oj po:verb is:v_dfkt is:pl3
 SFX C4 j m [ae]j po:verb is:v_dfkt is:pl1
 SFX C4 j t [ae]j po:verb is:v_dfkt is:pl2
 SFX C4 j n [ae]j po:verb is:v_dfkt is:pl3
@@ -1435,7 +1427,7 @@ SFX E4 es iste es po:verb is:v_dfpa is:sg3
 SFX E4 et te et po:verb is:v_dfpa is:sg3
 SFX E4 et nin et po:verb is:v_dfpa is:pl3
 
-SFX E5 Y 100
+SFX E5 Y 94
 SFX E5 bie prukam bie po:verb is:v_habt is:sg1
 SFX E5 bie pruke bie po:verb is:v_habt is:sg2
 SFX E5 bie pruka bie po:verb is:v_habt is:sg3
@@ -1490,12 +1482,6 @@ SFX E5 le jetka le po:verb is:v_habt is:sg3
 SFX E5 le jetkemi le po:verb is:v_habt is:pl1
 SFX E5 le jetkeni le po:verb is:v_habt is:pl2
 SFX E5 le jetkan le po:verb is:v_habt is:pl3
-SFX E5 oj akam oj po:verb is:v_habt is:sg1
-SFX E5 oj ake oj po:verb is:v_habt is:sg2
-SFX E5 oj aka oj po:verb is:v_habt is:sg3
-SFX E5 oj akemi oj po:verb is:v_habt is:pl1
-SFX E5 oj akeni oj po:verb is:v_habt is:pl2
-SFX E5 oj akan oj po:verb is:v_habt is:pl3
 SFX E5 shoh pakam shoh po:verb is:v_habt is:sg1
 SFX E5 shoh pake shoh po:verb is:v_habt is:sg2
 SFX E5 shoh paka shoh po:verb is:v_habt is:sg3
@@ -1785,7 +1771,7 @@ SFX F2 0 ke [bcçdfghjklmnpqrstvz] po:verb is:v_habt is:sg2
 SFX F2 0 kemi [bcçdfghjklmnpqrstvz] po:verb is:v_habt is:pl1
 SFX F2 0 keni [bcçdfghjklmnpqrstvz] po:verb is:v_habt is:pl2
 
-SFX F3 Y 105
+SFX F3 Y 98
 SFX F3 bie prukësha bie po:verb is:v_habp is:sg1
 SFX F3 bie prukëshe bie po:verb is:v_habp is:sg2
 SFX F3 bie prukësh bie po:verb is:v_habp is:sg3
@@ -1849,13 +1835,6 @@ SFX F3 le jetkej le po:verb is:v_habp is:sg3
 SFX F3 le jetkëshim le po:verb is:v_habp is:pl1
 SFX F3 le jetkëshit le po:verb is:v_habp is:pl2
 SFX F3 le jetkëshin le po:verb is:v_habp is:pl3
-SFX F3 oj akësha oj po:verb is:v_habp is:sg1
-SFX F3 oj akëshe oj po:verb is:v_habp is:sg2
-SFX F3 oj akësh oj po:verb is:v_habp is:sg3
-SFX F3 oj akej oj po:verb is:v_habp is:sg3
-SFX F3 oj akëshim oj po:verb is:v_habp is:pl1
-SFX F3 oj akëshit oj po:verb is:v_habp is:pl2
-SFX F3 oj akëshin oj po:verb is:v_habp is:pl3
 SFX F3 shoh pakësha shoh po:verb is:v_habp is:sg1
 SFX F3 shoh pakëshe shoh po:verb is:v_habp is:sg2
 SFX F3 shoh pakësh shoh po:verb is:v_habp is:sg3
@@ -3401,7 +3380,7 @@ SFX I5 j nani [aeëiouy]j po:verb is:urdh is:pl2
 
 # EMRAT FEM.
 
-SFX I6 Y 68
+SFX I6 Y 72
 SFX I6 a në [ei]a po:noun is:sg is:fem
 SFX I6 a së [ei]a po:noun is:sg is:fem
 SFX I6 ado ëndo ado po:noun is:sg is:fem
@@ -3466,6 +3445,10 @@ SFX I6 orë uar orë po:noun is:pl is:fem
 SFX I6 orë uarsh orë po:noun is:pl is:fem
 SFX I6 orë uart orë po:noun is:pl is:fem
 SFX I6 orë uarve orë po:noun is:pl is:fem
+SFX I6 së zë së po:noun is:pl is:fem
+SFX I6 së zësh së po:noun is:pl is:fem
+SFX I6 së zët së po:noun is:pl is:fem
+SFX I6 së zëve së po:noun is:pl is:fem
 SFX I6 ua a ua po:noun is:pl is:fem
 SFX I6 ua ash ua po:noun is:pl is:fem
 SFX I6 ua atë ua po:noun is:pl is:fem
@@ -3814,15 +3797,15 @@ SFX L1 t-skelë teve-skelë t-skelë po:noun is:pl is:fem
 
 # EMRAT MASH.
 
-SFX L2 Y 148
+SFX L2 Y 144
 SFX L2 aç eçë aç po:noun is:pl is:mas
 SFX L2 aç eçësh aç po:noun is:pl is:mas
 SFX L2 aç eçët aç po:noun is:pl is:mas
 SFX L2 aç eçëve aç po:noun is:pl is:mas
-SFX L2 adh ëdhenj adh po:noun is:pl is:mas
-SFX L2 adh ëdhenjsh adh po:noun is:pl is:mas
-SFX L2 adh ëdhenjtë adh po:noun is:pl is:mas
-SFX L2 adh ëdhenjve adh po:noun is:pl is:mas
+SFX L2 adh ëdhej adh po:noun is:pl is:mas
+SFX L2 adh ëdhejsh adh po:noun is:pl is:mas
+SFX L2 adh ëdhejtë adh po:noun is:pl is:mas
+SFX L2 adh ëdhejve adh po:noun is:pl is:mas
 SFX L2 ah eh ah po:noun is:pl is:mas
 SFX L2 ah ehsh ah po:noun is:pl is:mas
 SFX L2 ah ehtë ah po:noun is:pl is:mas
@@ -3831,18 +3814,18 @@ SFX L2 ak eq ak po:noun is:pl is:mas
 SFX L2 ak eqsh ak po:noun is:pl is:mas
 SFX L2 ak eqtë ak po:noun is:pl is:mas
 SFX L2 ak eqve ak po:noun is:pl is:mas
-SFX L2 al enj al po:noun is:pl is:mas
-SFX L2 al enjsh al po:noun is:pl is:mas
-SFX L2 al enjtë al po:noun is:pl is:mas
-SFX L2 al enjve al po:noun is:pl is:mas
+SFX L2 al ej al po:noun is:pl is:mas
+SFX L2 al ejsh al po:noun is:pl is:mas
+SFX L2 al ejtë al po:noun is:pl is:mas
+SFX L2 al ejve al po:noun is:pl is:mas
 SFX L2 alosh elmosha osh po:noun is:pl is:mas
 SFX L2 alosh elmoshash osh po:noun is:pl is:mas
 SFX L2 alosh elmoshat osh po:noun is:pl is:mas
 SFX L2 alosh elmoshave osh po:noun is:pl is:mas
-SFX L2 an enj an po:noun is:pl is:mas
-SFX L2 an enjsh an po:noun is:pl is:mas
-SFX L2 an enjtë an po:noun is:pl is:mas
-SFX L2 an enjve an po:noun is:pl is:mas
+SFX L2 an ej an po:noun is:pl is:mas
+SFX L2 an ejsh an po:noun is:pl is:mas
+SFX L2 an ejtë an po:noun is:pl is:mas
+SFX L2 an ejve an po:noun is:pl is:mas
 SFX L2 ap ep ap po:noun is:pl is:mas
 SFX L2 ap epsh ap po:noun is:pl is:mas
 SFX L2 ap eptë ap po:noun is:pl is:mas
@@ -3851,10 +3834,10 @@ SFX L2 ardh jerdhe ardh po:noun is:pl is:mas
 SFX L2 ardh jerdhesh ardh po:noun is:pl is:mas
 SFX L2 ardh jerdhet ardh po:noun is:pl is:mas
 SFX L2 ardh jerdheve ardh po:noun is:pl is:mas
-SFX L2 argër ërgënj gër po:noun is:pl is:mas
-SFX L2 argër ërgënjsh gër po:noun is:pl is:mas
-SFX L2 argër ërgënjtë gër po:noun is:pl is:mas
-SFX L2 argër ërgënjve gër po:noun is:pl is:mas
+SFX L2 argër ërgëj gër po:noun is:pl is:mas
+SFX L2 argër ërgëjsh gër po:noun is:pl is:mas
+SFX L2 argër ërgëjtë gër po:noun is:pl is:mas
+SFX L2 argër ërgëjve gër po:noun is:pl is:mas
 SFX L2 ash esh ash po:noun is:pl is:mas
 SFX L2 ash eshësh ash po:noun is:pl is:mas
 SFX L2 ash eshtë ash po:noun is:pl is:mas
@@ -3871,10 +3854,6 @@ SFX L2 av evër av po:noun is:pl is:mas
 SFX L2 av evërish av po:noun is:pl is:mas
 SFX L2 av evërit av po:noun is:pl is:mas
 SFX L2 av evërve av po:noun is:pl is:mas
-SFX L2 b pinj b po:noun is:pl is:mas
-SFX L2 b pinjsh b po:noun is:pl is:mas
-SFX L2 b pinjtë b po:noun is:pl is:mas
-SFX L2 b pinjve b po:noun is:pl is:mas
 SFX L2 eg igje eg po:noun is:pl is:mas
 SFX L2 eg igjesh eg po:noun is:pl is:mas
 SFX L2 eg igjet eg po:noun is:pl is:mas
@@ -3947,10 +3926,10 @@ SFX L2 k qër jk po:noun is:pl is:mas
 SFX L2 k qërish jk po:noun is:pl is:mas
 SFX L2 k qërit jk po:noun is:pl is:mas
 SFX L2 k qërve jk po:noun is:pl is:mas
-SFX L2 ua enj ua po:noun is:pl is:mas
-SFX L2 ua enjsh ua po:noun is:pl is:mas
-SFX L2 ua enjtë ua po:noun is:pl is:mas
-SFX L2 ua enjve ua po:noun is:pl is:mas
+SFX L2 ua ej ua po:noun is:pl is:mas
+SFX L2 ua ejsh ua po:noun is:pl is:mas
+SFX L2 ua ejtë ua po:noun is:pl is:mas
+SFX L2 ua ejve ua po:noun is:pl is:mas
 SFX L2 uall oje uall po:noun is:pl is:mas
 SFX L2 uall ojesh uall po:noun is:pl is:mas
 SFX L2 uall ojet uall po:noun is:pl is:mas
@@ -3977,10 +3956,10 @@ SFX L3 a ezër lla po:noun is:pl is:mas
 SFX L3 a ezërish lla po:noun is:pl is:mas
 SFX L3 a ezërit lla po:noun is:pl is:mas
 SFX L3 a ezërve lla po:noun is:pl is:mas
-SFX L3 a henj da po:noun is:pl is:mas
-SFX L3 a henjsh da po:noun is:pl is:mas
-SFX L3 a henjtë da po:noun is:pl is:mas
-SFX L3 a henjve da po:noun is:pl is:mas
+SFX L3 a hej da po:noun is:pl is:mas
+SFX L3 a hejsh da po:noun is:pl is:mas
+SFX L3 a hejtë da po:noun is:pl is:mas
+SFX L3 a hejve da po:noun is:pl is:mas
 SFX L3 aç eç aç po:noun is:pl is:mas
 SFX L3 aç eçsh aç po:noun is:pl is:mas
 SFX L3 aç eçtë aç po:noun is:pl is:mas
@@ -4018,18 +3997,18 @@ SFX L3 ën na ën po:noun is:sg is:mas
 SFX L3 ën nash ën po:noun is:sg is:mas
 SFX L3 ën nat ën po:noun is:sg is:mas
 SFX L3 ën nave ën po:noun is:sg is:mas
-SFX L3 ër inj ër po:noun is:pl is:mas
-SFX L3 ër injsh ër po:noun is:pl is:mas
-SFX L3 ër injtë ër po:noun is:pl is:mas
-SFX L3 ër injve ër po:noun is:pl is:mas
+SFX L3 ër ij ër po:noun is:pl is:mas
+SFX L3 ër ijsh ër po:noun is:pl is:mas
+SFX L3 ër ijtë ër po:noun is:pl is:mas
+SFX L3 ër ijve ër po:noun is:pl is:mas
 SFX L3 ka qe ka po:noun is:pl is:mas
 SFX L3 ka qesh ka po:noun is:pl is:mas
 SFX L3 ka qetë ka po:noun is:pl is:mas
 SFX L3 ka qeve ka po:noun is:pl is:mas
-SFX L3 ua onj ua po:noun is:pl is:mas
-SFX L3 ua onjsh ua po:noun is:pl is:mas
-SFX L3 ua onjtë ua po:noun is:pl is:mas
-SFX L3 ua onjve ua po:noun is:pl is:mas
+SFX L3 ua oj ua po:noun is:pl is:mas
+SFX L3 ua ojsh ua po:noun is:pl is:mas
+SFX L3 ua ojtë ua po:noun is:pl is:mas
+SFX L3 ua ojve ua po:noun is:pl is:mas
 SFX L3 yell ej yell po:noun is:pl is:mas
 SFX L3 yell ejsh yell po:noun is:pl is:mas
 SFX L3 yell ejtë yell po:noun is:pl is:mas
@@ -4109,14 +4088,14 @@ SFX L5 ye eun ye po:noun is:sg is:mas
 SFX L5 ye eut ye po:noun is:sg is:mas
 
 SFX L6 Y 25
-SFX L6 a enj [lrt]a po:noun is:pl is:mas
-SFX L6 a enjsh [lrt]a po:noun is:pl is:mas
-SFX L6 a enjtë [lrt]a po:noun is:pl is:mas
-SFX L6 a enjve [lrt]a po:noun is:pl is:mas
-SFX L6 ë enj ë po:noun is:pl is:mas
-SFX L6 ë enjsh ë po:noun is:pl is:mas
-SFX L6 ë enjtë ë po:noun is:pl is:mas
-SFX L6 ë enjve ë po:noun is:pl is:mas
+SFX L6 a ej [lrt]a po:noun is:pl is:mas
+SFX L6 a ejsh [lrt]a po:noun is:pl is:mas
+SFX L6 a ejtë [lrt]a po:noun is:pl is:mas
+SFX L6 a ejve [lrt]a po:noun is:pl is:mas
+SFX L6 ë ej ë po:noun is:pl is:mas
+SFX L6 ë ejsh ë po:noun is:pl is:mas
+SFX L6 ë ejtë ë po:noun is:pl is:mas
+SFX L6 ë ejve ë po:noun is:pl is:mas
 SFX L6 ll je ll po:noun is:pl is:mas
 SFX L6 ll jesh ll po:noun is:pl is:mas
 SFX L6 ll jet ll po:noun is:pl is:mas
@@ -4140,10 +4119,10 @@ SFX L7 ë allarë ë po:noun is:pl is:mas
 SFX L7 ë allarësh ë po:noun is:pl is:mas
 SFX L7 ë allarët ë po:noun is:pl is:mas
 SFX L7 ë allarëve ë po:noun is:pl is:mas
-SFX L7 ër urë ër po:noun is:pl is:mas
-SFX L7 ër urësh ër po:noun is:pl is:mas
-SFX L7 ër urët ër po:noun is:pl is:mas
-SFX L7 ër urëve ër po:noun is:pl is:mas
+SFX L7 ërr urrë ër po:noun is:pl is:mas
+SFX L7 ërr urrësh ër po:noun is:pl is:mas
+SFX L7 ërr urrët ër po:noun is:pl is:mas
+SFX L7 ërr urrëve ër po:noun is:pl is:mas
 SFX L7 i ët [lt]i po:noun is:pl is:mas
 SFX L7 i ëve [lt]i po:noun is:pl is:mas
 SFX L7 ua oj ua po:noun is:pl is:mas
@@ -4180,13 +4159,15 @@ SFX L8 uall olli all po:noun is:sg is:mas
 SFX L8 uall ollin all po:noun is:sg is:mas
 SFX L8 uall ollit all po:noun is:sg is:mas
 
-SFX L9 Y 8
+SFX L9 Y 10
 SFX L9 0 nin [aeiuy] po:noun is:sg is:mas
 SFX L9 0 nit [aeiuy] po:noun is:sg is:mas
 SFX L9 ë in ë po:noun is:sg is:mas
 SFX L9 ë it ë po:noun is:sg is:mas
 SFX L9 ër ri ër po:noun is:sg is:mas
 SFX L9 ër rin ër po:noun is:sg is:mas
+SFX L9 ër rri ër po:noun is:sg is:mas
+SFX L9 ër rrin ër po:noun is:sg is:mas
 SFX L9 k qish k po:noun is:pl is:mas
 SFX L9 k qit k po:noun is:pl is:mas
 
@@ -4358,20 +4339,21 @@ SFX M6 0 e i po:noun is:sg is:mas
 SFX M6 0 ish [çhlmrst] po:noun is:pl is:mas
 SFX M6 0 sh [aeëbjnquyz] po:noun is:pl is:mas
 
-SFX M7 Y 13
-SFX M7 0 enj ush po:noun is:pl is:mas
-SFX M7 0 enjsh ush po:noun is:pl is:mas
-SFX M7 0 enjtë ush po:noun is:pl is:mas
-SFX M7 0 enjve ush po:noun is:pl is:mas
-SFX M7 0 ërinj [fho]t po:noun is:pl is:mas
-SFX M7 0 ërinjsh [fho]t po:noun is:pl is:mas
-SFX M7 0 ërinjtë [fho]t po:noun is:pl is:mas
-SFX M7 0 ërinjve [fho]t po:noun is:pl is:mas
+SFX M7 Y 14
+SFX M7 0 ej ush po:noun is:pl is:mas
+SFX M7 0 ejsh ush po:noun is:pl is:mas
+SFX M7 0 ejtë ush po:noun is:pl is:mas
+SFX M7 0 ejve ush po:noun is:pl is:mas
+SFX M7 0 ërij [fho]t po:noun is:pl is:mas
+SFX M7 0 ërijsh [fho]t po:noun is:pl is:mas
+SFX M7 0 ërijtë [fho]t po:noun is:pl is:mas
+SFX M7 0 ërijve [fho]t po:noun is:pl is:mas
 SFX M7 0 rë [aeiu] po:noun is:pl is:mas
 SFX M7 0 rësh [aeiu] po:noun is:pl is:mas
 SFX M7 0 rët [aeiu] po:noun is:pl is:mas
 SFX M7 0 rëve [aeiu] po:noun is:pl is:mas
 SFX M7 ër rit ër po:noun is:sg is:mas
+SFX M7 ërr rrit ër po:noun is:sg is:mas
 
 SFX M8 Y 2
 SFX M8 0 ë [^aiuy] po:noun is:pl is:mas
@@ -4412,9 +4394,9 @@ SFX N2 Y 6
 SFX N2 0 ësh [^aeëiou] po:noun is:pl is:mas
 SFX N2 0 ët [^aeëiou] po:noun is:pl is:mas
 SFX N2 0 ëve [^aeëiou] po:noun is:pl is:mas
-SFX N2 0 njsh [aeëiou] po:noun is:pl is:mas
-SFX N2 0 njtë [aeëiou] po:noun is:pl is:mas
-SFX N2 0 njve [aeëiou] po:noun is:pl is:mas
+SFX N2 0 jsh [aeëiou] po:noun is:pl is:mas
+SFX N2 0 jtë [aeëiou] po:noun is:pl is:mas
+SFX N2 0 jve [aeëiou] po:noun is:pl is:mas
 
 SFX N3 Y 1
 SFX N3 0 i [abcçdfhjlmnopqrstuvxz] po:noun is:sg is:mas
@@ -4448,7 +4430,7 @@ SFX N9 Y 1
 SFX N9 0 ni [aeëiouy] po:noun is:sg is:mas
 
 SFX O1 Y 1
-SFX O1 0 nj [aeëiou] po:noun is:pl is:mas
+SFX O1 0 j [aeëiou] po:noun is:pl is:mas
 
 SFX O2 Y 1
 SFX O2 0 të [abdeijnqzuy] po:noun is:pl is:mas
@@ -4462,10 +4444,10 @@ SFX O4 Y 1
 SFX O4 0 ve [abçdeëhijlmnoqrstuyz] po:noun is:pl is:mas
 
 SFX O5 Y 8
-SFX O5 0 inj [bpr] po:noun is:pl is:mas
-SFX O5 0 injsh [bpr] po:noun is:pl is:mas
-SFX O5 0 injtë [bpr] po:noun is:pl is:mas
-SFX O5 0 injve [bpr] po:noun is:pl is:mas
+SFX O5 0 ij [bpr] po:noun is:pl is:mas
+SFX O5 0 ijsh [bpr] po:noun is:pl is:mas
+SFX O5 0 ijtë [bpr] po:noun is:pl is:mas
+SFX O5 0 ijve [bpr] po:noun is:pl is:mas
 SFX O5 0 ra [^bpr] po:noun is:pl is:mas
 SFX O5 0 rash [^bpr] po:noun is:pl is:mas
 SFX O5 0 rat [^bpr] po:noun is:pl is:mas
@@ -4997,7 +4979,7 @@ SFX P4 t-shtet teve-shtet t-shtet po:noun is:pl is:mas
 
 SFX P5 Y 22
 SFX P5 0 qe lla po:adj is:pl is:fem
-SFX P5 a enj lla po:adj is:pl is:mas
+SFX P5 a ej lla po:adj is:pl is:mas
 SFX P5 adh ëdha adh po:adj is:pl is:fem
 SFX P5 adhe ëdha adhe po:adj is:pl is:fem
 SFX P5 eqe ëqija eqe po:adj is:pl is:fem
@@ -5019,9 +5001,9 @@ SFX P5 k qe k po:adj is:pl is:fem
 SFX P5 nëre nare ëre po:adj is:pl is:fem
 SFX P5 ua a ua po:adj is:pl is:fem
 
-SFX P6 Y 101
-SFX P6 0 nj [^t]i po:adj is:pl is:mas
-SFX P6 adh ëdhenj adh po:adj is:pl is:mas
+SFX P6 Y 100
+SFX P6 0 j [^t]i po:adj is:pl is:mas
+SFX P6 adh ëdhej adh po:adj is:pl is:mas
 SFX P6 ah eh ah po:adj is:pl is:mas
 SFX P6 ak eq ak po:adj is:pl is:mas
 SFX P6 ashkull eshkuj ull po:adj is:pl is:mas
@@ -5033,7 +5015,6 @@ SFX P6 ll j [ae]ll po:adj is:pl is:mas
 SFX P6 ogël egjël ogël po:adj is:pl is:mas
 SFX P6 ogël ogla ogël po:adj is:pl is:fem
 SFX P6 ti të ti po:adj is:pl is:mas
-SFX P6 ti nja ti po:adj is:pl is:fem
 SFX P6 0 ditësh [deërty] po:adj is:sg is:mas
 SFX P6 0 ditëshi [deërty] po:adj is:sg is:mas
 SFX P6 0 ditëshin [deërty] po:adj is:sg is:mas
@@ -5320,6 +5301,16 @@ SFX S4 0 0 po:undf
 
 SFX S5 Y 1
 SFX S5 0 0 po:asnj
+
+# RREGULL. 16.4.2013 > https://gazetadielli.com/ja-cfare-do-te-ndryshoje-nga-shqipja-standarte/
+
+SFX V1 Y 1
+SFX V1 0 0 po:rreg
+
+# RREGULL. 14.3.2014 > http://www.ashak.org/?cid=1,2,453
+
+SFX V2 Y 1
+SFX V2 0 0 po:rreg
 
 # PËRPARA
 
