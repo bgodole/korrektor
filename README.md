@@ -18,7 +18,7 @@ Ju faleminderit hartuesve të veprave të mësipërme:
 
 ![ekran2a](https://user-images.githubusercontent.com/15838230/162149387-e2c60cfc-1633-4625-977b-10555f2cab83.png)
 
-Ky program mund të tregojë gabimet drejtshkrimore në gjuhën shqipe. Përdoret në aplikacionet si LibreOffice dhe OpenOffice, të cilat shfrytëzojnë paketën "hunspell" për drejtshkrimin.
+Ky program mund të tregojë gabimet drejtshkrimore në gjuhën shqipe. Përdoret në aplikacionet si [LibreOffice](https://www.libreoffice.org) dhe OpenOffice, të cilat shfrytëzojnë paketën [hunspell](https://hunspell.github.io) për drejtshkrimin.
 
 Instalimi në LibreOffice kryhet nëpërmjet "përgjegjësit të funksioneve shtesë" (Extension Manager). Fillimisht ju duhet skedari ".oxt" me variantin më të fundit të korrektorit, të cilin gjeni te [Releases](https://github.com/bgodole/korrektori/releases).
 
