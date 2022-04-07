@@ -2,7 +2,7 @@
 
 Ky fjalor drejtshkrimi i gjuhës shqipe është produkt i punës së vyer të gjuhëtarëve dhe të Akademive shqiptare të Shkencave, edhe pse nuk kanë dhënë kontribut të drejtpërdrejtë në përpilimin e tij.
 
-Mbi 800 mijë fjalëforma janë përftuar nga zbatimi i rregullave të "Drejtshkrimit të gjuhës shqipe" (1973), duke analizuar "Fjalorin e gjuhës së sotme shqipe" (1980), "Fjalorin e gjuhës shqipe" (2006) dhe "Fjalorin drejtshkrimor të gjuhës shqipe" të vitit 2015. Fjalësi aktual është ndër më të pasurit për shqipen, që mundësohet falas në internet.
+Mbi 800 mijë fjalëforma janë përftuar nga zbatimi i rregullave të "Drejtshkrimit të gjuhës shqipe" (1973) dhe i normave të reja prej vitit 2013 e në vijim, duke analizuar "Fjalorin e gjuhës së sotme shqipe" (1980), "Fjalorin e gjuhës shqipe" (2006) dhe "Fjalorin drejtshkrimor të gjuhës shqipe" të vitit 2015. Fjalësi aktual është ndër më të pasurit për shqipen, që mundësohet falas në internet.
 
 Me gjithë përpjekjen për të pakësuar të metat nga hedhja me dorë e rregullave dhe e zërave të fjalorit, ka vend për vërejtje. Prandaj më kontaktoni nëse vini re gabime dhe mund të më sugjeroni fjalë a kategori gramatikore që mungojnë.
 
@@ -16,15 +16,14 @@ Ju faleminderit hartuesve të veprave të mësipërme:
 
 # Përdorimi
 
+![ekran2a](https://user-images.githubusercontent.com/15838230/162149387-e2c60cfc-1633-4625-977b-10555f2cab83.png)
+
 Ky program mund të tregojë gabimet drejtshkrimore në gjuhën shqipe. Përdoret në aplikacionet si LibreOffice dhe OpenOffice, të cilat shfrytëzojnë paketën "hunspell" për drejtshkrimin.
 
-Instalimi në LibreOffice kryhet nëpërmjet "përgjegjësit të detyrave shtesë". Fillimisht ju duhet varianti më i fundit i korrektorit. Skedarin e duhur ".oxt" e gjeni te faqja [Releases](https://github.com/bgodole/korrektori/releases).
+Instalimi në LibreOffice kryhet nëpërmjet "përgjegjësit të funksioneve shtesë" (Extension Manager). Fillimisht ju duhet skedari ".oxt" me variantin më të fundit të korrektorit, të cilin gjeni te [Releases](https://github.com/bgodole/korrektori/releases).
 
-![hapat 1-2](https://user-images.githubusercontent.com/15838230/161724739-dce7ec56-9de7-4c3a-96c3-821f36e2dcd3.png)
----
+Më tej, hapni një dokument të çfarëdoshëm që është ruajtur paraprakisht në gjuhën shqipe. Gjuhën e dokumentit mund ta ndryshoni edhe vetë ndërkohë që e keni hapur (pasi të përzgjidhni të gjithë tekstin).
 
-Më tej, hapni një dokument të çfarëdoshëm që është ruajtur paraprakisht në gjuhën shqipe. Gjuhën e dokumentit mund ta ndryshoni edhe vetë ndërkohë që e keni hapur.
+Dalloni fjalët e nënvizuara me të kuqe, sepse mund të ketë gabime të mundshme në shkrim ose fjalë të sakta që programi ende nuk i njeh. Kur i klikoni fjalët e nënvizuara me tastin e djathtë të mausit, ju sugjerohet si ta korrektoni fjalën e gabuar ose të shtoni çfarë mungon në fjalorin personal të LibreOffice.
 
-Dalloni fjalët e nënvizuara me të kuqe, sepse kjo tregon gabime të mundshme në shkrim ose fjalë të sakta që programi nuk i njeh. Kur i klikoni fjalët e nënvizuara me tastin e djathtë të mausit, ju sugjerohet si ta korrektoni fjalën e gabuar ose të shtoni çfarë mungon në fjalorin tuaj personal.
-
-![hapat 3-4](https://user-images.githubusercontent.com/15838230/161724825-af01de1c-bef1-4dc3-bac7-129ab4dd9afe.png)
+![ekran1a](https://user-images.githubusercontent.com/15838230/162149056-67aaeb07-e970-43a3-b2e8-c721cc6ea34c.png)
