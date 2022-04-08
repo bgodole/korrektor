@@ -5338,6 +5338,9 @@ PFX Sf 0 ndihmës .
 PFX Sg Y 1
 PFX Sg 0 nën .
 
-PFX Sh Y 2
-PFX Sh 0 zëvendës .
-PFX Sh 0 zëvendëskrye [mr][ei][dn]
+PFX Sh Y 1
+PFX Sh 0 ri .
+
+PFX Si Y 2
+PFX Si 0 zëvendës .
+PFX Si 0 zëvendëskrye [mr][ei][dn]
