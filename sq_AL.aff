@@ -3380,7 +3380,7 @@ SFX I5 j nani [aeëiouy]j po:verb is:urdh is:pl2
 
 # EMRAT FEM.
 
-SFX I6 Y 72
+SFX I6 Y 71
 SFX I6 a në [ei]a po:noun is:sg is:fem
 SFX I6 a së [ei]a po:noun is:sg is:fem
 SFX I6 ado ëndo ado po:noun is:sg is:fem
@@ -3397,9 +3397,10 @@ SFX I6 atë et atë po:noun is:pl is:fem
 SFX I6 atë etësh atë po:noun is:pl is:fem
 SFX I6 atë etët atë po:noun is:pl is:fem
 SFX I6 atë etëve atë po:noun is:pl is:fem
-SFX I6 e ash lle po:noun is:sg is:fem
-SFX I6 e atë lle po:noun is:sg is:fem
-SFX I6 e ave lle po:noun is:sg is:fem
+SFX I6 e a lle po:noun is:pl is:fem
+SFX I6 e ash lle po:noun is:pl is:fem
+SFX I6 e atë lle po:noun is:pl is:fem
+SFX I6 e ave lle po:noun is:pl is:fem
 SFX I6 eqe ëqija eqe po:noun is:pl is:fem
 SFX I6 eqe ëqijash eqe po:noun is:pl is:fem
 SFX I6 eqe ëqijat eqe po:noun is:pl is:fem
@@ -3416,7 +3417,6 @@ SFX I6 ëll lla ëll po:noun is:pl is:fem
 SFX I6 ëll llash ëll po:noun is:pl is:fem
 SFX I6 ëll llat ëll po:noun is:pl is:fem
 SFX I6 ëll llave ëll po:noun is:pl is:fem
-SFX I6 ëll lle ëll po:noun is:sg is:fem
 SFX I6 ëm mash iazëm po:noun is:pl is:fem
 SFX I6 ëm mat iazëm po:noun is:pl is:fem
 SFX I6 ëm mave iazëm po:noun is:pl is:fem
@@ -3427,10 +3427,9 @@ SFX I6 ëm mesh [çghklqst]ëm po:noun is:pl is:fem
 SFX I6 ëm met [çghklqst]ëm po:noun is:pl is:fem
 SFX I6 ëm meve [çghklqst]ëm po:noun is:pl is:fem
 SFX I6 ën na ën po:noun is:pl is:fem
-SFX I6 ën nash ën po:noun is:sg is:fem
-SFX I6 ën nat ën po:noun is:sg is:fem
-SFX I6 ën nave ën po:noun is:sg is:fem
-SFX I6 ën ne ën po:noun is:sg is:fem
+SFX I6 ën nash ën po:noun is:pl is:fem
+SFX I6 ën nat ën po:noun is:pl is:fem
+SFX I6 ën nave ën po:noun is:pl is:fem
 SFX I6 ër ra ër po:noun is:pl is:fem
 SFX I6 ër rash ër po:noun is:pl is:fem
 SFX I6 ër rat ër po:noun is:pl is:fem
@@ -3454,7 +3453,7 @@ SFX I6 ua ash ua po:noun is:pl is:fem
 SFX I6 ua atë ua po:noun is:pl is:fem
 SFX I6 ua ave ua po:noun is:pl is:fem
 
-SFX I7 Y 26
+SFX I7 Y 28
 SFX I7 0 ja [ey] po:noun is:pl is:fem
 SFX I7 0 jave [ey] po:noun is:pl is:fem
 SFX I7 ë ash ë po:noun is:pl is:fem
@@ -3465,6 +3464,7 @@ SFX I7 ël le ël po:noun is:sg is:fem
 SFX I7 ël lën ël po:noun is:sg is:fem
 SFX I7 ël lës ël po:noun is:sg is:fem
 SFX I7 ëll lla ëll po:noun is:sg is:fem
+SFX I7 ëll lle ëll po:noun is:sg is:fem
 SFX I7 ëll llën ëll po:noun is:sg is:fem
 SFX I7 ëll llës ëll po:noun is:sg is:fem
 SFX I7 ëm ma ëm po:noun is:sg is:fem
@@ -3472,6 +3472,7 @@ SFX I7 ëm me ëm po:noun is:sg is:fem
 SFX I7 ëm mën ëm po:noun is:sg is:fem
 SFX I7 ëm mës ëm po:noun is:sg is:fem
 SFX I7 ën na ën po:noun is:sg is:fem
+SFX I7 ën ne ën po:noun is:sg is:fem
 SFX I7 ën nën ën po:noun is:sg is:fem
 SFX I7 ën nës ën po:noun is:sg is:fem
 SFX I7 ër ra ër po:noun is:sg is:fem
@@ -3491,9 +3492,9 @@ SFX I8 ë eje ë po:noun is:sg is:fem
 SFX I8 ë esh ë po:noun is:pl is:fem
 SFX I8 ë et ë po:noun is:pl is:fem
 SFX I8 ë eve ë po:noun is:pl is:fem
-SFX I8 ël lesh ël po:noun is:sg is:fem
-SFX I8 ël let ël po:noun is:sg is:fem
-SFX I8 ël leve ël po:noun is:sg is:fem
+SFX I8 ël lesh ël po:noun is:pl is:fem
+SFX I8 ël let ël po:noun is:pl is:fem
+SFX I8 ël leve ël po:noun is:pl is:fem
 SFX I8 ëm me ëm po:noun is:sg is:fem
 SFX I8 ëm men ëm po:noun is:sg is:fem
 SFX I8 ëm mes ëm po:noun is:sg is:fem
@@ -3519,9 +3520,8 @@ SFX J2 Y 2
 SFX J2 0 a [^aeëou] po:noun is:sg is:fem
 SFX J2 0 s [aeëou] po:noun is:sg is:fem
 
-SFX J3 Y 2
+SFX J3 Y 1
 SFX J3 0 ash [^e] po:noun is:pl is:fem
-SFX J3 e a e po:noun is:sg is:fem
 
 SFX J4 Y 2
 SFX J4 0 e [^aeëo] po:noun is:sg is:fem
