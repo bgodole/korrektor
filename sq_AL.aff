@@ -3520,8 +3520,9 @@ SFX J2 Y 2
 SFX J2 0 a [^aeëou] po:noun is:sg is:fem
 SFX J2 0 s [aeëou] po:noun is:sg is:fem
 
-SFX J3 Y 1
+SFX J3 Y 2
 SFX J3 0 ash [^e] po:noun is:pl is:fem
+SFX J3 e a e po:noun is:sg is:fem
 
 SFX J4 Y 2
 SFX J4 0 e [^aeëo] po:noun is:sg is:fem
