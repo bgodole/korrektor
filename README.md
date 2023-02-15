@@ -25,5 +25,3 @@ Instalimi në LibreOffice kryhet nëpërmjet "përgjegjësit të funksioneve sht
 Më tej, hapni një dokument të çfarëdoshëm që është ruajtur paraprakisht në gjuhën shqipe. Gjuhën e dokumentit mund ta ndryshoni edhe vetë ndërkohë që e keni hapur (pasi të përzgjidhni të gjithë tekstin).
 
 Dalloni fjalët e nënvizuara me të kuqe, sepse mund të ketë gabime të mundshme në shkrim ose fjalë të sakta që programi ende nuk i njeh. Kur i klikoni fjalët e nënvizuara me tastin e djathtë të mausit, ju sugjerohet si ta korrektoni fjalën e gabuar ose të shtoni çfarë mungon në fjalorin personal të LibreOffice.
-
-![ekran1a](https://user-images.githubusercontent.com/15838230/162149056-67aaeb07-e970-43a3-b2e8-c721cc6ea34c.png)
