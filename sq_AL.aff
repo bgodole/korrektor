@@ -2846,15 +2846,15 @@ SFX H0 0 mëni [abcçdfghijklmnpqrstvz] po:verb is:urdh is:pl2
 SFX H0 0 nani [abcçdfghijklmnpqrstvz] po:verb is:urdh is:pl2
 
 SFX I0 Y 9
-SFX I0 0 iu g po:verb is:urdh is:sg2
+SFX I0 0 iu [gn] po:verb is:urdh is:sg2
 SFX I0 0 ji [ai] po:verb is:urdh is:sg2
-SFX I0 0 ju [abcçdfhijklmnpqrstvz] po:verb is:urdh is:sg2
-SFX I0 0 iani g po:verb is:urdh is:pl2
-SFX I0 0 jani [abcçdfhiklmnpqrstvz] po:verb is:urdh is:pl2
+SFX I0 0 ju [abcçdfhijklmpqrstvz] po:verb is:urdh is:sg2
+SFX I0 0 iani [gn] po:verb is:urdh is:pl2
+SFX I0 0 jani [abcçdfhiklmpqrstvz] po:verb is:urdh is:pl2
 SFX I0 0 jeni [ai] po:verb is:urdh is:pl2
 SFX I0 0 jini [ai] po:verb is:urdh is:pl2
-SFX I0 0 juni [abcçdfhijklmnpqrstvz] po:verb is:urdh is:pl2
-SFX I0 0 iuni g po:verb is:urdh is:pl2
+SFX I0 0 juni [abcçdfhijklmpqrstvz] po:verb is:urdh is:pl2
+SFX I0 0 iuni [gn] po:verb is:urdh is:pl2
 
 SFX J0 Y 6
 SFX J0 0 e [bcçdfghjklmnpqrstvz] po:verb is:urdh is:sg2
@@ -3740,11 +3740,11 @@ SFX L1 i-hije të-hije i-hije po:noun is:pl is:fem
 SFX L1 i-hije ve-hije i-hije po:noun is:pl is:fem
 SFX L1 i-muze ia-muze i-muze po:noun is:sg is:fem
 SFX L1 i-muze ie-muze i-muze po:noun is:sg is:fem
-SFX L1 i-muze në-muze i-muze po:noun is:sg is:fem
-SFX L1 i-muze së-muze i-muze po:noun is:sg is:fem
-SFX L1 i-muze sh-muze i-muze po:noun is:pl is:fem
-SFX L1 i-muze të-muze i-muze po:noun is:pl is:fem
-SFX L1 i-muze ve-muze i-muze po:noun is:pl is:fem
+SFX L1 i-muze inë-muze i-muze po:noun is:sg is:fem
+SFX L1 i-muze isë-muze i-muze po:noun is:sg is:fem
+SFX L1 i-muze ish-muze i-muze po:noun is:pl is:fem
+SFX L1 i-muze itë-muze i-muze po:noun is:pl is:fem
+SFX L1 i-muze ive-muze i-muze po:noun is:pl is:fem
 SFX L1 i-shtet ia-shtet i-shtet po:noun is:sg is:fem
 SFX L1 i-shtet ie-shtet i-shtet po:noun is:sg is:fem
 SFX L1 i-shtet në-shtet i-shtet po:noun is:sg is:fem
