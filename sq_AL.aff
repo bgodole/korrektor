@@ -1270,8 +1270,8 @@ SFX D4 t shin et po:verb is:j_dfpa is:pl3
 
 SFX D5 Y 105
 SFX D5 0 nte [ai] po:verb is:v_dfpa is:sg3
-SFX D5 0 ia g po:verb is:v_dfpa is:sg1
-SFX D5 0 ie g po:verb is:v_dfpa is:sg2
+SFX D5 0 ia [gn] po:verb is:v_dfpa is:sg1
+SFX D5 0 ie [gn] po:verb is:v_dfpa is:sg2
 SFX D5 al ilja al po:verb is:v_dfpa is:sg1
 SFX D5 al ilje al po:verb is:v_dfpa is:sg2
 SFX D5 al ilej al po:verb is:j_dfpa is:sg2
@@ -1386,8 +1386,8 @@ SFX D6 j heshit j po:verb is:j_dfpa is:pl2
 SFX D6 t ste t po:verb is:v_dfpa is:sg3
 
 SFX D7 Y 2
-SFX D7 0 ja [bcçdfghijklmnpqrstvz] po:verb is:v_dfpa is:sg1
-SFX D7 0 je [bcçdfghijklmnpqrstvz] po:verb is:v_dfpa is:sg2
+SFX D7 0 ja [bcçdfhijklmpqrstvz] po:verb is:v_dfpa is:sg1
+SFX D7 0 je [bcçdfhijklmpqrstvz] po:verb is:v_dfpa is:sg2
 
 SFX D8 Y 2
 SFX D8 0 nim [abcçdfghijklmnpqrstvz] po:verb is:v_dfpa is:pl1
@@ -4088,11 +4088,15 @@ SFX L5 ye eu ye po:noun is:sg is:mas
 SFX L5 ye eun ye po:noun is:sg is:mas
 SFX L5 ye eut ye po:noun is:sg is:mas
 
-SFX L6 Y 25
+SFX L6 Y 29
 SFX L6 a ej [lrt]a po:noun is:pl is:mas
 SFX L6 a ejsh [lrt]a po:noun is:pl is:mas
 SFX L6 a ejtë [lrt]a po:noun is:pl is:mas
 SFX L6 a ejve [lrt]a po:noun is:pl is:mas
+SFX L6 b pij b po:noun is:pl is:mas
+SFX L6 b pijsh b po:noun is:pl is:mas
+SFX L6 b pijtë b po:noun is:pl is:mas
+SFX L6 b pijve b po:noun is:pl is:mas
 SFX L6 ë ej ë po:noun is:pl is:mas
 SFX L6 ë ejsh ë po:noun is:pl is:mas
 SFX L6 ë ejtë ë po:noun is:pl is:mas
