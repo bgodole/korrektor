@@ -16,6 +16,8 @@ Ju falemnderit hartuesve të veprave të mësipërme:
 
 — (2015) Ali Dhrimo, Rami Memushaj.
 
+— (2026) Jani Thomai, Valter Memisha, Shezai Rrokaj, Dhimitër (Miço) Samara, Shefkije Islamaj, Gjovalin Shkurtaj, Ali Jashari, Anila Omari, Anila Kananaj, Artur Lama, Abdurrahim Maxhuni, Idriz Metani, Juljana Kume, Mimoza Priku, Naim Berisha, Rozana Rushiti, Teuta Toska, Rrezarta Draçini, Sejdi Gashi, Manjola Zaçellari, Behar Hoxhaj, Resul Telhaj, Olger Brame, Engjëllushe Karaj, Petrit Zeneli, Viktor Bakillari.
+
 # Përdorimi
 
 ![ekran2a](https://user-images.githubusercontent.com/15838230/162149387-e2c60cfc-1633-4625-977b-10555f2cab83.png)
