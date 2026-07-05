@@ -25,7 +25,7 @@
 SET UTF-8
 FLAG long
 FULLSTRIP
-WORDCHARS -.'
+WORDCHARS -.'’
 TRY aiersthnëolukmjpdgvbzfcçqyx
 
 # FOLJET
@@ -6611,9 +6611,10 @@ SFX Q5 ido itdo ido po:undf is:sg is:mas
 SFX Q5 shdo jtdo shdo po:undf is:sg is:mas
 SFX Q5 ush ë ush po:undf is:sg is:mas
 
-SFX Q6 Y 6
+SFX Q6 Y 7
 SFX Q6 0 it [hmnst] po:asnj
 SFX Q6 0 it [^ë]r po:asnj
+SFX Q6 0 sh r[ëa] po:undf is:pl
 SFX Q6 0 të [ghiq] po:asnj
 SFX Q6 0 ve [ëa] po:undf is:pl is:mas
 SFX Q6 ël lit ël po:asnj
