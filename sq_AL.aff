@@ -6,6 +6,7 @@
 # Version 1.0 (11.02.2020)
 # Version 1.1 (13.01.2022)
 # Version 1.2 (27.03.2026)
+# Version 1.3 (21.10.2026)
 #
 # This file is part of the Albanian spell checker.
 #
@@ -30,7 +31,7 @@ TRY aiersthnëolukmjpdgvbzfcçqyx
 
 # FOLJET
 
-SFX A1 Y 38
+SFX A1 Y 39
 SFX A1 ah ihni ah po:verb is:v_dfar is:pl2
 SFX A1 al ilni al po:verb is:v_dfar is:pl2
 SFX A1 am em am po:verb is:v_dfar is:sg1
@@ -39,6 +40,7 @@ SFX A1 am etë am po:verb is:v_dfar is:sg3
 SFX A1 am emi am po:verb is:v_dfar is:pl1
 SFX A1 am eni am po:verb is:v_dfar is:pl2
 SFX A1 am enë am po:verb is:v_dfar is:pl3
+SFX A1 eh ihni eh po:verb is:v_dfar is:pl2
 SFX A1 et asë [^d][hr]et po:verb is:v_dfar is:sg3
 SFX A1 et asin [^d][hr]et po:verb is:v_dfar is:pl3
 SFX A1 ë ini ë po:verb is:v_dfar is:pl2
@@ -92,7 +94,7 @@ SFX A5 0 rë ë po:verb is:v_dfar is:sg3
 SFX A6 Y 1
 SFX A6 0 ni [abcçdfghijklmnpqrstvz] po:verb is:v_dfar is:pl2
 
-SFX A7 Y 56
+SFX A7 Y 52
 SFX A7 0 ë [lr] po:verb is:v_dfkr is:mas
 SFX A7 0 a [lr] po:verb is:v_dfkr is:fem
 SFX A7 0 ët [lr] po:noun po:asnj
@@ -133,10 +135,6 @@ SFX A7 het rë het po:verb is:v_dfkr is:mas
 SFX A7 het ra het po:verb is:v_dfkr is:fem
 SFX A7 het rët het po:noun po:asnj
 SFX A7 het ri het po:noun po:asnj
-SFX A7 et ë rret po:verb is:v_dfkr is:mas
-SFX A7 et a rret po:verb is:v_dfkr is:fem
-SFX A7 et ët rret po:noun po:asnj
-SFX A7 et i rret po:noun po:asnj
 SFX A7 kam pasur kam po:verb is:j_dfkr is:mas
 SFX A7 kam pasura kam po:verb is:j_dfkr is:fem
 SFX A7 kam pasuri kam po:noun po:asnj
@@ -179,14 +177,10 @@ SFX A8 ie ënë [pt]ie po:verb is:v_dfkr is:mas
 SFX A8 ie ëna [pt]ie po:verb is:v_dfkr is:fem
 SFX A8 ie ënët [pt]ie po:noun po:asnj
 SFX A8 ie ëni [pt]ie po:noun po:asnj
-SFX A8 j hur [bm]ej po:verb is:v_dfkr is:mas
-SFX A8 j hura [bm]ej po:verb is:v_dfkr is:fem
-SFX A8 j huri [bm]ej po:noun po:asnj
-SFX A8 j hurit [bm]ej po:noun po:asnj
-SFX A8 j tur [^bm][ie]j po:verb is:v_dfkr is:mas
-SFX A8 j tura [^bm][ie]j po:verb is:v_dfkr is:fem
-SFX A8 j turi [^bm][ie]j po:noun po:asnj
-SFX A8 j turit [^bm][ie]j po:noun po:asnj
+SFX A8 j tur [ie]j po:verb is:v_dfkr is:mas
+SFX A8 j tura [ie]j po:verb is:v_dfkr is:fem
+SFX A8 j turi [ie]j po:noun po:asnj
+SFX A8 j turit [ie]j po:noun po:asnj
 SFX A8 le jetur le po:verb is:v_dfkr is:mas
 SFX A8 le jetura le po:verb is:v_dfkr is:fem
 SFX A8 le jeturi le po:noun po:asnj
@@ -223,6 +217,10 @@ SFX A8 igjem jegur igjem po:verb is:j_dfkr is:mas
 SFX A8 igjem jegura igjem po:verb is:j_dfkr is:fem
 SFX A8 igjem jeguri igjem po:noun po:asnj
 SFX A8 igjem jegurit igjem po:noun po:asnj
+SFX A8 ilem alë dilem po:verb is:j_dfkr is:mas
+SFX A8 ilem ala dilem po:verb is:j_dfkr is:fem
+SFX A8 ilem alët dilem po:noun po:asnj
+SFX A8 ilem ali dilem po:noun po:asnj
 SFX A8 ilem jelë vilem po:verb is:j_dfkr is:mas
 SFX A8 ilem jela vilem po:verb is:j_dfkr is:fem
 SFX A8 ilem jelët vilem po:noun po:asnj
@@ -307,10 +305,10 @@ SFX A8 er rë er po:verb is:v_dfkr is:mas
 SFX A8 er ra er po:verb is:v_dfkr is:fem
 SFX A8 er rët er po:noun po:asnj
 SFX A8 er ri er po:noun po:asnj
-SFX A8 es itur [hqr]es po:verb is:v_dfkr is:mas
-SFX A8 es itura [hqr]es po:verb is:v_dfkr is:fem
-SFX A8 es ituri [hqr]es po:noun po:asnj
-SFX A8 es iturit [hqr]es po:noun po:asnj
+SFX A8 es itur [hjqr]es po:verb is:v_dfkr is:mas
+SFX A8 es itura [hjqr]es po:verb is:v_dfkr is:fem
+SFX A8 es ituri [hjqr]es po:noun po:asnj
+SFX A8 es iturit [hjqr]es po:noun po:asnj
 SFX A8 et itur [^deiouy][hr]et po:verb is:v_dfkr is:mas
 SFX A8 et itura [^deiouy][hr]et po:verb is:v_dfkr is:fem
 SFX A8 et ituri [^deiouy][hr]et po:noun po:asnj
@@ -388,7 +386,7 @@ SFX A8 shihet para shihet po:verb is:v_dfkr is:fem
 SFX A8 shihet parët shihet po:noun po:asnj
 SFX A8 shihet pari shihet po:noun po:asnj
 
-SFX A9 Y 76
+SFX A9 Y 72
 SFX A9 a ur dha po:verb is:v_dfkr is:mas
 SFX A9 a ura dha po:verb is:v_dfkr is:mas
 SFX A9 a urit dha po:noun po:asnj
@@ -421,10 +419,6 @@ SFX A9 hem jtur [aeou]hem po:verb is:j_dfkr is:mas
 SFX A9 hem jtura [aeou]hem po:verb is:j_dfkr is:fem
 SFX A9 hem jturi [aeou]hem po:noun po:asnj
 SFX A9 hem jturit [aeou]hem po:noun po:asnj
-SFX A9 hem er [dz]ihem po:verb is:j_dfkr is:mas
-SFX A9 hem era [dz]ihem po:verb is:j_dfkr is:fem
-SFX A9 hem erët [dz]ihem po:noun po:asnj
-SFX A9 hem eri [dz]ihem po:noun po:asnj
 SFX A9 edhem edhur edhem po:verb is:j_dfkr is:mas
 SFX A9 edhem edhura edhem po:verb is:j_dfkr is:fem
 SFX A9 edhem edhurit edhem po:noun po:asnj
@@ -472,11 +466,9 @@ SFX B1 0 ura [bcçdfghjklmnpqrstvz] po:verb is:v_dfkr is:fem
 SFX B1 0 uri [bcçdfghjklmnpqrstvz] po:noun po:asnj
 SFX B1 0 urit [bcçdfghjklmnpqrstvz] po:noun po:asnj
 
-SFX B2 Y 72
-SFX B2 j r j po:verb is:v_dfkr is:mas
-SFX B2 j ra j po:verb is:v_dfkr is:fem
+SFX B2 Y 74
 SFX B2 j rit j po:noun po:asnj
-SFX B2 j ri j po:noun po:asnj
+SFX B2 j r j po:verb is:v_dfkr is:mas
 SFX B2 ehem yer ehem po:verb is:j_dfkr is:mas
 SFX B2 ehem yera ehem po:verb is:j_dfkr is:fem
 SFX B2 ehem yeri ehem po:noun po:asnj
@@ -497,6 +489,10 @@ SFX B2 hem ajtur uhem po:verb is:j_dfkr is:mas
 SFX B2 hem ajtura uhem po:verb is:j_dfkr is:fem
 SFX B2 hem ajturit uhem po:noun po:asnj
 SFX B2 hem ajturi uhem po:noun po:asnj
+SFX B2 hem er [dz]ihem po:verb is:j_dfkr is:mas
+SFX B2 hem era [dz]ihem po:verb is:j_dfkr is:fem
+SFX B2 hem erët [dz]ihem po:noun po:asnj
+SFX B2 hem eri [dz]ihem po:noun po:asnj
 SFX B2 ihem erë lihem po:verb is:j_dfkr is:mas
 SFX B2 ihem era lihem po:verb is:j_dfkr is:fem
 SFX B2 ihem erët lihem po:noun po:asnj
@@ -509,10 +505,10 @@ SFX B2 het er [iy]het po:verb is:v_dfkr is:mas
 SFX B2 het era [iy]het po:verb is:v_dfkr is:fem
 SFX B2 het eri [iy]het po:noun po:asnj
 SFX B2 het erit [iy]het po:noun po:asnj
-SFX B2 het jtur [ae]het po:verb is:v_dfkr is:mas
-SFX B2 het jtura [ae]het po:verb is:v_dfkr is:fem
-SFX B2 het jturi [ae]het po:noun po:asnj
-SFX B2 het jturit [ae]het po:noun po:asnj
+SFX B2 het jtur [aeo]het po:verb is:v_dfkr is:mas
+SFX B2 het jtura [aeo]het po:verb is:v_dfkr is:fem
+SFX B2 het jturi [aeo]het po:noun po:asnj
+SFX B2 het jturit [aeo]het po:noun po:asnj
 SFX B2 het ajtur uhet po:verb is:v_dfkr is:mas
 SFX B2 het ajtura uhet po:verb is:v_dfkr is:fem
 SFX B2 het ajturi uhet po:noun po:asnj
@@ -546,11 +542,9 @@ SFX B2 itet era ritet po:verb is:v_dfkr is:fem
 SFX B2 itet eri ritet po:noun po:asnj
 SFX B2 itet erët ritet po:noun po:asnj
 
-SFX B3 Y 24
-SFX B3 j rë j po:verb is:v_dfkr is:mas
-SFX B3 j ra j po:verb is:v_dfkr is:fem
+SFX B3 Y 22
 SFX B3 j rët j po:noun po:asnj
-SFX B3 j ri j po:noun po:asnj
+SFX B3 j rë j po:verb is:v_dfkr is:mas
 SFX B3 ihet ajtur vihet po:verb is:v_dfkr is:mas
 SFX B3 ihet ajtura vihet po:verb is:v_dfkr is:fem
 SFX B3 ihet ajturi vihet po:noun po:asnj
@@ -572,7 +566,7 @@ SFX B3 rrihet ndenjura rrihet po:verb is:v_dfkr is:fem
 SFX B3 rrihet ndenjuri rrihet po:noun po:asnj
 SFX B3 rrihet ndenjurit rrihet po:noun po:asnj
 
-SFX B4 Y 152
+SFX B4 Y 155
 SFX B4 bie prura bie po:verb is:v_dfkt is:sg1
 SFX B4 bie prure bie po:verb is:v_dfkt is:sg2
 SFX B4 bie pruri bie po:verb is:v_dfkt is:sg3
@@ -600,6 +594,7 @@ SFX B4 e itët gre po:verb is:v_dfkt is:pl2
 SFX B4 e itën gre po:verb is:v_dfkt is:pl3
 SFX B4 e va tie po:verb is:v_dfkt is:sg1
 SFX B4 e ve tie po:verb is:v_dfkt is:sg2
+SFX B4 e 0 tie po:verb is:j_dfkt is:sg3
 SFX B4 e u tie po:verb is:v_dfkt is:sg3
 SFX B4 e më tie po:verb is:v_dfkt is:pl1
 SFX B4 e të tie po:verb is:v_dfkt is:pl2
@@ -644,6 +639,7 @@ SFX B4 i ët [ckp]i po:verb is:v_dfkt is:pl2
 SFX B4 i ën [ckp]i po:verb is:v_dfkt is:pl3
 SFX B4 ie ura pie po:verb is:v_dfkt is:sg1
 SFX B4 ie ure pie po:verb is:v_dfkt is:sg2
+SFX B4 ie u pie po:verb is:j_dfkt is:sg3
 SFX B4 ie uri pie po:verb is:v_dfkt is:sg3
 SFX B4 ie umë pie po:verb is:v_dfkt is:pl1
 SFX B4 ie utë pie po:verb is:v_dfkt is:pl2
@@ -700,7 +696,8 @@ SFX B4 le jetët le po:verb is:v_dfkt is:pl2
 SFX B4 le jetën le po:verb is:v_dfkt is:pl3
 SFX B4 irdhem ordha irdhem po:verb is:j_dfkt is:sg1
 SFX B4 irdhem ordhe irdhem po:verb is:j_dfkt is:sg2
-SFX B4 irdhem ordhi irdhem po:verb is:j_dfkt is:sg3
+SFX B4 irdhem ordh irdhem po:verb is:j_dfkt is:sg3
+SFX B4 irdhem ordhi irdhem po:verb is:v_dfkt is:sg3
 SFX B4 irdhem ordhëm irdhem po:verb is:j_dfkt is:pl1
 SFX B4 irdhem ordhët irdhem po:verb is:j_dfkt is:pl2
 SFX B4 irdhem ordhën irdhem po:verb is:j_dfkt is:pl3
@@ -726,7 +723,9 @@ SFX B4 uhem eshëm uhem po:verb is:v_dfkt is:pl1
 SFX B4 uhem eshët uhem po:verb is:v_dfkt is:pl2
 SFX B4 uhem eshën uhem po:verb is:v_dfkt is:pl3
 
-SFX B5 Y 154
+SFX B5 Y 167
+SFX B5 j ri j po:noun po:asnj
+SFX B5 j ra j po:verb is:v_dfkr is:fem
 SFX B5 a e dha po:verb is:v_dfkt is:sg2
 SFX B5 a i dha po:verb is:v_dfkt is:sg3
 SFX B5 a ëm dha po:verb is:v_dfkt is:pl1
@@ -744,6 +743,7 @@ SFX B5 am ishte kam po:verb is:v_dfkt is:sg3
 SFX B5 am ishim kam po:verb is:v_dfkt is:pl1
 SFX B5 am ishit kam po:verb is:v_dfkt is:pl2
 SFX B5 am ishin kam po:verb is:v_dfkt is:pl3
+SFX B5 hem u ehem po:verb is:v_dfkt is:sg3
 SFX B5 ehem ye ehem po:verb is:j_dfkt is:sg3
 SFX B5 ehem yem ehem po:verb is:j_dfkt is:pl1
 SFX B5 ehem yet ehem po:verb is:j_dfkt is:pl2
@@ -757,94 +757,103 @@ SFX B5 eq oqën eq po:verb is:v_dfkt is:pl3
 SFX B5 errem ora merrem po:verb is:j_dfkt is:sg1
 SFX B5 errem ore merrem po:verb is:j_dfkt is:sg2
 SFX B5 errem or merrem po:verb is:j_dfkt is:sg3
+SFX B5 errem ori merrem po:verb is:v_dfkt is:sg3
 SFX B5 errem orëm merrem po:verb is:j_dfkt is:pl1
 SFX B5 errem orët merrem po:verb is:j_dfkt is:pl2
 SFX B5 errem orën merrem po:verb is:j_dfkt is:pl3
 SFX B5 jerrem ora jerrem po:verb is:j_dfkt is:sg1
 SFX B5 jerrem ore jerrem po:verb is:j_dfkt is:sg2
 SFX B5 jerrem or jerrem po:verb is:j_dfkt is:sg3
+SFX B5 jerrem ori jerrem po:verb is:v_dfkt is:sg3
 SFX B5 jerrem orëm jerrem po:verb is:j_dfkt is:pl1
 SFX B5 jerrem orët jerrem po:verb is:j_dfkt is:pl2
 SFX B5 jerrem orën jerrem po:verb is:j_dfkt is:pl3
 SFX B5 hem 0 [aiy]hem po:verb is:j_dfkt is:sg3
+SFX B5 hem u [aiy]hem po:verb is:v_dfkt is:sg3
 SFX B5 hem më [aëiy]hem po:verb is:j_dfkt is:pl1
 SFX B5 hem të [aëiy]hem po:verb is:j_dfkt is:pl2
 SFX B5 hem në [aëiy]hem po:verb is:j_dfkt is:pl3
 SFX B5 item ava [^p][gr]item po:verb is:j_dfkt is:sg1
 SFX B5 item ave [^p][gr]item po:verb is:j_dfkt is:sg2
-SFX B5 item au [^p][gr]item po:verb is:j_dfkt is:sg3
+SFX B5 item a [^p][gr]item po:verb is:j_dfkt is:sg3
+SFX B5 item au [^p][gr]item po:verb is:v_dfkt is:sg3
 SFX B5 item amë [^p][gr]item po:verb is:j_dfkt is:pl1
 SFX B5 item atë [^p][gr]item po:verb is:j_dfkt is:pl2
 SFX B5 item anë [^p][gr]item po:verb is:j_dfkt is:pl3
 SFX B5 item eva pritem po:verb is:j_dfkt is:sg1
 SFX B5 item eve pritem po:verb is:j_dfkt is:sg2
-SFX B5 item eu pritem po:verb is:j_dfkt is:sg3
+SFX B5 item e pritem po:verb is:j_dfkt is:sg3
+SFX B5 item eu pritem po:verb is:v_dfkt is:sg3
 SFX B5 item emë pritem po:verb is:j_dfkt is:pl1
 SFX B5 item etë pritem po:verb is:j_dfkt is:pl2
 SFX B5 item enë pritem po:verb is:j_dfkt is:pl3
 SFX B5 item jeva hitem po:verb is:j_dfkt is:sg1
 SFX B5 item jeve hitem po:verb is:j_dfkt is:sg2
-SFX B5 item jeu hitem po:verb is:j_dfkt is:sg3
+SFX B5 item je hitem po:verb is:j_dfkt is:sg3
+SFX B5 item jeu hitem po:verb is:v_dfkt is:sg3
 SFX B5 item jemë hitem po:verb is:j_dfkt is:pl1
 SFX B5 item jetë hitem po:verb is:j_dfkt is:pl2
 SFX B5 item jenë hitem po:verb is:j_dfkt is:pl3
 SFX B5 edhem odha edhem po:verb is:j_dfkt is:sg1
 SFX B5 edhem odhe edhem po:verb is:j_dfkt is:sg2
-SFX B5 edhem odhi edhem po:verb is:j_dfkt is:sg3
+SFX B5 edhem odh edhem po:verb is:j_dfkt is:sg3
+SFX B5 edhem odhi edhem po:verb is:v_dfkt is:sg3
 SFX B5 edhem odhëm edhem po:verb is:j_dfkt is:pl1
 SFX B5 edhem odhët edhem po:verb is:j_dfkt is:pl2
 SFX B5 edhem odhën edhem po:verb is:j_dfkt is:pl3
 SFX B5 idhem odha idhem po:verb is:j_dfkt is:sg1
 SFX B5 idhem odhe idhem po:verb is:j_dfkt is:sg2
-SFX B5 idhem odhi idhem po:verb is:j_dfkt is:sg3
+SFX B5 idhem odh idhem po:verb is:j_dfkt is:sg3
+SFX B5 idhem odhi idhem po:verb is:v_dfkt is:sg3
 SFX B5 idhem odhëm idhem po:verb is:j_dfkt is:pl1
 SFX B5 idhem odhët idhem po:verb is:j_dfkt is:pl2
 SFX B5 idhem odhën idhem po:verb is:j_dfkt is:pl3
 SFX B5 igjem ogja igjem po:verb is:j_dfkt is:sg1
 SFX B5 igjem ogje igjem po:verb is:j_dfkt is:sg2
 SFX B5 igjem ogj igjem po:verb is:j_dfkt is:sg3
+SFX B5 igjem ogji igjem po:verb is:v_dfkt is:sg3
 SFX B5 igjem ogjëm igjem po:verb is:j_dfkt is:pl1
 SFX B5 igjem ogjët igjem po:verb is:j_dfkt is:pl2
 SFX B5 igjem ogjën igjem po:verb is:j_dfkt is:pl3
-SFX B5 alem ola alem po:verb is:j_dfkt is:sg1
-SFX B5 alem ole alem po:verb is:j_dfkt is:sg2
-SFX B5 alem ol alem po:verb is:j_dfkt is:sg3
-SFX B5 alem olëm alem po:verb is:j_dfkt is:pl1
-SFX B5 alem olët alem po:verb is:j_dfkt is:pl2
-SFX B5 alem olën alem po:verb is:j_dfkt is:pl3
 SFX B5 ilem ola ilem po:verb is:j_dfkt is:sg1
 SFX B5 ilem ole ilem po:verb is:j_dfkt is:sg2
 SFX B5 ilem ol ilem po:verb is:j_dfkt is:sg3
+SFX B5 ilem oli ilem po:verb is:v_dfkt is:sg3
 SFX B5 ilem olëm ilem po:verb is:j_dfkt is:pl1
 SFX B5 ilem olët ilem po:verb is:j_dfkt is:pl2
 SFX B5 ilem olën ilem po:verb is:j_dfkt is:pl3
 SFX B5 iqem oqa qem po:verb is:j_dfkt is:sg1
 SFX B5 iqem oqe qem po:verb is:j_dfkt is:sg2
 SFX B5 iqem oq qem po:verb is:j_dfkt is:sg3
+SFX B5 iqem oqi qem po:verb is:v_dfkt is:sg3
 SFX B5 iqem oqëm qem po:verb is:j_dfkt is:pl1
 SFX B5 iqem oqët qem po:verb is:j_dfkt is:pl2
 SFX B5 iqem oqën qem po:verb is:j_dfkt is:pl3
 SFX B5 irgjem orgja irgjem po:verb is:j_dfkt is:sg1
 SFX B5 irgjem orgje irgjem po:verb is:j_dfkt is:sg2
 SFX B5 irgjem orgj irgjem po:verb is:j_dfkt is:sg3
+SFX B5 irgjem orgji irgjem po:verb is:v_dfkt is:sg3
 SFX B5 irgjem orgjëm irgjem po:verb is:j_dfkt is:pl1
 SFX B5 irgjem orgjët irgjem po:verb is:j_dfkt is:pl2
 SFX B5 irgjem orgjën irgjem po:verb is:j_dfkt is:pl3
 SFX B5 irem ora irem po:verb is:j_dfkt is:sg1
 SFX B5 irem ore irem po:verb is:j_dfkt is:sg2
 SFX B5 irem or irem po:verb is:j_dfkt is:sg3
+SFX B5 irem ori irem po:verb is:v_dfkt is:sg3
 SFX B5 irem orëm irem po:verb is:j_dfkt is:pl1
 SFX B5 irem orët irem po:verb is:j_dfkt is:pl2
 SFX B5 irem orën irem po:verb is:j_dfkt is:pl3
 SFX B5 irrem ora irrem po:verb is:j_dfkt is:sg1
 SFX B5 irrem ore irrem po:verb is:j_dfkt is:sg2
 SFX B5 irrem or irrem po:verb is:j_dfkt is:sg3
+SFX B5 irrem ori irrem po:verb is:v_dfkt is:sg3
 SFX B5 irrem orëm irrem po:verb is:j_dfkt is:pl1
 SFX B5 irrem orët irrem po:verb is:j_dfkt is:pl2
 SFX B5 irrem orën irrem po:verb is:j_dfkt is:pl3
 SFX B5 litem ola litem po:verb is:j_dfkt is:sg1
 SFX B5 litem ole litem po:verb is:j_dfkt is:sg2
-SFX B5 litem oli litem po:verb is:j_dfkt is:sg3
+SFX B5 litem ol litem po:verb is:j_dfkt is:sg3
+SFX B5 litem oli litem po:verb is:v_dfkt is:sg3
 SFX B5 litem olëm litem po:verb is:j_dfkt is:pl1
 SFX B5 litem olët litem po:verb is:j_dfkt is:pl2
 SFX B5 litem olën litem po:verb is:j_dfkt is:pl3
@@ -870,28 +879,23 @@ SFX B5 jep opi rrjep po:verb is:v_dfkt is:sg3
 SFX B5 jep opëm rrjep po:verb is:v_dfkt is:pl1
 SFX B5 jep opët rrjep po:verb is:v_dfkt is:pl2
 SFX B5 jep opën rrjep po:verb is:v_dfkt is:pl3
+SFX B5 hem i ohem po:verb is:v_dfkt is:sg3
 SFX B5 ohem ua ohem po:verb is:j_dfkt is:sg3
 SFX B5 ohem uam ohem po:verb is:j_dfkt is:pl1
 SFX B5 ohem uat ohem po:verb is:j_dfkt is:pl2
 SFX B5 ohem uan ohem po:verb is:j_dfkt is:pl3
 SFX B5 uhem ova uhem po:verb is:j_dfkt is:sg1
 SFX B5 uhem ove uhem po:verb is:j_dfkt is:sg2
-SFX B5 uhem oi uhem po:verb is:j_dfkt is:sg3
+SFX B5 uhem oi uhem po:verb is:v_dfkt is:sg3
 SFX B5 hem a uhem po:verb is:j_dfkt is:sg3
 SFX B5 hem am uhem po:verb is:j_dfkt is:pl1
 SFX B5 hem at uhem po:verb is:j_dfkt is:pl2
 SFX B5 hem an uhem po:verb is:j_dfkt is:pl3
 
-SFX B6 Y 103
+SFX B6 Y 105
 SFX B6 iej jeva iej po:verb is:v_dfkt is:sg1
 SFX B6 iej jeve iej po:verb is:v_dfkt is:sg2
 SFX B6 iej jeu iej po:verb is:v_dfkt is:sg3
-SFX B6 j ha mej po:verb is:v_dfkt is:sg1
-SFX B6 j he mej po:verb is:v_dfkt is:sg2
-SFX B6 j hu mej po:verb is:v_dfkt is:sg3
-SFX B6 j hëm mej po:verb is:v_dfkt is:pl1
-SFX B6 j hët mej po:verb is:v_dfkt is:pl2
-SFX B6 j hën mej po:verb is:v_dfkt is:pl3
 SFX B6 rri ndenja rri po:verb is:v_dfkt is:sg1
 SFX B6 rri ndenje rri po:verb is:v_dfkt is:sg2
 SFX B6 rri ndenji rri po:verb is:v_dfkt is:sg3
@@ -928,12 +932,12 @@ SFX B6 es iq des po:verb is:v_dfkt is:sg3
 SFX B6 es iqëm des po:verb is:v_dfkt is:pl1
 SFX B6 es iqët des po:verb is:v_dfkt is:pl2
 SFX B6 es iqën des po:verb is:v_dfkt is:pl3
-SFX B6 es ita [hqr]es po:verb is:v_dfkt is:sg1
-SFX B6 es ite [hqr]es po:verb is:v_dfkt is:sg2
-SFX B6 es iti [hqr]es po:verb is:v_dfkt is:sg3
-SFX B6 es itëm [hqr]es po:verb is:v_dfkt is:pl1
-SFX B6 es itët [hqr]es po:verb is:v_dfkt is:pl2
-SFX B6 es itën [hqr]es po:verb is:v_dfkt is:pl3
+SFX B6 es ita [hjqr]es po:verb is:v_dfkt is:sg1
+SFX B6 es ite [hjqr]es po:verb is:v_dfkt is:sg2
+SFX B6 es iti [hjqr]es po:verb is:v_dfkt is:sg3
+SFX B6 es itëm [hjqr]es po:verb is:v_dfkt is:pl1
+SFX B6 es itët [hjqr]es po:verb is:v_dfkt is:pl2
+SFX B6 es itën [hjqr]es po:verb is:v_dfkt is:pl3
 SFX B6 et a et po:verb is:v_dfkt is:sg1
 SFX B6 et e et po:verb is:v_dfkt is:sg2
 SFX B6 et ëm et po:verb is:v_dfkt is:pl1
@@ -968,8 +972,16 @@ SFX B6 ërras irri ërras po:verb is:v_dfkt is:sg3
 SFX B6 ërras irrëm ërras po:verb is:v_dfkt is:pl1
 SFX B6 ërras irrët ërras po:verb is:v_dfkt is:pl2
 SFX B6 ërras irrën ërras po:verb is:v_dfkt is:pl3
+SFX B6 ihem jeva [dz]ihem po:verb is:j_dfkt is:sg1
+SFX B6 ihem jeve [dz]ihem po:verb is:j_dfkt is:sg2
+SFX B6 hem e [dz]ihem po:verb is:j_dfkt is:sg3
+SFX B6 ihem jeu [dz]ihem po:verb is:v_dfkt is:sg3
+SFX B6 hem em [dz]ihem po:verb is:j_dfkt is:pl1
+SFX B6 hem et [dz]ihem po:verb is:j_dfkt is:pl2
+SFX B6 hem en [dz]ihem po:verb is:j_dfkt is:pl3
 SFX B6 ier ora ier po:verb is:v_dfkt is:sg1
 SFX B6 ier ore ier po:verb is:v_dfkt is:sg2
+SFX B6 ier or ier po:verb is:j_dfkt is:sg3
 SFX B6 ier ori ier po:verb is:v_dfkt is:sg3
 SFX B6 ier orëm ier po:verb is:v_dfkt is:pl1
 SFX B6 ier orët ier po:verb is:v_dfkt is:pl2
@@ -997,49 +1009,49 @@ SFX B7 0 ti [ij] po:verb is:v_dfkt is:sg3
 SFX B7 jedh odhi jedh po:verb is:v_dfkt is:sg3
 SFX B7 jedh odhën jedh po:verb is:v_dfkt is:pl3
 SFX B7 eq oq eq po:verb is:j_dfkt is:sg3
-SFX B7 hem eu fyhem po:verb is:j_dfkt is:sg3
-SFX B7 yhem eu [hjlnqr]yhem po:verb is:j_dfkt is:sg3
+SFX B7 hem e yhem po:verb is:j_dfkt is:sg3
+SFX B7 hem eu fyhem po:verb is:v_dfkt is:sg3
+SFX B7 yhem eu [^f]yhem po:verb is:v_dfkt is:sg3
 SFX B7 hem jta [aou]hem po:verb is:j_dfkt is:sg1
 SFX B7 hem jte [aou]hem po:verb is:j_dfkt is:sg2
 SFX B7 hem jt [aou]hem po:verb is:j_dfkt is:sg3
+SFX B7 hem jti [aou]hem po:verb is:v_dfkt is:sg3
 SFX B7 hem jtëm [aou]hem po:verb is:j_dfkt is:pl1
 SFX B7 hem jtët [aou]hem po:verb is:j_dfkt is:pl2
 SFX B7 hem jtën [aou]hem po:verb is:j_dfkt is:pl3
-SFX B7 ihem jeva [dz]ihem po:verb is:j_dfkt is:sg1
-SFX B7 ihem jeve [dz]ihem po:verb is:j_dfkt is:sg2
-SFX B7 ihem jeu [dz]ihem po:verb is:j_dfkt is:sg3
-SFX B7 ihem jemë [dz]ihem po:verb is:j_dfkt is:pl1
-SFX B7 ihem jetë [dz]ihem po:verb is:j_dfkt is:pl2
-SFX B7 ihem jenë [dz]ihem po:verb is:j_dfkt is:pl3
 SFX B7 ihem aha rrihem po:verb is:j_dfkt is:sg1
 SFX B7 ihem ahe rrihem po:verb is:j_dfkt is:sg2
-SFX B7 ihem ahu rrihem po:verb is:j_dfkt is:sg3
+SFX B7 ihem ah rrihem po:verb is:j_dfkt is:sg3
+SFX B7 ihem ahu rrihem po:verb is:v_dfkt is:sg3
 SFX B7 ihem ahëm rrihem po:verb is:j_dfkt is:pl1
 SFX B7 ihem ahët rrihem po:verb is:j_dfkt is:pl2
 SFX B7 ihem ahën rrihem po:verb is:j_dfkt is:pl3
 SFX B7 ihem eha [^r][hr]ihem po:verb is:j_dfkt is:sg1
 SFX B7 ihem ehe [^r][hr]ihem po:verb is:j_dfkt is:sg2
-SFX B7 ihem ehu [^r][hr]ihem po:verb is:j_dfkt is:sg3
+SFX B7 ihem eh [^r][hr]ihem po:verb is:j_dfkt is:sg3
+SFX B7 ihem ehu [^r][hr]ihem po:verb is:v_dfkt is:sg3
 SFX B7 ihem ehëm [^r][hr]ihem po:verb is:j_dfkt is:pl1
 SFX B7 ihem ehët [^r][hr]ihem po:verb is:j_dfkt is:pl2
 SFX B7 ihem ehën [^r][hr]ihem po:verb is:j_dfkt is:pl3
 SFX B7 ihem eva lihem po:verb is:j_dfkt is:sg1
 SFX B7 ihem eve lihem po:verb is:j_dfkt is:sg2
-SFX B7 ihem eu lihem po:verb is:j_dfkt is:sg3
+SFX B7 ihem e lihem po:verb is:j_dfkt is:sg3
+SFX B7 ihem eu lihem po:verb is:v_dfkt is:sg3
 SFX B7 ihem emë lihem po:verb is:j_dfkt is:pl1
 SFX B7 ihem etë lihem po:verb is:j_dfkt is:pl2
 SFX B7 ihem enë lihem po:verb is:j_dfkt is:pl3
 SFX B7 ihem oha jihem po:verb is:j_dfkt is:sg1
 SFX B7 ihem ohe jihem po:verb is:j_dfkt is:sg2
-SFX B7 ihem ohu jihem po:verb is:j_dfkt is:sg3
+SFX B7 ihem oh jihem po:verb is:j_dfkt is:sg3
+SFX B7 ihem ohu jihem po:verb is:v_dfkt is:sg3
 SFX B7 ihem ohëm jihem po:verb is:j_dfkt is:pl1
 SFX B7 ihem ohët jihem po:verb is:j_dfkt is:pl2
 SFX B7 ihem ohën jihem po:verb is:j_dfkt is:pl3
 SFX B7 ihem ura [pvz]ihem po:verb is:j_dfkt is:sg1
 SFX B7 ihem ure [pvz]ihem po:verb is:j_dfkt is:sg2
 SFX B7 ihem iu tihem po:verb is:j_dfkt is:sg3
-SFX B7 ihem u vihem po:verb is:j_dfkt is:sg3
-SFX B7 ihem uri [pz]ihem po:verb is:j_dfkt is:sg3
+SFX B7 ihem u [vz]ihem po:verb is:j_dfkt is:sg3
+SFX B7 ihem uri [pvz]ihem po:verb is:v_dfkt is:sg3
 SFX B7 ihem umë [pvz]ihem po:verb is:j_dfkt is:pl1
 SFX B7 ihem utë [pvz]ihem po:verb is:j_dfkt is:pl2
 SFX B7 ihem unë [pvz]ihem po:verb is:j_dfkt is:pl3
@@ -1065,8 +1077,6 @@ SFX B7 as iti [^b]as po:verb is:v_dfkt is:sg3
 SFX B7 as itëm [^b]as po:verb is:v_dfkt is:pl1
 SFX B7 as itët [^b]as po:verb is:v_dfkt is:pl2
 SFX B7 as itën [^b]as po:verb is:v_dfkt is:pl3
-SFX B7 et iti [^ds][hr]et po:verb is:v_dfkt is:sg3
-SFX B7 et itën [^ds][hr]et po:verb is:v_dfkt is:pl3
 SFX B7 idhet odh idhet po:verb is:v_dfkt is:sg3
 SFX B7 idhet odhën idhet po:verb is:v_dfkt is:pl3
 SFX B7 igjet ogj igjet po:verb is:v_dfkt is:sg3
@@ -1077,6 +1087,8 @@ SFX B7 illet oll illet po:verb is:v_dfkt is:sg3
 SFX B7 illet ollën illet po:verb is:v_dfkt is:pl3
 SFX B7 iqet oq iqet po:verb is:v_dfkt is:sg3
 SFX B7 iqet oqën iqet po:verb is:v_dfkt is:pl3
+SFX B7 rret ërr drret po:verb is:v_dfkt is:sg3
+SFX B7 et ën drret po:verb is:v_dfkt is:pl3
 SFX B7 erret or erret po:verb is:v_dfkt is:sg3
 SFX B7 erret orën erret po:verb is:v_dfkt is:pl3
 SFX B7 ishet esh ishet po:verb is:v_dfkt is:sg3
@@ -1094,7 +1106,7 @@ SFX B8 0 ët [^i] po:verb is:v_dfkt is:pl2
 SFX B8 0 va i po:verb is:v_dfkt is:sg1
 SFX B8 0 ve i po:verb is:v_dfkt is:sg2
 
-SFX B9 Y 22
+SFX B9 Y 24
 SFX B9 0 të [ei] po:verb is:v_dfkt is:pl2
 SFX B9 a ëngër ha po:verb is:j_dfkt is:sg3
 SFX B9 edh odh edh po:verb is:j_dfkt is:sg3
@@ -1109,6 +1121,8 @@ SFX B9 m 0 m po:verb is:j_dfkt is:sg2
 SFX B9 n u [^o]n po:verb is:v_dfkt is:sg3
 SFX B9 0 ë [ai]n po:verb is:v_dfkt is:pl3
 SFX B9 en yen en po:verb is:v_dfkt is:pl3
+SFX B9 et iti [hr]et po:verb is:v_dfkt is:sg3
+SFX B9 et itën [hr]et po:verb is:v_dfkt is:pl3
 SFX B9 on ua on po:verb is:v_dfkt is:sg3
 SFX B9 jek oq jek po:verb is:j_dfkt is:sg3
 SFX B9 s ta s po:verb is:v_dfkt is:sg1
@@ -1118,7 +1132,10 @@ SFX B9 s tëm s po:verb is:v_dfkt is:pl1
 SFX B9 s tët s po:verb is:v_dfkt is:pl2
 SFX B9 s tën s po:verb is:v_dfkt is:pl3
 
-SFX C1 Y 50
+SFX C0 Y 1
+SFX C0 em i em po:verb is:v_dfkt is:sg3
+
+SFX C1 Y 53
 SFX C1 em ashë them po:verb is:j_dfkt is:sg1
 SFX C1 em a them po:verb is:j_dfkt is:sg3
 SFX C1 em amë them po:verb is:j_dfkt is:pl1
@@ -1163,56 +1180,53 @@ SFX C1 edh odhën edh po:verb is:v_dfkt is:pl3
 SFX C1 hem ajta uhem po:verb is:j_dfkt is:sg1
 SFX C1 hem ajte uhem po:verb is:j_dfkt is:sg2
 SFX C1 hem ajt uhem po:verb is:j_dfkt is:sg3
+SFX C1 hem ajti uhem po:verb is:v_dfkt is:sg3
 SFX C1 hem ajtëm uhem po:verb is:j_dfkt is:pl1
 SFX C1 hem ajtët uhem po:verb is:j_dfkt is:pl2
 SFX C1 hem ajtën uhem po:verb is:j_dfkt is:pl3
+SFX C1 het e [iy]het po:verb is:j_dfkt is:sg3
+SFX C1 het en [iy]het po:verb is:j_dfkt is:pl3
 SFX C1 j më j po:verb is:v_dfkt is:pl1
 SFX C1 j të j po:verb is:v_dfkt is:pl2
 SFX C1 j në j po:verb is:v_dfkt is:pl3
 
-SFX C2 Y 48
+SFX C2 Y 42
 SFX C2 ej ye ej po:verb is:j_dfkt is:sg3
 SFX C2 ej yem ej po:verb is:j_dfkt is:pl1
 SFX C2 ej yet ej po:verb is:j_dfkt is:pl2
 SFX C2 ej yen ej po:verb is:j_dfkt is:pl3
 SFX C2 em a em po:verb is:j_dfkt is:sg1
-SFX C2 em i betem po:verb is:j_dfkt is:sg3
+SFX C2 em u [aeiouy][ghk]em po:verb is:v_dfkt is:sg3
+SFX C2 em u [hjlnrs][gk]em po:verb is:v_dfkt is:sg3
 SFX C2 em ëm em po:verb is:j_dfkt is:pl1
 SFX C2 em ët em po:verb is:j_dfkt is:pl2
 SFX C2 em ën em po:verb is:j_dfkt is:pl3
 SFX C2 n jti [aeo]n po:verb is:v_dfkt is:sg3
 SFX C2 n jtën [aeo]n po:verb is:v_dfkt is:pl3
 SFX C2 arr or arr po:verb is:j_dfkt is:sg3
-SFX C2 het 0 dahet po:verb is:j_dfkt is:sg3
+SFX C2 het 0 ahet po:verb is:j_dfkt is:sg3
 SFX C2 ehet ye ehet po:verb is:j_dfkt is:sg3
 SFX C2 ehet yen ehet po:verb is:j_dfkt is:pl3
 SFX C2 bihet ra bihet po:verb is:j_dfkt is:sg3
 SFX C2 bihet ranë bihet po:verb is:j_dfkt is:pl3
-SFX C2 ihet e blihet po:verb is:j_dfkt is:sg3
-SFX C2 ihet enë blihet po:verb is:j_dfkt is:pl3
+SFX C2 ihet e [bg][lr]ihet po:verb is:j_dfkt is:sg3
+SFX C2 ihet enë [bg][lr]ihet po:verb is:j_dfkt is:pl3
 SFX C2 lihet jeti flihet po:verb is:j_dfkt is:sg3
 SFX C2 lihet jetën flihet po:verb is:j_dfkt is:pl3
-SFX C2 ihet ur pihet po:verb is:j_dfkt is:sg3
-SFX C2 ihet unë pihet po:verb is:j_dfkt is:pl3
 SFX C2 litet ol litet po:verb is:j_dfkt is:sg3
 SFX C2 litet olën litet po:verb is:j_dfkt is:pl3
 SFX C2 et au ngjet po:verb is:j_dfkt is:sg3
 SFX C2 et anë ngjet po:verb is:j_dfkt is:pl3
 SFX C2 ihet oh njihet po:verb is:j_dfkt is:sg3
 SFX C2 ihet ohën njihet po:verb is:j_dfkt is:pl3
-SFX C2 het t dihet po:verb is:j_dfkt is:sg3
 SFX C2 het t [^ë][gr]rihet po:verb is:j_dfkt is:sg3
-SFX C2 het tën [dr]ihet po:verb is:j_dfkt is:pl3
+SFX C2 het tën rihet po:verb is:j_dfkt is:pl3
 SFX C2 shihet pa shihet po:verb is:j_dfkt is:sg3
 SFX C2 shihet panë shihet po:verb is:j_dfkt is:pl3
-SFX C2 het e zihet po:verb is:j_dfkt is:sg3
-SFX C2 ihet jenë zihet po:verb is:j_dfkt is:pl3
 SFX C2 irret or irret po:verb is:v_dfkt is:sg3
 SFX C2 irret orën irret po:verb is:v_dfkt is:pl3
 SFX C2 het a uhet po:verb is:j_dfkt is:sg3
 SFX C2 het an uhet po:verb is:j_dfkt is:pl3
-SFX C2 het e yhet po:verb is:j_dfkt is:sg3
-SFX C2 het en yhet po:verb is:j_dfkt is:pl3
 SFX C2 idhet odh idhet po:verb is:j_dfkt is:sg3
 SFX C2 izet ez izet po:verb is:j_dfkt is:sg3
 SFX C2 jerr or jerr po:verb is:j_dfkt is:sg3
@@ -1220,17 +1234,18 @@ SFX C2 ohet ua ohet po:verb is:j_dfkt is:sg3
 SFX C2 ohet uan ohet po:verb is:j_dfkt is:pl3
 SFX C2 s 0 s po:verb is:j_dfkt is:sg3
 
-SFX C3 Y 12
+SFX C3 Y 13
 SFX C3 em 0 em po:verb is:j_dfkt is:sg3
-SFX C3 j 0 [ae]j po:verb is:j_dfkt is:sg3
+SFX C3 j 0 [aey]j po:verb is:j_dfkt is:sg3
+SFX C3 jedh odh jedh po:verb is:j_dfkt is:sg3
 SFX C3 jerdh ordh jerdh po:verb is:j_dfkt is:sg3
 SFX C3 jerg orgj jerg po:verb is:j_dfkt is:sg3
 SFX C3 het jt [ae]het po:verb is:j_dfkt is:sg3
 SFX C3 het jtën [ae]het po:verb is:j_dfkt is:pl3
 SFX C3 het ajt [lrv]uhet po:verb is:j_dfkt is:sg3
 SFX C3 het ajtën [lrv]uhet po:verb is:j_dfkt is:pl3
-SFX C3 ihet u vihet po:verb is:v_dfkt is:sg3
-SFX C3 ihet unë vihet po:verb is:v_dfkt is:pl3
+SFX C3 ihet u [pv]ihet po:verb is:v_dfkt is:sg3
+SFX C3 ihet unë [pv]ihet po:verb is:v_dfkt is:pl3
 SFX C3 uhet a huhet po:verb is:j_dfkt is:sg3
 SFX C3 uhet anë huhet po:verb is:j_dfkt is:pl3
 
@@ -1265,8 +1280,8 @@ SFX C5 s të s po:verb is:v_dfkt is:pl2
 SFX C5 s në s po:verb is:v_dfkt is:pl3
 SFX C5 et 0 et po:verb is:v_dfkt is:sg3
 SFX C5 et ën et po:verb is:v_dfkt is:pl3
-SFX C5 hem va [aeioy]hem po:verb is:j_dfkt is:sg1
-SFX C5 hem ve [aeioy]hem po:verb is:j_dfkt is:sg2
+SFX C5 hem va [aeëioy]hem po:verb is:j_dfkt is:sg1
+SFX C5 hem ve [aeëioy]hem po:verb is:j_dfkt is:sg2
 
 SFX C6 Y 1
 SFX C6 0 ën [bcçdfghjklmnpqrstvz] po:verb is:v_dfkt is:pl3
@@ -1285,8 +1300,8 @@ SFX C8 edh idheshim dh po:verb is:j_dfpa is:pl1
 SFX C8 edh idheshit dh po:verb is:j_dfpa is:pl2
 SFX C8 hem eva fyhem po:verb is:j_dfkt is:sg1
 SFX C8 hem eve fyhem po:verb is:j_dfkt is:sg2
-SFX C8 yhem eva [hjlnqr]yhem po:verb is:j_dfkt is:sg1
-SFX C8 yhem eve [hjlnqr]yhem po:verb is:j_dfkt is:sg2
+SFX C8 yhem eva [^f]yhem po:verb is:j_dfkt is:sg1
+SFX C8 yhem eve [^f]yhem po:verb is:j_dfkt is:sg2
 SFX C8 jam isha jam po:verb is:j_dfpa is:sg1
 SFX C8 jam ishe jam po:verb is:j_dfpa is:sg2
 SFX C8 jam ishte jam po:verb is:j_dfpa is:sg3
@@ -1312,7 +1327,7 @@ SFX D0 0 eshe [bcçdfghjklmnpqrstvz] po:verb is:j_dfpa is:sg2
 SFX D0 0 eshim [bcçdfghjklmnpqrstvz] po:verb is:j_dfpa is:pl1
 SFX D0 0 eshit [bcçdfghjklmnpqrstvz] po:verb is:j_dfpa is:pl2
 
-SFX D1 Y 96
+SFX D1 Y 107
 SFX D1 a esha dha po:verb is:j_dfpa is:sg1
 SFX D1 a eshe dha po:verb is:j_dfpa is:sg2
 SFX D1 a esh dha po:verb is:j_dfpa is:sg3
@@ -1342,6 +1357,9 @@ SFX D1 e hesha ie po:verb is:j_dfpa is:sg1
 SFX D1 e heshe ie po:verb is:j_dfpa is:sg2
 SFX D1 e heshim ie po:verb is:j_dfpa is:pl1
 SFX D1 e heshit ie po:verb is:j_dfpa is:pl2
+SFX D1 e ihesh [lr]e po:verb is:j_dfpa is:sg3
+SFX D1 e ihej [lr]e po:verb is:j_dfpa is:sg3
+SFX D1 e iheshin [lr]e po:verb is:j_dfpa is:pl3
 SFX D1 eh ihesha eh po:verb is:j_dfpa is:sg1
 SFX D1 eh iheshe eh po:verb is:j_dfpa is:sg2
 SFX D1 eh ihesh eh po:verb is:j_dfpa is:sg3
@@ -1363,6 +1381,13 @@ SFX D1 ë ihej ë po:verb is:j_dfpa is:sg3
 SFX D1 ë iheshim ë po:verb is:j_dfpa is:pl1
 SFX D1 ë iheshit ë po:verb is:j_dfpa is:pl2
 SFX D1 ë iheshin ë po:verb is:j_dfpa is:pl3
+SFX D1 jedh idhesha jedh po:verb is:j_dfpa is:sg1
+SFX D1 jedh idheshe jedh po:verb is:j_dfpa is:sg2
+SFX D1 jedh idhesh jedh po:verb is:j_dfpa is:sg3
+SFX D1 jedh idhej jedh po:verb is:j_dfpa is:sg3
+SFX D1 jedh idheshim jedh po:verb is:j_dfpa is:pl1
+SFX D1 jedh idheshit jedh po:verb is:j_dfpa is:pl2
+SFX D1 jedh idheshin jedh po:verb is:j_dfpa is:pl3
 SFX D1 jeg igjesha jeg po:verb is:j_dfpa is:sg1
 SFX D1 jeg igjeshe jeg po:verb is:j_dfpa is:sg2
 SFX D1 jeg igjesh jeg po:verb is:j_dfpa is:sg3
@@ -1402,15 +1427,16 @@ SFX D1 em uhej them po:verb is:j_dfpa is:sg3
 SFX D1 em onim them po:verb is:v_dfpa is:pl1
 SFX D1 em onit them po:verb is:v_dfpa is:pl2
 SFX D1 em onin them po:verb is:v_dfpa is:pl3
-SFX D1 s tesha [ae]s po:verb is:j_dfpa is:sg1
-SFX D1 s teshe [ae]s po:verb is:j_dfpa is:sg2
-SFX D1 s tesh [ae]s po:verb is:j_dfpa is:sg3
-SFX D1 s tej [ae]s po:verb is:j_dfpa is:sg3
-SFX D1 s teshim [ae]s po:verb is:j_dfpa is:pl1
-SFX D1 s teshit [ae]s po:verb is:j_dfpa is:pl2
-SFX D1 s teshin [ae]s po:verb is:j_dfpa is:pl3
+SFX D1 s tem [aei]s po:verb is:j_dfta is:sg1
+SFX D1 s tesh [aei]s po:verb is:j_dfta is:sg2
+SFX D1 s temi [aei]s po:verb is:j_dfta is:pl1
+SFX D1 s teni [aei]s po:verb is:j_dfta is:pl2
+SFX D1 s tesha [aei]s po:verb is:j_dfpa is:sg1
+SFX D1 s teshe [aei]s po:verb is:j_dfpa is:sg2
+SFX D1 s teshim [aei]s po:verb is:j_dfpa is:pl1
+SFX D1 s teshit [aei]s po:verb is:j_dfpa is:pl2
 
-SFX D2 Y 107
+SFX D2 Y 99
 SFX D2 a ja dha po:verb is:v_dfpa is:sg1
 SFX D2 a je dha po:verb is:v_dfpa is:sg2
 SFX D2 a te dha po:verb is:v_dfpa is:sg3
@@ -1428,11 +1454,8 @@ SFX D2 e hesh ie po:verb is:j_dfpa is:sg3
 SFX D2 e heshin ie po:verb is:j_dfpa is:pl3
 SFX D2 e ihesha gre po:verb is:j_dfpa is:sg1
 SFX D2 e iheshe gre po:verb is:j_dfpa is:sg2
-SFX D2 e ihesh gre po:verb is:j_dfpa is:sg3
-SFX D2 e ihej gre po:verb is:j_dfpa is:sg3
 SFX D2 e iheshim gre po:verb is:j_dfpa is:pl1
 SFX D2 e iheshit gre po:verb is:j_dfpa is:pl2
-SFX D2 e iheshin gre po:verb is:j_dfpa is:pl3
 SFX D2 edh idhja edh po:verb is:v_dfpa is:sg1
 SFX D2 edh idhje edh po:verb is:v_dfpa is:sg2
 SFX D2 edh idhte edh po:verb is:v_dfpa is:sg3
@@ -1480,17 +1503,12 @@ SFX D2 eq iqej eq po:verb is:j_dfpa is:sg3
 SFX D2 eq iqeshim eq po:verb is:j_dfpa is:pl1
 SFX D2 eq iqeshit eq po:verb is:j_dfpa is:pl2
 SFX D2 eq iqeshin eq po:verb is:j_dfpa is:pl3
-SFX D2 as isja jas po:verb is:v_dfpa is:sg1
-SFX D2 as isje jas po:verb is:v_dfpa is:sg2
-SFX D2 as isnim jas po:verb is:v_dfpa is:pl1
-SFX D2 as isnit jas po:verb is:v_dfpa is:pl2
-SFX D2 as isnin jas po:verb is:v_dfpa is:pl3
-SFX D2 err irrja err po:verb is:v_dfpa is:sg1
-SFX D2 err irrje err po:verb is:v_dfpa is:sg2
-SFX D2 err irrte err po:verb is:v_dfpa is:sg3
-SFX D2 err irrnim err po:verb is:v_dfpa is:pl1
-SFX D2 err irrnit err po:verb is:v_dfpa is:pl2
-SFX D2 err irrnin err po:verb is:v_dfpa is:pl3
+SFX D2 jerr irrja jerr po:verb is:v_dfpa is:sg1
+SFX D2 jerr irrje jerr po:verb is:v_dfpa is:sg2
+SFX D2 jerr irrte jerr po:verb is:v_dfpa is:sg3
+SFX D2 jerr irrnim jerr po:verb is:v_dfpa is:pl1
+SFX D2 jerr irrnit jerr po:verb is:v_dfpa is:pl2
+SFX D2 jerr irrnin jerr po:verb is:v_dfpa is:pl3
 SFX D2 es isja des po:verb is:v_dfpa is:sg1
 SFX D2 es isje des po:verb is:v_dfpa is:sg2
 SFX D2 es isnim des po:verb is:v_dfpa is:pl1
@@ -1519,7 +1537,7 @@ SFX D2 jes itnim jes po:verb is:v_dfpa is:pl1
 SFX D2 jes itnit jes po:verb is:v_dfpa is:pl2
 SFX D2 jes itnin jes po:verb is:v_dfpa is:pl3
 
-SFX D3 Y 102
+SFX D3 Y 95
 SFX D3 a e sha po:verb is:v_dfpa is:sg2
 SFX D3 a te sha po:verb is:v_dfpa is:sg3
 SFX D3 a im sha po:verb is:v_dfpa is:pl1
@@ -1556,6 +1574,9 @@ SFX D3 jeg igjte jeg po:verb is:v_dfpa is:sg3
 SFX D3 jeg igjnim jeg po:verb is:v_dfpa is:pl1
 SFX D3 jeg igjnit jeg po:verb is:v_dfpa is:pl2
 SFX D3 jeg igjnin jeg po:verb is:v_dfpa is:pl3
+SFX D3 jell illesh jell po:verb is:j_dfpa is:sg3
+SFX D3 jell illej jell po:verb is:j_dfpa is:sg3
+SFX D3 jell illeshin jell po:verb is:j_dfpa is:pl3
 SFX D3 jerdh irdhja jerdh po:verb is:v_dfpa is:sg1
 SFX D3 jerdh irdhje jerdh po:verb is:v_dfpa is:sg2
 SFX D3 jerdh irdhte jerdh po:verb is:v_dfpa is:sg3
@@ -1588,31 +1609,21 @@ SFX D3 er rej er po:verb is:j_dfpa is:sg3
 SFX D3 er reshim er po:verb is:j_dfpa is:pl1
 SFX D3 er reshit er po:verb is:j_dfpa is:pl2
 SFX D3 er reshin er po:verb is:j_dfpa is:pl3
-SFX D3 err irresha qerr po:verb is:j_dfpa is:sg1
-SFX D3 err irreshe qerr po:verb is:j_dfpa is:sg2
-SFX D3 err irrej qerr po:verb is:j_dfpa is:sg3
-SFX D3 err irresh qerr po:verb is:j_dfpa is:sg3
-SFX D3 err irreshim qerr po:verb is:j_dfpa is:pl1
-SFX D3 err irreshit qerr po:verb is:j_dfpa is:pl2
-SFX D3 err irreshin qerr po:verb is:j_dfpa is:pl3
-SFX D3 es itesha [hqr]es po:verb is:j_dfpa is:sg1
-SFX D3 es iteshe [hqr]es po:verb is:j_dfpa is:sg2
-SFX D3 es itej [hqr]es po:verb is:j_dfpa is:sg3
-SFX D3 es itesh [hqr]es po:verb is:j_dfpa is:sg3
-SFX D3 es iteshim [hqr]es po:verb is:j_dfpa is:pl1
-SFX D3 es iteshit [hqr]es po:verb is:j_dfpa is:pl2
-SFX D3 es iteshin [hqr]es po:verb is:j_dfpa is:pl3
+SFX D3 es itesha [hjqr]es po:verb is:j_dfpa is:sg1
+SFX D3 es iteshe [hjqr]es po:verb is:j_dfpa is:sg2
+SFX D3 es itej [hjqr]es po:verb is:j_dfpa is:sg3
+SFX D3 es itesh [hjqr]es po:verb is:j_dfpa is:sg3
+SFX D3 es iteshim [hjqr]es po:verb is:j_dfpa is:pl1
+SFX D3 es iteshit [hjqr]es po:verb is:j_dfpa is:pl2
+SFX D3 es iteshin [hjqr]es po:verb is:j_dfpa is:pl3
 SFX D3 esh ishesha esh po:verb is:j_dfpa is:sg1
 SFX D3 esh isheshe esh po:verb is:j_dfpa is:sg2
-SFX D3 esh ishesh esh po:verb is:j_dfpa is:sg3
-SFX D3 esh ishej esh po:verb is:j_dfpa is:sg3
 SFX D3 esh isheshim esh po:verb is:j_dfpa is:pl1
 SFX D3 esh isheshit esh po:verb is:j_dfpa is:pl2
-SFX D3 esh isheshin esh po:verb is:j_dfpa is:pl3
-SFX D3 ez izesha dez po:verb is:j_dfpa is:sg1
-SFX D3 ez izeshe dez po:verb is:j_dfpa is:sg2
-SFX D3 ez izeshim dez po:verb is:j_dfpa is:pl1
-SFX D3 ez izeshit dez po:verb is:j_dfpa is:pl2
+SFX D3 ez izesha ez po:verb is:j_dfpa is:sg1
+SFX D3 ez izeshe ez po:verb is:j_dfpa is:sg2
+SFX D3 ez izeshim ez po:verb is:j_dfpa is:pl1
+SFX D3 ez izeshit ez po:verb is:j_dfpa is:pl2
 SFX D3 ërras irresha ërras po:verb is:j_dfpa is:sg1
 SFX D3 ërras irreshe ërras po:verb is:j_dfpa is:sg2
 SFX D3 ërras irresh ërras po:verb is:j_dfpa is:sg3
@@ -1623,7 +1634,7 @@ SFX D3 ërras irreshin ërras po:verb is:j_dfpa is:pl3
 SFX D3 het ente [iy]het po:verb is:v_dfpa is:sg3
 SFX D3 het enin [iy]het po:verb is:v_dfpa is:pl3
 
-SFX D4 Y 81
+SFX D4 Y 82
 SFX D4 0 hesha [ai] po:verb is:j_dfpa is:sg1
 SFX D4 0 heshe [ai] po:verb is:j_dfpa is:sg2
 SFX D4 0 heshim [ai] po:verb is:j_dfpa is:pl1
@@ -1658,11 +1669,8 @@ SFX D4 jel ileshim jel po:verb is:j_dfpa is:pl1
 SFX D4 jel ileshit jel po:verb is:j_dfpa is:pl2
 SFX D4 jell illesha jell po:verb is:j_dfpa is:sg1
 SFX D4 jell illeshe jell po:verb is:j_dfpa is:sg2
-SFX D4 jell illesh jell po:verb is:j_dfpa is:sg3
-SFX D4 jell illej jell po:verb is:j_dfpa is:sg3
 SFX D4 jell illeshim jell po:verb is:j_dfpa is:pl1
 SFX D4 jell illeshit jell po:verb is:j_dfpa is:pl2
-SFX D4 jell illeshin jell po:verb is:j_dfpa is:pl3
 SFX D4 jep ipesha rrjep po:verb is:j_dfpa is:sg1
 SFX D4 jep ipeshe rrjep po:verb is:j_dfpa is:sg2
 SFX D4 jep ipesh rrjep po:verb is:j_dfpa is:sg3
@@ -1677,11 +1685,10 @@ SFX D4 m j m po:verb is:j_dfpa is:sg3
 SFX D4 m shim m po:verb is:j_dfpa is:pl1
 SFX D4 m shit m po:verb is:j_dfpa is:pl2
 SFX D4 m shin m po:verb is:j_dfpa is:pl3
-SFX D4 as itesha [lr]as po:verb is:j_dfpa is:sg1
-SFX D4 as iteshe [lr]as po:verb is:j_dfpa is:sg2
-SFX D4 as iteshim [lr]as po:verb is:j_dfpa is:pl1
-SFX D4 as iteshit [lr]as po:verb is:j_dfpa is:pl2
-SFX D4 as iteshin [lr]as po:verb is:j_dfpa is:pl3
+SFX D4 as itesha [cdgklrt]as po:verb is:j_dfpa is:sg1
+SFX D4 as iteshe [cdgklrt]as po:verb is:j_dfpa is:sg2
+SFX D4 as iteshim [cdgklrt]as po:verb is:j_dfpa is:pl1
+SFX D4 as iteshit [cdgklrt]as po:verb is:j_dfpa is:pl2
 SFX D4 as esha bas po:verb is:j_dfpa is:sg1
 SFX D4 as eshe bas po:verb is:j_dfpa is:sg2
 SFX D4 as esh bas po:verb is:j_dfpa is:sg3
@@ -1689,6 +1696,11 @@ SFX D4 as ej bas po:verb is:j_dfpa is:sg3
 SFX D4 as eshim bas po:verb is:j_dfpa is:pl1
 SFX D4 as eshit bas po:verb is:j_dfpa is:pl2
 SFX D4 as eshin bas po:verb is:j_dfpa is:pl3
+SFX D4 esh ishesh esh po:verb is:j_dfpa is:sg3
+SFX D4 esh ishej esh po:verb is:j_dfpa is:sg3
+SFX D4 esh isheshin esh po:verb is:j_dfpa is:pl3
+SFX D4 esh ishte esh po:verb is:v_dfpa is:sg3
+SFX D4 esh ishnin esh po:verb is:v_dfpa is:pl3
 SFX D4 ez izesh ez po:verb is:j_dfpa is:sg3
 SFX D4 ez izej ez po:verb is:j_dfpa is:sg3
 SFX D4 ez izeshin ez po:verb is:j_dfpa is:pl3
@@ -1706,7 +1718,7 @@ SFX D4 t sh et po:verb is:j_dfpa is:sg3
 SFX D4 t j et po:verb is:j_dfpa is:sg3
 SFX D4 t shin et po:verb is:j_dfpa is:pl3
 
-SFX D5 Y 106
+SFX D5 Y 94
 SFX D5 0 nte [ai] po:verb is:v_dfpa is:sg3
 SFX D5 0 ia [gn] po:verb is:v_dfpa is:sg1
 SFX D5 0 ie [gn] po:verb is:v_dfpa is:sg2
@@ -1772,13 +1784,13 @@ SFX D5 arr errnim arr po:verb is:v_dfpa is:pl1
 SFX D5 arr errnit arr po:verb is:v_dfpa is:pl2
 SFX D5 arr errnin arr po:verb is:v_dfpa is:pl3
 SFX D5 as isja as po:verb is:v_dfpa is:sg1
-SFX D5 as itja as po:verb is:v_dfpa is:sg1
+SFX D5 as itja [^fghmnv][bcçdghkjlqrt]as po:verb is:v_dfpa is:sg1
 SFX D5 as isje as po:verb is:v_dfpa is:sg2
-SFX D5 as itje as po:verb is:v_dfpa is:sg2
+SFX D5 as itje [^fghmnv][bcçdghkjlqrt]as po:verb is:v_dfpa is:sg2
 SFX D5 as isnim as po:verb is:v_dfpa is:pl1
-SFX D5 as itnim as po:verb is:v_dfpa is:pl1
+SFX D5 as itnim [^fghmnv][bcçdghkjlqrt]as po:verb is:v_dfpa is:pl1
 SFX D5 as isnit as po:verb is:v_dfpa is:pl2
-SFX D5 as itnit as po:verb is:v_dfpa is:pl2
+SFX D5 as itnit [^fghmnv][bcçdghkjlqrt]as po:verb is:v_dfpa is:pl2
 SFX D5 es isja es po:verb is:v_dfpa is:sg1
 SFX D5 es itja es po:verb is:v_dfpa is:sg1
 SFX D5 es isje es po:verb is:v_dfpa is:sg2
@@ -1791,10 +1803,8 @@ SFX D5 es isnin es po:verb is:v_dfpa is:pl3
 SFX D5 es itnin es po:verb is:v_dfpa is:pl3
 SFX D5 esh ishja esh po:verb is:v_dfpa is:sg1
 SFX D5 esh ishje esh po:verb is:v_dfpa is:sg2
-SFX D5 esh ishte esh po:verb is:v_dfpa is:sg3
 SFX D5 esh ishnim esh po:verb is:v_dfpa is:pl1
 SFX D5 esh ishnit esh po:verb is:v_dfpa is:pl2
-SFX D5 esh ishnin esh po:verb is:v_dfpa is:pl3
 SFX D5 et iste et po:verb is:v_dfpa is:sg3
 SFX D5 et itnin et po:verb is:v_dfpa is:pl3
 SFX D5 ez izja ez po:verb is:v_dfpa is:sg1
@@ -1803,18 +1813,8 @@ SFX D5 ez izte ez po:verb is:v_dfpa is:sg3
 SFX D5 ez iznim ez po:verb is:v_dfpa is:pl1
 SFX D5 ez iznit ez po:verb is:v_dfpa is:pl2
 SFX D5 ez iznin ez po:verb is:v_dfpa is:pl3
-SFX D5 jerr irrja jerr po:verb is:v_dfpa is:sg1
-SFX D5 jerr irrje jerr po:verb is:v_dfpa is:sg2
-SFX D5 jerr irrte jerr po:verb is:v_dfpa is:sg3
-SFX D5 jerr irrnim jerr po:verb is:v_dfpa is:pl1
-SFX D5 jerr irrnit jerr po:verb is:v_dfpa is:pl2
-SFX D5 jerr irrnin jerr po:verb is:v_dfpa is:pl3
-SFX D5 t sha et po:verb is:j_dfpa is:sg1
-SFX D5 t she et po:verb is:j_dfpa is:sg2
-SFX D5 t shim et po:verb is:j_dfpa is:pl1
-SFX D5 t shit et po:verb is:j_dfpa is:pl2
 
-SFX D6 Y 8
+SFX D6 Y 13
 SFX D6 0 hej [ai] po:verb is:j_dfpa is:sg3
 SFX D6 0 hesh [ai] po:verb is:j_dfpa is:sg3
 SFX D6 0 heshin [ai] po:verb is:j_dfpa is:pl3
@@ -1822,6 +1822,11 @@ SFX D6 j hesha j po:verb is:j_dfpa is:sg1
 SFX D6 j heshe j po:verb is:j_dfpa is:sg2
 SFX D6 j heshim j po:verb is:j_dfpa is:pl1
 SFX D6 j heshit j po:verb is:j_dfpa is:pl2
+SFX D6 s tesh [aei]s po:verb is:j_dfpa is:sg3
+SFX D6 s tej [aei]s po:verb is:j_dfpa is:sg3
+SFX D6 s teshin [aei]s po:verb is:j_dfpa is:pl3
+SFX D6 s tet [aei]s po:verb is:j_dfta is:sg3
+SFX D6 s ten [aei]s po:verb is:j_dfta is:pl3
 SFX D6 t ste t po:verb is:v_dfpa is:sg3
 
 SFX D7 Y 2
@@ -1849,24 +1854,30 @@ SFX E2 ej heshe ej po:verb is:j_dfpa is:sg2
 SFX E2 ej heshim ej po:verb is:j_dfpa is:pl1
 SFX E2 ej heshit ej po:verb is:j_dfpa is:pl2
 
-SFX E3 Y 4
+SFX E3 Y 5
 SFX E3 i ej i po:verb is:pavt is:sg3
 SFX E3 i et i po:verb is:pavt is:sg3
 SFX E3 as itej as po:verb is:j_dfpa is:sg3
 SFX E3 as itesh as po:verb is:j_dfpa is:sg3
+SFX E3 as iteshin as po:verb is:j_dfpa is:pl3
 
-SFX E4 Y 9
+SFX E4 Y 14
 SFX E4 j hej j po:verb is:j_dfpa is:sg3
 SFX E4 j hesh j po:verb is:j_dfpa is:sg3
 SFX E4 j heshin j po:verb is:j_dfpa is:pl3
+SFX E4 n hej n po:verb is:j_dfpa is:sg3
+SFX E4 n hesh n po:verb is:j_dfpa is:sg3
+SFX E4 n heshin n po:verb is:j_dfpa is:pl3
 SFX E4 as iste as po:verb is:v_dfpa is:sg3
 SFX E4 as isnin as po:verb is:v_dfpa is:pl3
-SFX E4 as itnin as po:verb is:v_dfpa is:pl3
+SFX E4 as itnin [^fghmnv][bcçdghkjlqrt]as po:verb is:v_dfpa is:pl3
 SFX E4 es iste es po:verb is:v_dfpa is:sg3
-SFX E4 et te et po:verb is:v_dfpa is:sg3
+SFX E4 et te [^t]et po:verb is:v_dfpa is:sg3
+SFX E4 et te [^aeiouy]tet po:verb is:v_dfpa is:sg3
+SFX E4 tet ste [aeiouy]tet po:verb is:v_dfpa is:sg3
 SFX E4 et nin et po:verb is:v_dfpa is:pl3
 
-SFX E5 Y 109
+SFX E5 Y 115
 SFX E5 bie prukam bie po:verb is:v_habt is:sg1
 SFX E5 bie pruke bie po:verb is:v_habt is:sg2
 SFX E5 bie pruka bie po:verb is:v_habt is:sg3
@@ -1944,6 +1955,12 @@ SFX E5 ua ashka dua po:verb is:v_habt is:sg3
 SFX E5 ua ashkemi dua po:verb is:v_habt is:pl1
 SFX E5 ua ashkeni dua po:verb is:v_habt is:pl2
 SFX E5 ua ashkan dua po:verb is:v_habt is:pl3
+SFX E5 hem ekam [dz]ihem po:verb is:v_habt is:sg1
+SFX E5 hem eke [dz]ihem po:verb is:v_habt is:sg2
+SFX E5 hem eka [dz]ihem po:verb is:v_habt is:sg3
+SFX E5 hem ekemi [dz]ihem po:verb is:v_habt is:pl1
+SFX E5 hem ekeni [dz]ihem po:verb is:v_habt is:pl2
+SFX E5 hem ekan [dz]ihem po:verb is:v_habt is:pl3
 SFX E5 hem jtkam [aeou]hem po:verb is:v_habt is:sg1
 SFX E5 hem jtke [aeou]hem po:verb is:v_habt is:sg2
 SFX E5 hem jtka [aeou]hem po:verb is:v_habt is:sg3
@@ -1974,16 +1991,10 @@ SFX E5 ipem jepka ipem po:verb is:v_habt is:sg3
 SFX E5 ipem jepkemi ipem po:verb is:v_habt is:pl1
 SFX E5 ipem jepkeni ipem po:verb is:v_habt is:pl2
 SFX E5 ipem jepkan ipem po:verb is:v_habt is:pl3
-SFX E5 n ka [aioy]n po:verb is:v_habt is:sg3
-SFX E5 n kan [aioy]n po:verb is:v_habt is:pl3
+SFX E5 n ka [aiouy]n po:verb is:v_habt is:sg3
+SFX E5 n kan [aiouy]n po:verb is:v_habt is:pl3
 
-SFX E6 Y 196
-SFX E6 0 kka i po:verb is:v_habt is:sg3
-SFX E6 0 kkam i po:verb is:v_habt is:sg1
-SFX E6 0 kkan i po:verb is:v_habt is:pl3
-SFX E6 0 kke i po:verb is:v_habt is:sg2
-SFX E6 0 kkemi i po:verb is:v_habt is:pl1
-SFX E6 0 kkeni i po:verb is:v_habt is:pl2
+SFX E6 Y 190
 SFX E6 a kam dha po:verb is:v_habt is:sg1
 SFX E6 a ke dha po:verb is:v_habt is:sg2
 SFX E6 a ka dha po:verb is:v_habt is:sg3
@@ -2016,12 +2027,6 @@ SFX E6 hem ajtka uhem po:verb is:v_habt is:sg3
 SFX E6 hem ajtkemi uhem po:verb is:v_habt is:pl1
 SFX E6 hem ajtkeni uhem po:verb is:v_habt is:pl2
 SFX E6 hem ajtkan uhem po:verb is:v_habt is:pl3
-SFX E6 hem ekam [dz]ihem po:verb is:v_habt is:sg1
-SFX E6 hem eke [dz]ihem po:verb is:v_habt is:sg2
-SFX E6 hem eka [dz]ihem po:verb is:v_habt is:sg3
-SFX E6 hem ekemi [dz]ihem po:verb is:v_habt is:pl1
-SFX E6 hem ekeni [dz]ihem po:verb is:v_habt is:pl2
-SFX E6 hem ekan [dz]ihem po:verb is:v_habt is:pl3
 SFX E6 hem ekam yhem po:verb is:v_habt is:sg1
 SFX E6 hem eke yhem po:verb is:v_habt is:sg2
 SFX E6 hem eka yhem po:verb is:v_habt is:sg3
@@ -2076,12 +2081,18 @@ SFX E6 ihem ehka [^r][hr]ihem po:verb is:v_habt is:sg3
 SFX E6 ihem ehkemi [^r][hr]ihem po:verb is:v_habt is:pl1
 SFX E6 ihem ehkeni [^r][hr]ihem po:verb is:v_habt is:pl2
 SFX E6 ihem ehkan [^r][hr]ihem po:verb is:v_habt is:pl3
-SFX E6 ilem jelkam ilem po:verb is:v_habt is:sg1
-SFX E6 ilem jelke ilem po:verb is:v_habt is:sg2
-SFX E6 ilem jelka ilem po:verb is:v_habt is:sg3
-SFX E6 ilem jelkemi ilem po:verb is:v_habt is:pl1
-SFX E6 ilem jelkeni ilem po:verb is:v_habt is:pl2
-SFX E6 ilem jelkan ilem po:verb is:v_habt is:pl3
+SFX E6 ilem alkam dilem po:verb is:v_habt is:sg1
+SFX E6 ilem alke dilem po:verb is:v_habt is:sg2
+SFX E6 ilem alka dilem po:verb is:v_habt is:sg3
+SFX E6 ilem alkemi dilem po:verb is:v_habt is:pl1
+SFX E6 ilem alkeni dilem po:verb is:v_habt is:pl2
+SFX E6 ilem alkan dilem po:verb is:v_habt is:pl3
+SFX E6 ilem jelkam vilem po:verb is:v_habt is:sg1
+SFX E6 ilem jelke vilem po:verb is:v_habt is:sg2
+SFX E6 ilem jelka vilem po:verb is:v_habt is:sg3
+SFX E6 ilem jelkemi vilem po:verb is:v_habt is:pl1
+SFX E6 ilem jelkeni vilem po:verb is:v_habt is:pl2
+SFX E6 ilem jelkan vilem po:verb is:v_habt is:pl3
 SFX E6 illem jellkam illem po:verb is:v_habt is:sg1
 SFX E6 illem jellke illem po:verb is:v_habt is:sg2
 SFX E6 illem jellka illem po:verb is:v_habt is:sg3
@@ -2150,8 +2161,8 @@ SFX E6 litem olka litem po:verb is:v_habt is:sg3
 SFX E6 litem olkemi litem po:verb is:v_habt is:pl1
 SFX E6 litem olkeni litem po:verb is:v_habt is:pl2
 SFX E6 litem olkan litem po:verb is:v_habt is:pl3
-SFX E6 n jtka ven po:verb is:v_habt is:sg3
-SFX E6 n jtkan ven po:verb is:v_habt is:pl3
+SFX E6 n jtka ban po:verb is:v_habt is:sg3
+SFX E6 n jtkan ban po:verb is:v_habt is:pl3
 SFX E6 nj kam onj po:verb is:v_habt is:sg1
 SFX E6 nj ke onj po:verb is:v_habt is:sg2
 SFX E6 nj ka onj po:verb is:v_habt is:sg3
@@ -2175,19 +2186,13 @@ SFX E6 het tkan het po:verb is:v_habt is:pl3
 SFX E6 on uaka on po:verb is:v_habt is:sg3
 SFX E6 on uakan on po:verb is:v_habt is:pl3
 
-SFX E7 Y 144
-SFX E7 j hkam [bm]ej po:verb is:v_habt is:sg1
-SFX E7 j hke [bm]ej po:verb is:v_habt is:sg2
-SFX E7 j hka [bm]ej po:verb is:v_habt is:sg3
-SFX E7 j hkemi [bm]ej po:verb is:v_habt is:pl1
-SFX E7 j hkeni [bm]ej po:verb is:v_habt is:pl2
-SFX E7 j hkan [bm]ej po:verb is:v_habt is:pl3
-SFX E7 j tkam [^bmv][ie]j po:verb is:v_habt is:sg1
-SFX E7 j tke [^bmv][ie]j po:verb is:v_habt is:sg2
-SFX E7 j tka [^bmv][ie]j po:verb is:v_habt is:sg3
-SFX E7 j tkemi [^bmv][ie]j po:verb is:v_habt is:pl1
-SFX E7 j tkeni [^bmv][ie]j po:verb is:v_habt is:pl2
-SFX E7 j tkan [^bmv][ie]j po:verb is:v_habt is:pl3
+SFX E7 Y 138
+SFX E7 j tkam [ie]j po:verb is:v_habt is:sg1
+SFX E7 j tke [ie]j po:verb is:v_habt is:sg2
+SFX E7 j tka [ie]j po:verb is:v_habt is:sg3
+SFX E7 j tkemi [ie]j po:verb is:v_habt is:pl1
+SFX E7 j tkeni [ie]j po:verb is:v_habt is:pl2
+SFX E7 j tkan [ie]j po:verb is:v_habt is:pl3
 SFX E7 oj uakam oj po:verb is:v_habt is:sg1
 SFX E7 oj uake oj po:verb is:v_habt is:sg2
 SFX E7 oj uaka oj po:verb is:v_habt is:sg3
@@ -2217,12 +2222,12 @@ SFX E7 ehet yekan ehet po:verb is:v_habt is:pl3
 SFX E7 ehet yekësh ehet po:verb is:v_habp is:sg3
 SFX E7 ehet yekej ehet po:verb is:v_habp is:sg3
 SFX E7 ehet yekëshin ehet po:verb is:v_habp is:pl3
-SFX E7 es itkam [hqr]es po:verb is:v_habt is:sg1
-SFX E7 es itke [hqr]es po:verb is:v_habt is:sg2
-SFX E7 es itka [hqr]es po:verb is:v_habt is:sg3
-SFX E7 es itkemi [hqr]es po:verb is:v_habt is:pl1
-SFX E7 es itkeni [hqr]es po:verb is:v_habt is:pl2
-SFX E7 es itkan [hqr]es po:verb is:v_habt is:pl3
+SFX E7 es itkam [hjqr]es po:verb is:v_habt is:sg1
+SFX E7 es itke [hjqr]es po:verb is:v_habt is:sg2
+SFX E7 es itka [hjqr]es po:verb is:v_habt is:sg3
+SFX E7 es itkemi [hjqr]es po:verb is:v_habt is:pl1
+SFX E7 es itkeni [hjqr]es po:verb is:v_habt is:pl2
+SFX E7 es itkan [hjqr]es po:verb is:v_habt is:pl3
 SFX E7 et itka [^daeouy][hr]et po:verb is:v_habt is:sg3
 SFX E7 et itkan [^daeouy][hr]et po:verb is:v_habt is:pl3
 SFX E7 ëlcas laskam ëlcas po:verb is:v_habt is:sg1
@@ -2382,7 +2387,7 @@ SFX E8 het kej [aeëiy]het po:verb is:v_habp is:sg3
 SFX E8 het kësh [aeëiy]het po:verb is:v_habp is:sg3
 SFX E8 het këshin [aeëiy]het po:verb is:v_habp is:pl3
 
-SFX E9 Y 111
+SFX E9 Y 91
 SFX E9 em kam em po:verb is:v_habt is:sg1
 SFX E9 em ke em po:verb is:v_habt is:sg2
 SFX E9 em ka em po:verb is:v_habt is:sg3
@@ -2395,16 +2400,16 @@ SFX E9 s ka s po:verb is:v_habt is:sg3
 SFX E9 s kemi s po:verb is:v_habt is:pl1
 SFX E9 s keni s po:verb is:v_habt is:pl2
 SFX E9 s kan s po:verb is:v_habt is:pl3
-SFX E9 het eka [^bjlpv][iy]het po:verb is:v_habt is:sg3
-SFX E9 het ekan [^bjlpv][iy]het po:verb is:v_habt is:pl3
-SFX E9 het ekësh [^bjlpv][iy]het po:verb is:v_habp is:sg3
-SFX E9 het ekej [^bjlpv][iy]het po:verb is:v_habp is:sg3
-SFX E9 het ekëshin [^bjlpv][iy]het po:verb is:v_habp is:pl3
-SFX E9 het jtka [ae]het po:verb is:v_habt is:sg3
-SFX E9 het jtkan [ae]het po:verb is:v_habt is:pl3
-SFX E9 het jtkej [ae]het po:verb is:v_habp is:sg3
-SFX E9 het jtkësh [ae]het po:verb is:v_habp is:sg3
-SFX E9 het jtkëshin [ae]het po:verb is:v_habp is:pl3
+SFX E9 het eka [^bpv][iy]het po:verb is:v_habt is:sg3
+SFX E9 het ekan [^bpv][iy]het po:verb is:v_habt is:pl3
+SFX E9 het ekësh [^bpv][iy]het po:verb is:v_habp is:sg3
+SFX E9 het ekej [^bpv][iy]het po:verb is:v_habp is:sg3
+SFX E9 het ekëshin [^bpv][iy]het po:verb is:v_habp is:pl3
+SFX E9 het jtka [aeo]het po:verb is:v_habt is:sg3
+SFX E9 het jtkan [aeo]het po:verb is:v_habt is:pl3
+SFX E9 het jtkej [aeo]het po:verb is:v_habp is:sg3
+SFX E9 het jtkësh [aeo]het po:verb is:v_habp is:sg3
+SFX E9 het jtkëshin [aeo]het po:verb is:v_habp is:pl3
 SFX E9 erret arrka erret po:verb is:v_habt is:sg3
 SFX E9 erret arrkan erret po:verb is:v_habt is:pl3
 SFX E9 erret arrkej erret po:verb is:v_habp is:sg3
@@ -2425,26 +2430,11 @@ SFX E9 bihet rënkan bihet po:verb is:v_habt is:pl3
 SFX E9 bihet rënkej bihet po:verb is:v_habp is:sg3
 SFX E9 bihet rënkësh bihet po:verb is:v_habp is:sg3
 SFX E9 bihet rënkëshin bihet po:verb is:v_habp is:pl3
-SFX E9 ihet eka blihet po:verb is:v_habt is:sg3
-SFX E9 ihet ekan blihet po:verb is:v_habt is:pl3
-SFX E9 ihet ekej blihet po:verb is:v_habp is:sg3
-SFX E9 ihet ekësh blihet po:verb is:v_habp is:sg3
-SFX E9 ihet ekëshin blihet po:verb is:v_habp is:pl3
-SFX E9 lihet jetka flihet po:verb is:v_habt is:sg3
-SFX E9 lihet jetkan flihet po:verb is:v_habt is:pl3
-SFX E9 lihet jetkej flihet po:verb is:v_habp is:sg3
-SFX E9 lihet jetkësh flihet po:verb is:v_habp is:sg3
-SFX E9 lihet jetkëshin flihet po:verb is:v_habp is:pl3
 SFX E9 litet olka litet po:verb is:v_habt is:sg3
 SFX E9 litet olkan litet po:verb is:v_habt is:pl3
 SFX E9 litet olkej litet po:verb is:v_habp is:sg3
 SFX E9 litet olkësh litet po:verb is:v_habp is:sg3
 SFX E9 litet olkëshin litet po:verb is:v_habp is:pl3
-SFX E9 shihet paka shihet po:verb is:v_habt is:sg3
-SFX E9 shihet pakan shihet po:verb is:v_habt is:pl3
-SFX E9 shihet pakej shihet po:verb is:v_habp is:sg3
-SFX E9 shihet pakësh shihet po:verb is:v_habp is:sg3
-SFX E9 shihet pakëshin shihet po:verb is:v_habp is:pl3
 SFX E9 ihet ënka [hir][pv]ihet po:verb is:v_habt is:sg3
 SFX E9 ihet ënkan [hir][pv]ihet po:verb is:v_habt is:pl3
 SFX E9 ihet ënkej [hir][pv]ihet po:verb is:v_habp is:sg3
@@ -2484,29 +2474,46 @@ SFX E9 ihet ajtkan ëvihet po:verb is:v_habt is:pl3
 SFX E9 ihet ajtkej ëvihet po:verb is:v_habp is:sg3
 SFX E9 ihet ajtkësh ëvihet po:verb is:v_habp is:sg3
 SFX E9 ihet ajtkëshin ëvihet po:verb is:v_habp is:pl3
-SFX E9 ihet ohka njihet po:verb is:v_habt is:sg3
-SFX E9 ihet ohtkan njihet po:verb is:v_habt is:pl3
-SFX E9 ihet ohkej njihet po:verb is:v_habp is:sg3
-SFX E9 ihet ohkësh njihet po:verb is:v_habp is:sg3
-SFX E9 ihet ohkëshin njihet po:verb is:v_habp is:pl3
 SFX E9 itet eka ritet po:verb is:v_habt is:sg3
 SFX E9 itet ekan ritet po:verb is:v_habt is:pl3
 SFX E9 itet ekësh ritet po:verb is:v_habp is:sg3
 SFX E9 itet ekej ritet po:verb is:v_habp is:sg3
 SFX E9 itet ekëshin ritet po:verb is:v_habp is:pl3
 
+SFX F0 Y 20
+SFX F0 ihet eka blihet po:verb is:v_habt is:sg3
+SFX F0 ihet ekan blihet po:verb is:v_habt is:pl3
+SFX F0 ihet ekej blihet po:verb is:v_habp is:sg3
+SFX F0 ihet ekësh blihet po:verb is:v_habp is:sg3
+SFX F0 ihet ekëshin blihet po:verb is:v_habp is:pl3
+SFX F0 lihet jetka flihet po:verb is:v_habt is:sg3
+SFX F0 lihet jetkan flihet po:verb is:v_habt is:pl3
+SFX F0 lihet jetkej flihet po:verb is:v_habp is:sg3
+SFX F0 lihet jetkësh flihet po:verb is:v_habp is:sg3
+SFX F0 lihet jetkëshin flihet po:verb is:v_habp is:pl3
+SFX F0 shihet paka shihet po:verb is:v_habt is:sg3
+SFX F0 shihet pakan shihet po:verb is:v_habt is:pl3
+SFX F0 shihet pakej shihet po:verb is:v_habp is:sg3
+SFX F0 shihet pakësh shihet po:verb is:v_habp is:sg3
+SFX F0 shihet pakëshin shihet po:verb is:v_habp is:pl3
+SFX F0 ihet ohka njihet po:verb is:v_habt is:sg3
+SFX F0 ihet ohkan njihet po:verb is:v_habt is:pl3
+SFX F0 ihet ohkej njihet po:verb is:v_habp is:sg3
+SFX F0 ihet ohkësh njihet po:verb is:v_habp is:sg3
+SFX F0 ihet ohkëshin njihet po:verb is:v_habp is:pl3
+
 SFX F1 Y 5
-SFX F1 0 ka [bcçdfghjklmnpqrstvz] po:verb is:v_habt is:sg3
-SFX F1 0 kan [bcçdfghjklmnpqrstvz] po:verb is:v_habt is:pl3
-SFX F1 0 kej [bcçdfghjklmnpqrstvz] po:verb is:v_habp is:sg3
-SFX F1 0 kësh [bcçdfghjklmnpqrstvz] po:verb is:v_habp is:sg3
-SFX F1 0 këshin [bcçdfghjklmnpqrstvz] po:verb is:v_habp is:pl3
+SFX F1 0 ka [bcçdfghijklmnpqrstvz] po:verb is:v_habt is:sg3
+SFX F1 0 kan [bcçdfghijklmnpqrstvz] po:verb is:v_habt is:pl3
+SFX F1 0 kej [bcçdfghijklmnpqrstvz] po:verb is:v_habp is:sg3
+SFX F1 0 kësh [bcçdfghijklmnpqrstvz] po:verb is:v_habp is:sg3
+SFX F1 0 këshin [bcçdfghijklmnpqrstvz] po:verb is:v_habp is:pl3
 
 SFX F2 Y 4
-SFX F2 0 kam [bcçdfghjklmnpqrstvz] po:verb is:v_habt is:sg1
-SFX F2 0 ke [bcçdfghjklmnpqrstvz] po:verb is:v_habt is:sg2
-SFX F2 0 kemi [bcçdfghjklmnpqrstvz] po:verb is:v_habt is:pl1
-SFX F2 0 keni [bcçdfghjklmnpqrstvz] po:verb is:v_habt is:pl2
+SFX F2 0 kam [bcçdfghijklmnpqrstvz] po:verb is:v_habt is:sg1
+SFX F2 0 ke [bcçdfghijklmnpqrstvz] po:verb is:v_habt is:sg2
+SFX F2 0 kemi [bcçdfghijklmnpqrstvz] po:verb is:v_habt is:pl1
+SFX F2 0 keni [bcçdfghijklmnpqrstvz] po:verb is:v_habt is:pl2
 
 SFX F3 Y 98
 SFX F3 bie prukësha bie po:verb is:v_habp is:sg1
@@ -2608,14 +2615,7 @@ SFX F3 s këshim s po:verb is:v_habp is:pl1
 SFX F3 s këshit s po:verb is:v_habp is:pl2
 SFX F3 s këshin s po:verb is:v_habp is:pl3
 
-SFX F4 Y 211
-SFX F4 0 kkësh i po:verb is:v_habp is:sg3
-SFX F4 0 kkej i po:verb is:v_habp is:sg3
-SFX F4 0 kkësha i po:verb is:v_habp is:sg1
-SFX F4 0 kkëshe i po:verb is:v_habp is:sg2
-SFX F4 0 kkëshim i po:verb is:v_habp is:pl1
-SFX F4 0 kkëshin i po:verb is:v_habp is:pl3
-SFX F4 0 kkëshit i po:verb is:v_habp is:pl2
+SFX F4 Y 218
 SFX F4 0 nkësh ë po:verb is:v_habp is:sg3
 SFX F4 0 nkej ë po:verb is:v_habp is:sg3
 SFX F4 0 nkësha ë po:verb is:v_habp is:sg1
@@ -2654,6 +2654,13 @@ SFX F4 hahem ngrënkej hahem po:verb is:v_habp is:sg3
 SFX F4 hahem ngrënkëshim hahem po:verb is:v_habp is:pl1
 SFX F4 hahem ngrënkëshit hahem po:verb is:v_habp is:pl2
 SFX F4 hahem ngrënkëshin hahem po:verb is:v_habp is:pl3
+SFX F4 hem ekësha [dz]ihem po:verb is:v_habp is:sg1
+SFX F4 hem ekëshe [dz]ihem po:verb is:v_habp is:sg2
+SFX F4 hem ekësh [dz]ihem po:verb is:v_habp is:sg3
+SFX F4 hem ekej [dz]ihem po:verb is:v_habp is:sg3
+SFX F4 hem ekëshim [dz]ihem po:verb is:v_habp is:pl1
+SFX F4 hem ekëshit [dz]ihem po:verb is:v_habp is:pl2
+SFX F4 hem ekëshin [dz]ihem po:verb is:v_habp is:pl3
 SFX F4 idhem edhkësha [hjlr]idhem po:verb is:v_habp is:sg1
 SFX F4 idhem edhkëshe [hjlr]idhem po:verb is:v_habp is:sg2
 SFX F4 idhem edhkësh [hjlr]idhem po:verb is:v_habp is:sg3
@@ -2682,13 +2689,20 @@ SFX F4 igjem jegkej igjem po:verb is:v_habp is:sg3
 SFX F4 igjem jegkëshim igjem po:verb is:v_habp is:pl1
 SFX F4 igjem jegkëshit igjem po:verb is:v_habp is:pl2
 SFX F4 igjem jegkëshin igjem po:verb is:v_habp is:pl3
-SFX F4 ilem jelkësha ilem po:verb is:v_habp is:sg1
-SFX F4 ilem jelkëshe ilem po:verb is:v_habp is:sg2
-SFX F4 ilem jelkësh ilem po:verb is:v_habp is:sg3
-SFX F4 ilem jelkej ilem po:verb is:v_habp is:sg3
-SFX F4 ilem jelkëshim ilem po:verb is:v_habp is:pl1
-SFX F4 ilem jelkëshit ilem po:verb is:v_habp is:pl2
-SFX F4 ilem jelkëshin ilem po:verb is:v_habp is:pl3
+SFX F4 ilem alkësha dilem po:verb is:v_habp is:sg1
+SFX F4 ilem alkëshe dilem po:verb is:v_habp is:sg2
+SFX F4 ilem alkësh dilem po:verb is:v_habp is:sg3
+SFX F4 ilem alkej dilem po:verb is:v_habp is:sg3
+SFX F4 ilem alkëshim dilem po:verb is:v_habp is:pl1
+SFX F4 ilem alkëshit dilem po:verb is:v_habp is:pl2
+SFX F4 ilem alkëshin dilem po:verb is:v_habp is:pl3
+SFX F4 ilem jelkësha vilem po:verb is:v_habp is:sg1
+SFX F4 ilem jelkëshe vilem po:verb is:v_habp is:sg2
+SFX F4 ilem jelkësh vilem po:verb is:v_habp is:sg3
+SFX F4 ilem jelkej vilem po:verb is:v_habp is:sg3
+SFX F4 ilem jelkëshim vilem po:verb is:v_habp is:pl1
+SFX F4 ilem jelkëshit vilem po:verb is:v_habp is:pl2
+SFX F4 ilem jelkëshin vilem po:verb is:v_habp is:pl3
 SFX F4 illem jellkësha illem po:verb is:v_habp is:sg1
 SFX F4 illem jellkëshe illem po:verb is:v_habp is:sg2
 SFX F4 illem jellkësh illem po:verb is:v_habp is:sg3
@@ -2776,7 +2790,7 @@ SFX F4 item jekësh hitem po:verb is:v_habp is:sg3
 SFX F4 item jekëshim hitem po:verb is:v_habp is:pl1
 SFX F4 item jekëshit hitem po:verb is:v_habp is:pl2
 SFX F4 item jekëshin hitem po:verb is:v_habp is:pl3
-SFX F4 item olkësha litem po:verb is:v_habp is:sg1
+SFX F4 litem olkësha litem po:verb is:v_habp is:sg1
 SFX F4 litem olkëshe litem po:verb is:v_habp is:sg2
 SFX F4 litem olkej litem po:verb is:v_habp is:sg3
 SFX F4 litem olkësh litem po:verb is:v_habp is:sg3
@@ -2797,9 +2811,9 @@ SFX F4 jepem dhënkej epem po:verb is:v_habp is:sg3
 SFX F4 jepem dhënkëshim epem po:verb is:v_habp is:pl1
 SFX F4 jepem dhënkëshit epem po:verb is:v_habp is:pl2
 SFX F4 jepem dhënkëshin epem po:verb is:v_habp is:pl3
-SFX F4 n jtkej ven po:verb is:v_habp is:sg3
-SFX F4 n jtkësh ven po:verb is:v_habp is:sg3
-SFX F4 n jtkëshin ven po:verb is:v_habp is:pl3
+SFX F4 n jtkej ban po:verb is:v_habp is:sg3
+SFX F4 n jtkësh ban po:verb is:v_habp is:sg3
+SFX F4 n jtkëshin ban po:verb is:v_habp is:pl3
 SFX F4 ohem uakësha ohem po:verb is:v_habp is:sg1
 SFX F4 ohem uakëshe ohem po:verb is:v_habp is:sg2
 SFX F4 ohem uakësh ohem po:verb is:v_habp is:sg3
@@ -2988,7 +3002,7 @@ SFX F6 uhem ashkëshim duhem po:verb is:v_habp is:pl1
 SFX F6 uhem ashkëshit duhem po:verb is:v_habp is:pl2
 SFX F6 uhem ashkëshin duhem po:verb is:v_habp is:pl3
 
-SFX F7 Y 70
+SFX F7 Y 56
 SFX F7 hem ajtkësha uhem po:verb is:v_habp is:sg1
 SFX F7 hem ajtkëshe uhem po:verb is:v_habp is:sg2
 SFX F7 hem ajtkësh uhem po:verb is:v_habp is:sg3
@@ -2996,13 +3010,6 @@ SFX F7 hem ajtkej uhem po:verb is:v_habp is:sg3
 SFX F7 hem ajtkëshim uhem po:verb is:v_habp is:pl1
 SFX F7 hem ajtkëshit uhem po:verb is:v_habp is:pl2
 SFX F7 hem ajtkëshin uhem po:verb is:v_habp is:pl3
-SFX F7 hem ekësha [dz]ihem po:verb is:v_habp is:sg1
-SFX F7 hem ekëshe [dz]ihem po:verb is:v_habp is:sg2
-SFX F7 hem ekësh [dz]ihem po:verb is:v_habp is:sg3
-SFX F7 hem ekej [dz]ihem po:verb is:v_habp is:sg3
-SFX F7 hem ekëshim [dz]ihem po:verb is:v_habp is:pl1
-SFX F7 hem ekëshit [dz]ihem po:verb is:v_habp is:pl2
-SFX F7 hem ekëshin [dz]ihem po:verb is:v_habp is:pl3
 SFX F7 hem ekësha yhem po:verb is:v_habp is:sg1
 SFX F7 hem ekëshe yhem po:verb is:v_habp is:sg2
 SFX F7 hem ekësh yhem po:verb is:v_habp is:sg3
@@ -3038,20 +3045,13 @@ SFX F7 ihem ënkej [lptvz]ihem po:verb is:v_habp is:sg3
 SFX F7 ihem ënkëshim [lptvz]ihem po:verb is:v_habp is:pl1
 SFX F7 ihem ënkëshit [lptvz]ihem po:verb is:v_habp is:pl2
 SFX F7 ihem ënkëshin [lptvz]ihem po:verb is:v_habp is:pl3
-SFX F7 j hkësha [bm]ej po:verb is:v_habp is:sg1
-SFX F7 j hkëshe [bm]ej po:verb is:v_habp is:sg2
-SFX F7 j hkësh [bm]ej po:verb is:v_habp is:sg3
-SFX F7 j hkej [bm]ej po:verb is:v_habp is:sg3
-SFX F7 j hkëshim [bm]ej po:verb is:v_habp is:pl1
-SFX F7 j hkëshit [bm]ej po:verb is:v_habp is:pl2
-SFX F7 j hkëshin [bm]ej po:verb is:v_habp is:pl3
-SFX F7 j tkësha [^bm][ie]j po:verb is:v_habp is:sg1
-SFX F7 j tkëshe [^bm][ie]j po:verb is:v_habp is:sg2
-SFX F7 j tkësh [^bm][ie]j po:verb is:v_habp is:sg3
-SFX F7 j tkej [^bm][ie]j po:verb is:v_habp is:sg3
-SFX F7 j tkëshim [^bm][ie]j po:verb is:v_habp is:pl1
-SFX F7 j tkëshit [^bm][ie]j po:verb is:v_habp is:pl2
-SFX F7 j tkëshin [^bm][ie]j po:verb is:v_habp is:pl3
+SFX F7 j tkësha [ie]j po:verb is:v_habp is:sg1
+SFX F7 j tkëshe [ie]j po:verb is:v_habp is:sg2
+SFX F7 j tkësh [ie]j po:verb is:v_habp is:sg3
+SFX F7 j tkej [ie]j po:verb is:v_habp is:sg3
+SFX F7 j tkëshim [ie]j po:verb is:v_habp is:pl1
+SFX F7 j tkëshit [ie]j po:verb is:v_habp is:pl2
+SFX F7 j tkëshin [ie]j po:verb is:v_habp is:pl3
 SFX F7 oj uakësha oj po:verb is:v_habp is:sg1
 SFX F7 oj uakëshe oj po:verb is:v_habp is:sg2
 SFX F7 oj uakej oj po:verb is:v_habp is:sg3
@@ -3061,10 +3061,10 @@ SFX F7 oj uakëshit oj po:verb is:v_habp is:pl2
 SFX F7 oj uakëshin oj po:verb is:v_habp is:pl3
 
 SFX F8 Y 4
-SFX F8 0 kësha [bcçdfghjklmnpqrstvz] po:verb is:v_habp is:sg1
-SFX F8 0 këshe [bcçdfghjklmnpqrstvz] po:verb is:v_habp is:sg2
-SFX F8 0 këshim [bcçdfghjklmnpqrstvz] po:verb is:v_habp is:pl1
-SFX F8 0 këshit [bcçdfghjklmnpqrstvz] po:verb is:v_habp is:pl2
+SFX F8 0 kësha [bcçdfghijklmnpqrstvz] po:verb is:v_habp is:sg1
+SFX F8 0 këshe [bcçdfghijklmnpqrstvz] po:verb is:v_habp is:sg2
+SFX F8 0 këshim [bcçdfghijklmnpqrstvz] po:verb is:v_habp is:pl1
+SFX F8 0 këshit [bcçdfghijklmnpqrstvz] po:verb is:v_habp is:pl2
 
 SFX G1 Y 149
 SFX G1 a ëngsha ha po:verb is:v_dsht is:sg1
@@ -3217,7 +3217,7 @@ SFX G1 het fshin [aeëioy]het po:verb is:v_dsht is:pl3
 SFX G1 et të shet po:verb is:v_dsht is:sg3
 SFX G1 et çin shet po:verb is:v_dsht is:pl3
 
-SFX G2 Y 192
+SFX G2 Y 216
 SFX G2 a sha dha po:verb is:v_dsht is:sg1
 SFX G2 a sh dha po:verb is:v_dsht is:sg2
 SFX G2 a të dha po:verb is:v_dsht is:sg3
@@ -3273,6 +3273,12 @@ SFX G2 idhem jedhtë idhem po:verb is:j_dsht is:sg3
 SFX G2 idhem jedhshim idhem po:verb is:j_dsht is:pl1
 SFX G2 idhem jedhshi idhem po:verb is:j_dsht is:pl2
 SFX G2 idhem jedhshin idhem po:verb is:j_dsht is:pl3
+SFX G2 ihem jefsha [dz]ihem po:verb is:j_dsht is:sg1
+SFX G2 ihem jefsh [dz]ihem po:verb is:j_dsht is:sg2
+SFX G2 ihem jeftë [dz]ihem po:verb is:j_dsht is:sg3
+SFX G2 ihem jefshim [dz]ihem po:verb is:j_dsht is:pl1
+SFX G2 ihem jefshi [dz]ihem po:verb is:j_dsht is:pl2
+SFX G2 ihem jefshin [dz]ihem po:verb is:j_dsht is:pl3
 SFX G2 irdhem jerdhsha irdhem po:verb is:j_dsht is:sg1
 SFX G2 irdhem jerdhsh irdhem po:verb is:j_dsht is:sg2
 SFX G2 irdhem jerdhtë irdhem po:verb is:j_dsht is:sg3
@@ -3285,18 +3291,36 @@ SFX G2 hem jttë [aeou]hem po:verb is:j_dsht is:sg3
 SFX G2 hem jtshim [aeou]hem po:verb is:j_dsht is:pl1
 SFX G2 hem jtshi [aeou]hem po:verb is:j_dsht is:pl2
 SFX G2 hem jtshin [aeou]hem po:verb is:j_dsht is:pl3
+SFX G2 hem efsha fyhem po:verb is:j_dsht is:sg1
+SFX G2 hem efsh fyhem po:verb is:j_dsht is:sg2
+SFX G2 hem eftë fyhem po:verb is:j_dsht is:sg3
+SFX G2 hem efshim fyhem po:verb is:j_dsht is:pl1
+SFX G2 hem efshi fyhem po:verb is:j_dsht is:pl2
+SFX G2 hem efshin fyhem po:verb is:j_dsht is:pl3
+SFX G2 yhem efsha [^f]yhem po:verb is:j_dsht is:sg1
+SFX G2 yhem efsh [^f]yhem po:verb is:j_dsht is:sg2
+SFX G2 yhem eftë [^f]yhem po:verb is:j_dsht is:sg3
+SFX G2 yhem efshim [^f]yhem po:verb is:j_dsht is:pl1
+SFX G2 yhem efshi [^f]yhem po:verb is:j_dsht is:pl2
+SFX G2 yhem efshin [^f]yhem po:verb is:j_dsht is:pl3
 SFX G2 igjem jegsha igjem po:verb is:j_dsht is:sg1
 SFX G2 igjem jegsh igjem po:verb is:j_dsht is:sg2
 SFX G2 igjem jegtë igjem po:verb is:j_dsht is:sg3
 SFX G2 igjem jegshim igjem po:verb is:j_dsht is:pl1
 SFX G2 igjem jegshi igjem po:verb is:j_dsht is:pl2
 SFX G2 igjem jegshin igjem po:verb is:j_dsht is:pl3
-SFX G2 ilem jelsha ilem po:verb is:j_dsht is:sg1
-SFX G2 ilem jelsh ilem po:verb is:j_dsht is:sg2
-SFX G2 ilem jeltë ilem po:verb is:j_dsht is:sg3
-SFX G2 ilem jelshim ilem po:verb is:j_dsht is:pl1
-SFX G2 ilem jelshi ilem po:verb is:j_dsht is:pl2
-SFX G2 ilem jelshin ilem po:verb is:j_dsht is:pl3
+SFX G2 ilem alsha dilem po:verb is:j_dsht is:sg1
+SFX G2 ilem alsh dilem po:verb is:j_dsht is:sg2
+SFX G2 ilem altë dilem po:verb is:j_dsht is:sg3
+SFX G2 ilem alshim dilem po:verb is:j_dsht is:pl1
+SFX G2 ilem alshi dilem po:verb is:j_dsht is:pl2
+SFX G2 ilem alshin dilem po:verb is:j_dsht is:pl3
+SFX G2 ilem jelsha vilem po:verb is:j_dsht is:sg1
+SFX G2 ilem jelsh vilem po:verb is:j_dsht is:sg2
+SFX G2 ilem jeltë vilem po:verb is:j_dsht is:sg3
+SFX G2 ilem jelshim vilem po:verb is:j_dsht is:pl1
+SFX G2 ilem jelshi vilem po:verb is:j_dsht is:pl2
+SFX G2 ilem jelshin vilem po:verb is:j_dsht is:pl3
 SFX G2 illem jellsha illem po:verb is:j_dsht is:sg1
 SFX G2 illem jellsh illem po:verb is:j_dsht is:sg2
 SFX G2 illem jelltë illem po:verb is:j_dsht is:sg3
@@ -3392,8 +3416,8 @@ SFX G2 ipem jepshim ipem po:verb is:v_dsht is:pl1
 SFX G2 ipem jepshi ipem po:verb is:v_dsht is:pl2
 SFX G2 ipem jepshit ipem po:verb is:v_dsht is:pl2
 SFX G2 ipem jepshin ipem po:verb is:v_dsht is:pl3
-SFX G2 n jtshin ven po:verb is:v_dsht is:pl3
-SFX G2 n jttë ven po:verb is:v_dsht is:sg3
+SFX G2 n jtshin ban po:verb is:v_dsht is:pl3
+SFX G2 n jttë ban po:verb is:v_dsht is:sg3
 SFX G2 s fsha [^d][ae]s po:verb is:v_dsht is:sg1
 SFX G2 s fsh [^d][ae]s po:verb is:v_dsht is:sg2
 SFX G2 s ftë [^d][ae]s po:verb is:v_dsht is:sg3
@@ -3411,7 +3435,7 @@ SFX G2 s kshin des po:verb is:v_dsht is:pl3
 SFX G2 et shin et po:verb is:v_dsht is:pl3
 SFX G2 et të et po:verb is:v_dsht is:sg3
 
-SFX G3 Y 158
+SFX G3 Y 139
 SFX G3 ie ënça ie po:verb is:v_dsht is:sg1
 SFX G3 ie ënç ie po:verb is:v_dsht is:sg2
 SFX G3 ie ëntë ie po:verb is:v_dsht is:sg3
@@ -3419,13 +3443,6 @@ SFX G3 ie ënçim ie po:verb is:v_dsht is:pl1
 SFX G3 ie ënçi ie po:verb is:v_dsht is:pl2
 SFX G3 ie ënçit ie po:verb is:v_dsht is:pl2
 SFX G3 ie ënçin ie po:verb is:v_dsht is:pl3
-SFX G3 j hsha ej po:verb is:v_dsht is:sg1
-SFX G3 j hsh ej po:verb is:v_dsht is:sg2
-SFX G3 j htë ej po:verb is:v_dsht is:sg3
-SFX G3 j hshim ej po:verb is:v_dsht is:pl1
-SFX G3 j hshi ej po:verb is:v_dsht is:pl2
-SFX G3 j hshit ej po:verb is:v_dsht is:pl2
-SFX G3 j hshin ej po:verb is:v_dsht is:pl3
 SFX G3 vij ardhsha vij po:verb is:v_dsht is:sg1
 SFX G3 vij ardhsh vij po:verb is:v_dsht is:sg2
 SFX G3 vij ardhtë vij po:verb is:v_dsht is:sg3
@@ -3440,24 +3457,12 @@ SFX G3 em ënçim them po:verb is:v_dsht is:pl1
 SFX G3 em ënçi them po:verb is:v_dsht is:pl2
 SFX G3 em ënçit them po:verb is:v_dsht is:pl2
 SFX G3 em ënçin them po:verb is:v_dsht is:pl3
-SFX G3 hem fsha [^ty]hem po:verb is:j_dsht is:sg1
-SFX G3 hem fsh [^ty]hem po:verb is:j_dsht is:sg2
-SFX G3 hem ftë [^ty]hem po:verb is:j_dsht is:sg3
-SFX G3 hem fshim [^ty]hem po:verb is:j_dsht is:pl1
-SFX G3 hem fshi [^ty]hem po:verb is:j_dsht is:pl2
-SFX G3 hem fshin [^ty]hem po:verb is:j_dsht is:pl3
-SFX G3 hem efsha fyhem po:verb is:j_dsht is:sg1
-SFX G3 hem efsh fyhem po:verb is:j_dsht is:sg2
-SFX G3 hem eftë fyhem po:verb is:j_dsht is:sg3
-SFX G3 hem efshim fyhem po:verb is:j_dsht is:pl1
-SFX G3 hem efshi fyhem po:verb is:j_dsht is:pl2
-SFX G3 hem efshin fyhem po:verb is:j_dsht is:pl3
-SFX G3 yhem efsha [hjlnqr]yhem po:verb is:j_dsht is:sg1
-SFX G3 yhem efsh [hjlnqr]yhem po:verb is:j_dsht is:sg2
-SFX G3 yhem eftë [hjlnqr]yhem po:verb is:j_dsht is:sg3
-SFX G3 yhem efshim [hjlnqr]yhem po:verb is:j_dsht is:pl1
-SFX G3 yhem efshi [hjlnqr]yhem po:verb is:j_dsht is:pl2
-SFX G3 yhem efshin [hjlnqr]yhem po:verb is:j_dsht is:pl3
+SFX G3 hem fsha [^t]hem po:verb is:j_dsht is:sg1
+SFX G3 hem fsh [^t]hem po:verb is:j_dsht is:sg2
+SFX G3 hem ftë [^t]hem po:verb is:j_dsht is:sg3
+SFX G3 hem fshim [^t]hem po:verb is:j_dsht is:pl1
+SFX G3 hem fshi [^t]hem po:verb is:j_dsht is:pl2
+SFX G3 hem fshin [^t]hem po:verb is:j_dsht is:pl3
 SFX G3 kam paça kam po:verb is:v_dsht is:sg1
 SFX G3 kam paç kam po:verb is:v_dsht is:sg2
 SFX G3 kam pastë kam po:verb is:v_dsht is:sg3
@@ -3472,13 +3477,13 @@ SFX G3 as shim bas po:verb is:v_dsht is:pl1
 SFX G3 as shi bas po:verb is:v_dsht is:pl2
 SFX G3 as shit bas po:verb is:v_dsht is:pl2
 SFX G3 as shin bas po:verb is:v_dsht is:pl3
-SFX G3 es itsha [hqr]es po:verb is:v_dsht is:sg1
-SFX G3 es itsh [hqr]es po:verb is:v_dsht is:sg2
-SFX G3 es ittë [hqr]es po:verb is:v_dsht is:sg3
-SFX G3 es itshim [hqr]es po:verb is:v_dsht is:pl1
-SFX G3 es itshi [hqr]es po:verb is:v_dsht is:pl2
-SFX G3 es itshit [hqr]es po:verb is:v_dsht is:pl2
-SFX G3 es itshin [hqr]es po:verb is:v_dsht is:pl3
+SFX G3 es itsha [hjqr]es po:verb is:v_dsht is:sg1
+SFX G3 es itsh [hjqr]es po:verb is:v_dsht is:sg2
+SFX G3 es ittë [hjqr]es po:verb is:v_dsht is:sg3
+SFX G3 es itshim [hjqr]es po:verb is:v_dsht is:pl1
+SFX G3 es itshi [hjqr]es po:verb is:v_dsht is:pl2
+SFX G3 es itshit [hjqr]es po:verb is:v_dsht is:pl2
+SFX G3 es itshin [hjqr]es po:verb is:v_dsht is:pl3
 SFX G3 ëlcas laça cas po:verb is:v_dsht is:sg1
 SFX G3 ëlcas laç cas po:verb is:v_dsht is:sg2
 SFX G3 ëlcas lastë cas po:verb is:v_dsht is:sg3
@@ -3609,7 +3614,7 @@ SFX G4 s tshin s po:verb is:v_dsht is:pl3
 SFX G4 et ittë et po:verb is:v_dsht is:sg3
 SFX G4 et itshin et po:verb is:v_dsht is:pl3
 
-SFX G5 Y 87
+SFX G5 Y 79
 SFX G5 0 fsh pi po:verb is:v_dsht is:sg2
 SFX G5 0 fsha pi po:verb is:v_dsht is:sg1
 SFX G5 0 fshi pi po:verb is:v_dsht is:pl2
@@ -3643,12 +3648,6 @@ SFX G5 idhem edhtë idhem po:verb is:j_dsht is:sg3
 SFX G5 idhem edhshim idhem po:verb is:j_dsht is:pl1
 SFX G5 idhem edhshi idhem po:verb is:j_dsht is:pl2
 SFX G5 idhem edhshin idhem po:verb is:j_dsht is:pl3
-SFX G5 ihem jefsha [dz]ihem po:verb is:j_dsht is:sg1
-SFX G5 ihem jefsh [dz]ihem po:verb is:j_dsht is:sg2
-SFX G5 ihem jeftë [dz]ihem po:verb is:j_dsht is:sg3
-SFX G5 ihem jefshim [dz]ihem po:verb is:j_dsht is:pl1
-SFX G5 ihem jefshi [dz]ihem po:verb is:j_dsht is:pl2
-SFX G5 ihem jefshin [dz]ihem po:verb is:j_dsht is:pl3
 SFX G5 ihem ahsha rrihem po:verb is:j_dsht is:sg1
 SFX G5 ihem ahsh rrihem po:verb is:j_dsht is:sg2
 SFX G5 ihem ahtë rrihem po:verb is:j_dsht is:sg3
@@ -3695,8 +3694,6 @@ SFX G5 uhet oftë [^t][bdghlqr]uhet po:verb is:v_dsht is:sg3
 SFX G5 uhet ofshin [^t][bdghlqr]uhet po:verb is:v_dsht is:pl3
 SFX G5 uhet ëntë thuhet po:verb is:j_dsht is:sg3
 SFX G5 uhet ënçin thuhet po:verb is:j_dsht is:pl3
-SFX G5 yhet ftë yhet po:verb is:v_dsht is:sg3
-SFX G5 yhet fshin yhet po:verb is:v_dsht is:pl3
 
 SFX G6 Y 5
 SFX G6 0 sha [bcçdfghjklmnpqrstvz] po:verb is:v_dsht is:sg1
@@ -3714,7 +3711,7 @@ SFX G8 0 shin [bcçdfghjklmnpqrstvz] po:verb is:v_dsht is:pl3
 SFX G9 Y 1
 SFX G9 0 çin h po:verb is:v_dsht is:pl3
 
-SFX H1 Y 94
+SFX H1 Y 88
 SFX H1 a hem dua po:verb is:j_dfta is:sg1
 SFX H1 a hesh dua po:verb is:j_dfta is:sg2
 SFX H1 a het dua po:verb is:j_dfta is:sg3
@@ -3803,14 +3800,8 @@ SFX H1 jel ilet jel po:verb is:j_dfta is:sg3
 SFX H1 jel ilen jel po:verb is:j_dfta is:pl3
 SFX H1 jell illet jell po:verb is:j_dfta is:sg3
 SFX H1 jell illen jell po:verb is:j_dfta is:pl3
-SFX H1 s tem [aei]s po:verb is:j_dfta is:sg1
-SFX H1 s tesh [aei]s po:verb is:j_dfta is:sg2
-SFX H1 s tet [aei]s po:verb is:j_dfta is:sg3
-SFX H1 s temi [aei]s po:verb is:j_dfta is:pl1
-SFX H1 s teni [aei]s po:verb is:j_dfta is:pl2
-SFX H1 s ten [aei]s po:verb is:j_dfta is:pl3
 
-SFX H2 Y 95
+SFX H2 Y 83
 SFX H2 0 m [ai] po:verb is:v_dfta is:pl1
 SFX H2 0 n [ai] po:verb is:v_dfta is:pl3
 SFX H2 0 më [ej] po:verb is:v_dfta is:pl1
@@ -3869,16 +3860,10 @@ SFX H2 er ret er po:verb is:j_dfta is:sg3
 SFX H2 er remi er po:verb is:j_dfta is:pl1
 SFX H2 er reni er po:verb is:j_dfta is:pl2
 SFX H2 er ren er po:verb is:j_dfta is:pl3
-SFX H2 err irrem qerr po:verb is:j_dfta is:sg1
-SFX H2 err irresh qerr po:verb is:j_dfta is:sg2
-SFX H2 err irret qerr po:verb is:j_dfta is:sg3
-SFX H2 err irremi qerr po:verb is:j_dfta is:pl1
-SFX H2 err irreni qerr po:verb is:j_dfta is:pl2
-SFX H2 err irren qerr po:verb is:j_dfta is:pl3
-SFX H2 es item [hqr]es po:verb is:j_dfta is:sg1
-SFX H2 es itesh [hqr]es po:verb is:j_dfta is:sg2
-SFX H2 es itemi [hqr]es po:verb is:j_dfta is:pl1
-SFX H2 es iteni [hqr]es po:verb is:j_dfta is:pl2
+SFX H2 es item [hjqr]es po:verb is:j_dfta is:sg1
+SFX H2 es itesh [hjqr]es po:verb is:j_dfta is:sg2
+SFX H2 es itemi [hjqr]es po:verb is:j_dfta is:pl1
+SFX H2 es iteni [hjqr]es po:verb is:j_dfta is:pl2
 SFX H2 esh ishem esh po:verb is:j_dfta is:sg1
 SFX H2 esh ishesh esh po:verb is:j_dfta is:sg2
 SFX H2 esh ishet esh po:verb is:j_dfta is:sg3
@@ -3899,12 +3884,6 @@ SFX H2 jerr irrem jerr po:verb is:j_dfta is:sg1
 SFX H2 jerr irresh jerr po:verb is:j_dfta is:sg2
 SFX H2 jerr irremi jerr po:verb is:j_dfta is:pl1
 SFX H2 jerr irreni jerr po:verb is:j_dfta is:pl2
-SFX H2 jes item jes po:verb is:j_dfta is:sg1
-SFX H2 jes itesh jes po:verb is:j_dfta is:sg2
-SFX H2 jes itet jes po:verb is:j_dfta is:sg3
-SFX H2 jes itemi jes po:verb is:j_dfta is:pl1
-SFX H2 jes iteni jes po:verb is:j_dfta is:pl2
-SFX H2 jes iten jes po:verb is:j_dfta is:pl3
 SFX H2 t n t po:verb is:j_dfta is:pl3
 
 SFX H3 Y 21
@@ -3930,7 +3909,7 @@ SFX H3 in ohet rrin po:verb is:j_dfta is:sg3
 SFX H3 in ohen rrin po:verb is:j_dfta is:pl3
 SFX H3 as et as po:verb is:v_dfta is:sg3
 
-SFX H4 Y 9
+SFX H4 Y 15
 SFX H4 e hen [pt]ie po:verb is:j_dfta is:pl3
 SFX H4 j hem j po:verb is:j_dfta is:sg1
 SFX H4 j hesh j po:verb is:j_dfta is:sg2
@@ -3940,6 +3919,12 @@ SFX H4 as item as po:verb is:j_dfta is:sg1
 SFX H4 as itesh as po:verb is:j_dfta is:sg2
 SFX H4 as itemi as po:verb is:j_dfta is:pl1
 SFX H4 as iteni as po:verb is:j_dfta is:pl2
+SFX H4 jes item jes po:verb is:j_dfta is:sg1
+SFX H4 jes itesh jes po:verb is:j_dfta is:sg2
+SFX H4 jes itet jes po:verb is:j_dfta is:sg3
+SFX H4 jes itemi jes po:verb is:j_dfta is:pl1
+SFX H4 jes iteni jes po:verb is:j_dfta is:pl2
+SFX H4 jes iten jes po:verb is:j_dfta is:pl3
 
 SFX H5 Y 14
 SFX H5 hem n hem po:verb is:v_dfta is:sg2
@@ -3971,7 +3956,7 @@ SFX H7 Y 2
 SFX H7 0 en [^ai] po:verb is:j_dfta is:pl3
 SFX H7 0 hen [ai] po:verb is:j_dfta is:pl3
 
-SFX H8 Y 9
+SFX H8 Y 10
 SFX H8 j hemi j po:verb is:j_dfta is:pl1
 SFX H8 j heni j po:verb is:j_dfta is:pl2
 SFX H8 as it as po:verb is:urdh is:sg2
@@ -3981,9 +3966,12 @@ SFX H8 as itju as po:verb is:urdh is:sg2
 SFX H8 as itma as po:verb is:urdh is:sg2
 SFX H8 as itmë as po:verb is:urdh is:sg2
 SFX H8 as itna as po:verb is:urdh is:sg2
+SFX H8 as itu as po:verb is:urdh is:sg2
 
-SFX H9 Y 10
+SFX H9 Y 12
 SFX H9 0 het [ai] po:verb is:j_dfta is:sg3
+SFX H9 h j h po:verb is:urdh is:sg2
+SFX H9 h ni h po:verb is:urdh is:pl2
 SFX H9 j het j po:verb is:j_dfta is:sg3
 SFX H9 j hen j po:verb is:j_dfta is:pl3
 SFX H9 as iteni as po:verb is:urdh is:pl2
@@ -4016,19 +4004,9 @@ SFX I0 0 jini [ai] po:verb is:urdh is:pl2
 SFX I0 0 juni [abcçdfhijklmpqrstvz] po:verb is:urdh is:pl2
 SFX I0 0 iuni [gn] po:verb is:urdh is:pl2
 
-SFX J0 Y 4
-SFX J0 0 e [bcçdfghjklmnpqrstvz] po:verb is:urdh is:sg2
-SFX J0 0 eni [bcçdfghjklmnpqrstvz] po:verb is:urdh is:pl2
-SFX J0 0 ini [bcçdfghjklmnpqrstvz] po:verb is:urdh is:pl2
-SFX J0 0 uni [bcçdfghjklmnpqrstvz] po:verb is:urdh is:pl2
-
-SFX K0 Y 1
-SFX K0 0 i [bcçdfghjklmnpqrstvz] po:verb is:urdh is:sg2
-
-SFX L0 Y 1
-SFX L0 0 u [ghik] po:verb is:urdh is:sg2
-
-SFX I1 Y 4
+SFX I1 Y 6
+SFX I1 aj hu [^blv]uaj po:verb is:urdh is:sg2
+SFX I1 aj huni [^blv]uaj po:verb is:urdh is:pl2
 SFX I1 ej hu [iy]ej po:verb is:urdh is:sg2
 SFX I1 ej huni [iy]ej po:verb is:urdh is:pl2
 SFX I1 j ni [aeëiouy]j po:verb is:v_dfta is:pl2
@@ -4039,7 +4017,7 @@ SFX I2 0 et [bcçdfghjklmnpqrstvz] po:verb is:j_dfta is:sg3
 SFX I2 0 hu [ai] po:verb is:urdh is:sg2
 SFX I2 0 huni [ai] po:verb is:urdh is:pl2
 
-SFX I3 Y 437
+SFX I3 Y 426
 SFX I3 0 a ëm po:verb is:urdh is:sg2
 SFX I3 0 ani ëm po:verb is:urdh is:pl2
 SFX I3 0 ë ëm po:verb is:urdh is:sg2
@@ -4054,11 +4032,15 @@ SFX I3 0 nani ëm po:verb is:urdh is:pl2
 SFX I3 ah ih ah po:verb is:urdh is:sg2
 SFX I3 ah ihe ah po:verb is:urdh is:sg2
 SFX I3 ah ihi ah po:verb is:urdh is:sg2
+SFX I3 ah ihma ah po:verb is:urdh is:sg2
+SFX I3 ah ihmë ah po:verb is:urdh is:sg2
 SFX I3 ah ihna ah po:verb is:urdh is:sg2
 SFX I3 ah ihu ah po:verb is:urdh is:sg2
 SFX I3 ah iheni ah po:verb is:urdh is:pl2
 SFX I3 ah ihini ah po:verb is:urdh is:pl2
 SFX I3 ah ihjani ah po:verb is:urdh is:pl2
+SFX I3 ah ihmani ah po:verb is:urdh is:pl2
+SFX I3 ah ihmëni ah po:verb is:urdh is:pl2
 SFX I3 ah ihnani ah po:verb is:urdh is:pl2
 SFX I3 ah ihuni ah po:verb is:urdh is:pl2
 SFX I3 ah ihni ah po:verb is:urdh is:pl2
@@ -4118,15 +4100,15 @@ SFX I3 las olni flas po:verb is:urdh is:pl2
 SFX I3 eh ih eh po:verb is:urdh is:sg2
 SFX I3 eh ihe eh po:verb is:urdh is:sg2
 SFX I3 eh ihi eh po:verb is:urdh is:sg2
-SFX I3 eh ihmë eh po:verb is:urdh is:sg2
 SFX I3 eh ihma eh po:verb is:urdh is:sg2
+SFX I3 eh ihmë eh po:verb is:urdh is:sg2
 SFX I3 eh ihna eh po:verb is:urdh is:sg2
 SFX I3 eh ihu eh po:verb is:urdh is:sg2
 SFX I3 eh iheni eh po:verb is:urdh is:pl2
 SFX I3 eh ihini eh po:verb is:urdh is:pl2
 SFX I3 eh ihjani eh po:verb is:urdh is:pl2
-SFX I3 eh ihmëni eh po:verb is:urdh is:pl2
 SFX I3 eh ihmani eh po:verb is:urdh is:pl2
+SFX I3 eh ihmëni eh po:verb is:urdh is:pl2
 SFX I3 eh ihnani eh po:verb is:urdh is:pl2
 SFX I3 eh ihuni eh po:verb is:urdh is:pl2
 SFX I3 eh ihni eh po:verb is:urdh is:pl2
@@ -4145,11 +4127,15 @@ SFX I3 e imëni re po:verb is:urdh is:pl2
 SFX I3 e inani re po:verb is:urdh is:pl2
 SFX I3 e ini [lr]e po:verb is:urdh is:pl2
 SFX I3 ej i ej po:verb is:urdh is:sg2
+SFX I3 ej ihu ej po:verb is:urdh is:sg2
+SFX I3 ej ija ej po:verb is:urdh is:sg2
+SFX I3 ej ije ej po:verb is:urdh is:sg2
 SFX I3 ej iji ej po:verb is:urdh is:sg2
 SFX I3 ej iju ej po:verb is:urdh is:sg2
 SFX I3 ej ima ej po:verb is:urdh is:sg2
 SFX I3 ej imë ej po:verb is:urdh is:sg2
 SFX I3 ej ina ej po:verb is:urdh is:sg2
+SFX I3 ej ihuni ej po:verb is:urdh is:pl2
 SFX I3 ej ijani ej po:verb is:urdh is:pl2
 SFX I3 ej ijeni ej po:verb is:urdh is:pl2
 SFX I3 ej ijini ej po:verb is:urdh is:pl2
@@ -4194,12 +4180,6 @@ SFX I3 er r er po:verb is:urdh is:sg2
 SFX I3 er ru er po:verb is:urdh is:sg2
 SFX I3 er rni er po:verb is:urdh is:pl2
 SFX I3 er runi er po:verb is:urdh is:pl2
-SFX I3 err irr qerr po:verb is:urdh is:sg2
-SFX I3 err irre qerr po:verb is:urdh is:sg2
-SFX I3 err irri qerr po:verb is:urdh is:sg2
-SFX I3 err irreni qerr po:verb is:urdh is:pl2
-SFX I3 err irrini qerr po:verb is:urdh is:pl2
-SFX I3 err irrni qerr po:verb is:urdh is:pl2
 SFX I3 es is des po:verb is:urdh is:sg2
 SFX I3 es ise des po:verb is:urdh is:sg2
 SFX I3 es isi des po:verb is:urdh is:sg2
@@ -4212,20 +4192,20 @@ SFX I3 es ismani des po:verb is:urdh is:pl2
 SFX I3 es ismëni des po:verb is:urdh is:pl2
 SFX I3 es isnani des po:verb is:urdh is:pl2
 SFX I3 es isuni des po:verb is:urdh is:pl2
-SFX I3 es isni [dhqr]es po:verb is:urdh is:pl2
-SFX I3 es it [hqr]es po:verb is:urdh is:sg2
-SFX I3 es itma [hqr]es po:verb is:urdh is:sg2
-SFX I3 es itmë [hqr]es po:verb is:urdh is:sg2
-SFX I3 es itna [hqr]es po:verb is:urdh is:sg2
-SFX I3 es itu [hqr]es po:verb is:urdh is:sg2
-SFX I3 es iteni [hqr]es po:verb is:urdh is:pl2
-SFX I3 es itini [hqr]es po:verb is:urdh is:pl2
-SFX I3 es itjani [hqr]es po:verb is:urdh is:pl2
-SFX I3 es itmani [hqr]es po:verb is:urdh is:pl2
-SFX I3 es itmëni [hqr]es po:verb is:urdh is:pl2
-SFX I3 es itnani [hqr]es po:verb is:urdh is:pl2
-SFX I3 es ituni [hqr]es po:verb is:urdh is:pl2
-SFX I3 es itni [hqr]es po:verb is:urdh is:pl2
+SFX I3 es isni [dhjqr]es po:verb is:urdh is:pl2
+SFX I3 es it [hjqr]es po:verb is:urdh is:sg2
+SFX I3 es itma [hjqr]es po:verb is:urdh is:sg2
+SFX I3 es itmë [hjqr]es po:verb is:urdh is:sg2
+SFX I3 es itna [hjqr]es po:verb is:urdh is:sg2
+SFX I3 es itu [hjqr]es po:verb is:urdh is:sg2
+SFX I3 es iteni [hjqr]es po:verb is:urdh is:pl2
+SFX I3 es itini [hjqr]es po:verb is:urdh is:pl2
+SFX I3 es itjani [hjqr]es po:verb is:urdh is:pl2
+SFX I3 es itmani [hjqr]es po:verb is:urdh is:pl2
+SFX I3 es itmëni [hjqr]es po:verb is:urdh is:pl2
+SFX I3 es itnani [hjqr]es po:verb is:urdh is:pl2
+SFX I3 es ituni [hjqr]es po:verb is:urdh is:pl2
+SFX I3 es itni [hjqr]es po:verb is:urdh is:pl2
 SFX I3 esh ish esh po:verb is:urdh is:sg2
 SFX I3 esh ishe esh po:verb is:urdh is:sg2
 SFX I3 esh ishi esh po:verb is:urdh is:sg2
@@ -4282,25 +4262,23 @@ SFX I3 ërras irrnani rras po:verb is:urdh is:pl2
 SFX I3 ërras irruni rras po:verb is:urdh is:pl2
 SFX I3 ërras irrni rras po:verb is:urdh is:pl2
 SFX I3 hem 0 ohem po:verb is:urdh is:sg2
-SFX I3 em u ohem po:verb is:urdh is:sg2
 SFX I3 hem ni ohem po:verb is:urdh is:pl2
-SFX I3 em uni ohem po:verb is:urdh is:pl2
 SFX I3 hem aj uhem po:verb is:urdh is:sg2
 SFX I3 hem ani uhem po:verb is:urdh
 SFX I3 i 0 [ckp]i po:verb is:urdh is:sg2
-SFX I3 i ju pi po:verb is:urdh is:sg2
+SFX I3 i ju [ckp]i po:verb is:urdh is:sg2
 SFX I3 i ma pi po:verb is:urdh is:sg2
-SFX I3 i më pi po:verb is:urdh is:sg2
-SFX I3 i na pi po:verb is:urdh is:sg2
-SFX I3 i u pi po:verb is:urdh is:sg2
+SFX I3 i më [ckp]i po:verb is:urdh is:sg2
+SFX I3 i na [ckp]i po:verb is:urdh is:sg2
+SFX I3 i u [ckp]i po:verb is:urdh is:sg2
 SFX I3 i eni pi po:verb is:urdh is:pl2
 SFX I3 0 ni pi po:verb is:urdh is:pl2
 SFX I3 i jani pi po:verb is:urdh is:pl2
-SFX I3 i juni pi po:verb is:urdh is:pl2
+SFX I3 i juni [ckp]i po:verb is:urdh is:pl2
 SFX I3 i mani pi po:verb is:urdh is:pl2
-SFX I3 i mëni pi po:verb is:urdh is:pl2
-SFX I3 i nani pi po:verb is:urdh is:pl2
-SFX I3 i uni pi po:verb is:urdh is:pl2
+SFX I3 i mëni [ckp]i po:verb is:urdh is:pl2
+SFX I3 i nani [ckp]i po:verb is:urdh is:pl2
+SFX I3 i uni [ckp]i po:verb is:urdh is:pl2
 SFX I3 i ni [ckp]i po:verb is:urdh is:pl2
 SFX I3 ie jer [bpt]ie po:verb is:urdh is:sg2
 SFX I3 ie jere [bpt]ie po:verb is:urdh is:sg2
@@ -4325,16 +4303,16 @@ SFX I3 jedh idh [rv]jedh po:verb is:urdh is:sg2
 SFX I3 jedh idhe vjedh po:verb is:urdh is:sg2
 SFX I3 jedh idhi vjedh po:verb is:urdh is:sg2
 SFX I3 jedh idhma vjedh po:verb is:urdh is:sg2
-SFX I3 jedh idhmë vjedh po:verb is:urdh is:sg2
-SFX I3 jedh idhna vjedh po:verb is:urdh is:sg2
-SFX I3 jedh idhu vjedh po:verb is:urdh is:sg2
+SFX I3 jedh idhmë [rv]jedh po:verb is:urdh is:sg2
+SFX I3 jedh idhna [rv]jedh po:verb is:urdh is:sg2
+SFX I3 jedh idhu [rv]jedh po:verb is:urdh is:sg2
 SFX I3 jedh idheni vjedh po:verb is:urdh is:pl2
 SFX I3 jedh idhini vjedh po:verb is:urdh is:pl2
 SFX I3 jedh idhjani vjedh po:verb is:urdh is:pl2
 SFX I3 jedh idhmani vjedh po:verb is:urdh is:pl2
-SFX I3 jedh idhmëni vjedh po:verb is:urdh is:pl2
-SFX I3 jedh idhnani vjedh po:verb is:urdh is:pl2
-SFX I3 jedh idhuni vjedh po:verb is:urdh is:pl2
+SFX I3 jedh idhmëni [rv]jedh po:verb is:urdh is:pl2
+SFX I3 jedh idhnani [rv]jedh po:verb is:urdh is:pl2
+SFX I3 jedh idhuni [rv]jedh po:verb is:urdh is:pl2
 SFX I3 jedh idhni [rv]jedh po:verb is:urdh is:pl2
 SFX I3 jeg igj jeg po:verb is:urdh is:sg2
 SFX I3 jeg igje jeg po:verb is:urdh is:sg2
@@ -4449,17 +4427,6 @@ SFX I3 jerr irrmëni jerr po:verb is:urdh is:pl2
 SFX I3 jerr irrnani jerr po:verb is:urdh is:pl2
 SFX I3 jerr irruni jerr po:verb is:urdh is:pl2
 SFX I3 jerr irrni jerr po:verb is:urdh is:pl2
-SFX I3 jes it jes po:verb is:urdh is:sg2
-SFX I3 jes ite jes po:verb is:urdh is:sg2
-SFX I3 jes iti jes po:verb is:urdh is:sg2
-SFX I3 jes itna jes po:verb is:urdh is:sg2
-SFX I3 jes itu jes po:verb is:urdh is:sg2
-SFX I3 jes iteni jes po:verb is:urdh is:pl2
-SFX I3 jes itini jes po:verb is:urdh is:pl2
-SFX I3 jes itjani jes po:verb is:urdh is:pl2
-SFX I3 jes itnani jes po:verb is:urdh is:pl2
-SFX I3 jes ituni jes po:verb is:urdh is:pl2
-SFX I3 jes itni jes po:verb is:urdh is:pl2
 SFX I3 litem olu litem po:verb is:urdh is:sg2
 SFX I3 litem oluni litem po:verb is:urdh is:pl2
 SFX I3 oh ih oh po:verb is:urdh is:sg2
@@ -4478,20 +4445,15 @@ SFX I3 oh ihnani oh po:verb is:urdh is:pl2
 SFX I3 oh ihuni oh po:verb is:urdh is:pl2
 SFX I3 oh ihni oh po:verb is:urdh is:pl2
 
-SFX I4 Y 59
+SFX I4 Y 53
 SFX I4 0 j ua po:verb is:urdh is:sg2
 SFX I4 0 je ua po:verb is:urdh is:pl2
 SFX I4 0 jma ua po:verb is:urdh is:pl2
 SFX I4 0 jmë ua po:verb is:urdh is:pl2
 SFX I4 0 jna ua po:verb is:urdh is:sg2
-SFX I4 0 ju ua po:verb is:urdh is:pl2
-SFX I4 0 jani ua po:verb is:urdh is:pl2
-SFX I4 0 jeni ua po:verb is:urdh is:pl2
-SFX I4 0 jini ua po:verb is:urdh is:pl2
 SFX I4 0 jmani ua po:verb is:urdh is:pl2
 SFX I4 0 jmëni ua po:verb is:urdh is:pl2
 SFX I4 0 jnani ua po:verb is:urdh is:pl2
-SFX I4 0 juni ua po:verb is:urdh is:pl2
 SFX I4 0 r ë po:verb is:urdh is:sg2
 SFX I4 0 re ë po:verb is:urdh is:sg2
 SFX I4 0 ri ë po:verb is:urdh is:sg2
@@ -4524,26 +4486,37 @@ SFX I4 edh idhuni edh po:verb is:urdh is:pl2
 SFX I4 edh idhni edh po:verb is:urdh is:pl2
 SFX I4 j 0 j po:verb is:urdh is:sg2
 SFX I4 em ni em po:verb is:urdh is:pl2
-SFX I4 s 0 [^y][ae]s po:verb is:urdh is:sg2
-SFX I4 s ni [^y][ae]s po:verb is:urdh is:pl2
-SFX I4 s tja yes po:verb is:urdh is:sg2
-SFX I4 s tma yes po:verb is:urdh is:sg2
-SFX I4 s tmë yes po:verb is:urdh is:sg2
-SFX I4 s tna yes po:verb is:urdh is:sg2
-SFX I4 s tu yes po:verb is:urdh is:sg2
-SFX I4 s tini yes po:verb is:urdh is:pl2
-SFX I4 s tjani yes po:verb is:urdh is:pl2
-SFX I4 s tmani yes po:verb is:urdh is:pl2
-SFX I4 s tmëni yes po:verb is:urdh is:pl2
-SFX I4 s tnani yes po:verb is:urdh is:pl2
-SFX I4 s tuni yes po:verb is:urdh is:pl2
-SFX I4 s tni yes po:verb is:urdh is:pl2
+SFX I4 s 0 [^jqy][ae]s po:verb is:urdh is:sg2
+SFX I4 s ni [^jqy][ae]s po:verb is:urdh is:pl2
+SFX I4 jes it jes po:verb is:urdh is:sg2
+SFX I4 jes ite jes po:verb is:urdh is:sg2
+SFX I4 jes iti jes po:verb is:urdh is:sg2
+SFX I4 jes itna jes po:verb is:urdh is:sg2
+SFX I4 jes itu jes po:verb is:urdh is:sg2
+SFX I4 jes iteni jes po:verb is:urdh is:pl2
+SFX I4 jes itini jes po:verb is:urdh is:pl2
+SFX I4 jes itjani jes po:verb is:urdh is:pl2
+SFX I4 jes itnani jes po:verb is:urdh is:pl2
+SFX I4 jes ituni jes po:verb is:urdh is:pl2
+SFX I4 jes itni jes po:verb is:urdh is:pl2
 
-SFX I5 Y 14
+SFX I5 Y 26
 SFX I5 em u em po:verb is:urdh is:sg2
 SFX I5 em uni em po:verb is:urdh is:pl2
 SFX I5 as 0 bas po:verb is:urdh is:sg2
 SFX I5 as ni bas po:verb is:urdh is:pl2
+SFX I5 s tja [ei]s po:verb is:urdh is:sg2
+SFX I5 s tma [ei]s po:verb is:urdh is:sg2
+SFX I5 s tmë [ei]s po:verb is:urdh is:sg2
+SFX I5 s tna [ei]s po:verb is:urdh is:sg2
+SFX I5 s tu [ei]s po:verb is:urdh is:sg2
+SFX I5 s tini [ei]s po:verb is:urdh is:pl2
+SFX I5 s tjani [ei]s po:verb is:urdh is:pl2
+SFX I5 s tmani [ei]s po:verb is:urdh is:pl2
+SFX I5 s tmëni [ei]s po:verb is:urdh is:pl2
+SFX I5 s tnani [ei]s po:verb is:urdh is:pl2
+SFX I5 s tuni [ei]s po:verb is:urdh is:pl2
+SFX I5 s tni [ei]s po:verb is:urdh is:pl2
 SFX I5 j hu [aeëiouy]j po:verb is:urdh is:sg2
 SFX I5 0 u [aeëiouy]j po:verb is:urdh is:sg2
 SFX I5 j ma [aeëiouy]j po:verb is:urdh is:sg2
@@ -4555,17 +4528,23 @@ SFX I5 j mani [aeëiouy]j po:verb is:urdh is:pl2
 SFX I5 j mëni [aeëiouy]j po:verb is:urdh is:pl2
 SFX I5 j nani [aeëiouy]j po:verb is:urdh is:pl2
 
+SFX J0 Y 6
+SFX J0 0 e [bcçdfghjklmnpqrstvz] po:verb is:urdh is:sg2
+SFX J0 0 i [bcçdfghjklmnpqrstvz] po:verb is:urdh is:sg2
+SFX J0 0 u [bcçdfghjklmnpqrstvz] po:verb is:urdh is:sg2
+SFX J0 0 eni [bcçdfghjklmnpqrstvz] po:verb is:urdh is:pl2
+SFX J0 0 ini [bcçdfghjklmnpqrstvz] po:verb is:urdh is:pl2
+SFX J0 0 uni [bcçdfghjklmnpqrstvz] po:verb is:urdh is:pl2
+
 # EMRAT FEM.
 
-SFX I6 Y 82
+SFX I6 Y 72
 SFX I6 0 na jë po:noun is:pl is:fem
 SFX I6 0 nash jë po:noun is:pl is:fem
 SFX I6 0 nat jë po:noun is:pl is:fem
 SFX I6 0 nave jë po:noun is:pl is:fem
 SFX I6 a në [ei]a po:noun is:sg is:fem
 SFX I6 a së [ei]a po:noun is:sg is:fem
-SFX I6 ado ëndo ado po:noun is:sg is:fem
-SFX I6 ado ësdo ado po:noun is:sg is:fem
 SFX I6 adhe ëdha adhe po:noun is:pl is:fem
 SFX I6 adhe ëdhash adhe po:noun is:pl is:fem
 SFX I6 adhe ëdhatë adhe po:noun is:pl is:fem
@@ -4602,18 +4581,10 @@ SFX I6 ëll lla ëll po:noun is:pl is:fem
 SFX I6 ëll llash ëll po:noun is:pl is:fem
 SFX I6 ëll llat ëll po:noun is:pl is:fem
 SFX I6 ëll llave ëll po:noun is:pl is:fem
-SFX I6 ëm mash [lr]azëm po:noun is:pl is:fem
-SFX I6 ëm mat [lr]azëm po:noun is:pl is:fem
-SFX I6 ëm mave [lr]azëm po:noun is:pl is:fem
-SFX I6 ëm mash [rt]izëm po:noun is:pl is:fem
-SFX I6 ëm mat [rt]izëm po:noun is:pl is:fem
-SFX I6 ëm mave [rt]izëm po:noun is:pl is:fem
-SFX I6 ëm mesh kazëm po:noun is:pl is:fem
-SFX I6 ëm met kazëm po:noun is:pl is:fem
-SFX I6 ëm meve kazëm po:noun is:pl is:fem
-SFX I6 ëm mesh [çghklqst]ëm po:noun is:pl is:fem
-SFX I6 ëm met [çghklqst]ëm po:noun is:pl is:fem
-SFX I6 ëm meve [çghklqst]ëm po:noun is:pl is:fem
+SFX I6 ëm ma ëm po:noun is:pl is:fem
+SFX I6 ëm mash ëm po:noun is:pl is:fem
+SFX I6 ëm mat ëm po:noun is:pl is:fem
+SFX I6 ëm mave ëm po:noun is:pl is:fem
 SFX I6 ën na ën po:noun is:pl is:fem
 SFX I6 ën nash ën po:noun is:pl is:fem
 SFX I6 ën nat ën po:noun is:pl is:fem
@@ -4641,7 +4612,7 @@ SFX I6 ua ash ua po:noun is:pl is:fem
 SFX I6 ua atë ua po:noun is:pl is:fem
 SFX I6 ua ave ua po:noun is:pl is:fem
 
-SFX I7 Y 33
+SFX I7 Y 32
 SFX I7 0 ja [ey] po:noun is:pl is:fem
 SFX I7 0 jave [ey] po:noun is:pl is:fem
 SFX I7 0 qe i po:noun is:pl is:fem
@@ -4660,7 +4631,6 @@ SFX I7 ëll lle ëll po:noun is:sg is:fem
 SFX I7 ëll llën ëll po:noun is:sg is:fem
 SFX I7 ëll llës ëll po:noun is:sg is:fem
 SFX I7 ëm ma ëm po:noun is:sg is:fem
-SFX I7 ëm me ëm po:noun is:sg is:fem
 SFX I7 ëm mën ëm po:noun is:sg is:fem
 SFX I7 ëm mës ëm po:noun is:sg is:fem
 SFX I7 ën na ën po:noun is:sg is:fem
@@ -4676,10 +4646,10 @@ SFX I7 ërr rrën ërr po:noun is:sg is:fem
 SFX I7 ërr rrës ërr po:noun is:sg is:fem
 SFX I7 o ua o po:noun is:sg is:fem
 
-SFX I8 Y 20
-SFX I8 0 jash [rv]e po:noun is:pl is:fem
-SFX I8 0 jat [rv]e po:noun is:pl is:fem
-SFX I8 0 jave [rv]e po:noun is:pl is:fem
+SFX I8 Y 19
+SFX I8 0 jash [drv]e po:noun is:pl is:fem
+SFX I8 0 jat [drv]e po:noun is:pl is:fem
+SFX I8 0 jave [drv]e po:noun is:pl is:fem
 SFX I8 ë e ë po:noun is:pl is:fem
 SFX I8 ë eje ë po:noun is:sg is:fem
 SFX I8 ë esh ë po:noun is:pl is:fem
@@ -4688,7 +4658,6 @@ SFX I8 ë eve ë po:noun is:pl is:fem
 SFX I8 ël lesh ël po:noun is:pl is:fem
 SFX I8 ël let ël po:noun is:pl is:fem
 SFX I8 ël leve ël po:noun is:pl is:fem
-SFX I8 ëm me ëm po:noun is:sg is:fem
 SFX I8 ëm men ëm po:noun is:sg is:fem
 SFX I8 ëm mes ëm po:noun is:sg is:fem
 SFX I8 ëm mja ëm po:noun is:sg is:fem
@@ -4732,16 +4701,21 @@ SFX J6 0 ës [^aeëiouy] po:noun is:sg is:fem
 SFX J6 0 në [aeëiouy] po:noun is:sg is:fem
 SFX J6 0 së [aeëiouy] po:noun is:sg is:fem
 
-SFX J7 Y 4
+SFX J7 Y 8
 SFX J7 a ën a po:noun is:sg is:fem
 SFX J7 e ja e po:noun is:sg is:fem
 SFX J7 ë a ë po:noun is:pl is:fem
+SFX J7 ëm me [cçdghklpqrstz]ëm po:noun is:pl is:fem
+SFX J7 ëm mesh [cçdghklpqrstz]ëm po:noun is:pl is:fem
+SFX J7 ëm met [cçdghklpqrstz]ëm po:noun is:pl is:fem
+SFX J7 ëm meve [cçdghklpqrstz]ëm po:noun is:pl is:fem
 SFX J7 o yre o po:noun is:pl is:fem
 
-SFX J8 Y 6
+SFX J8 Y 7
 SFX J8 a e a po:noun is:sg is:fem
 SFX J8 e ia e po:noun is:sg is:fem
 SFX J8 ë a ë po:noun is:sg is:fem
+SFX J8 ëm me ëm po:noun is:sg is:fem
 SFX J8 ër re ër po:noun is:sg is:fem
 SFX J8 0 a i po:num is:pl is:fem
 SFX J8 0 ave i po:num is:pl is:fem
@@ -4990,10 +4964,10 @@ SFX L2 ak eq ak po:noun is:pl is:mas
 SFX L2 ak eqsh ak po:noun is:pl is:mas
 SFX L2 ak eqtë ak po:noun is:pl is:mas
 SFX L2 ak eqve ak po:noun is:pl is:mas
-SFX L2 al ej al po:noun is:pl is:mas
-SFX L2 al ejsh al po:noun is:pl is:mas
-SFX L2 al ejtë al po:noun is:pl is:mas
-SFX L2 al ejve al po:noun is:pl is:mas
+SFX L2 al enj al po:noun is:pl is:mas
+SFX L2 al enjsh al po:noun is:pl is:mas
+SFX L2 al enjtë al po:noun is:pl is:mas
+SFX L2 al enjve al po:noun is:pl is:mas
 SFX L2 alosh elmosha osh po:noun is:pl is:mas
 SFX L2 alosh elmoshash osh po:noun is:pl is:mas
 SFX L2 alosh elmoshat osh po:noun is:pl is:mas
@@ -5217,10 +5191,10 @@ SFX L3 ka qe ka po:noun is:pl is:mas
 SFX L3 ka qesh ka po:noun is:pl is:mas
 SFX L3 ka qetë ka po:noun is:pl is:mas
 SFX L3 ka qeve ka po:noun is:pl is:mas
-SFX L3 ua oj ua po:noun is:pl is:mas
-SFX L3 ua ojsh ua po:noun is:pl is:mas
-SFX L3 ua ojtë ua po:noun is:pl is:mas
-SFX L3 ua ojve ua po:noun is:pl is:mas
+SFX L3 ua onj ua po:noun is:pl is:mas
+SFX L3 ua onjsh ua po:noun is:pl is:mas
+SFX L3 ua onjtë ua po:noun is:pl is:mas
+SFX L3 ua onjve ua po:noun is:pl is:mas
 SFX L3 yell ej yell po:noun is:pl is:mas
 SFX L3 yell ejsh yell po:noun is:pl is:mas
 SFX L3 yell ejtë yell po:noun is:pl is:mas
@@ -5340,7 +5314,7 @@ SFX L6 ua ojesh ua po:noun is:pl is:mas
 SFX L6 ua ojet ua po:noun is:pl is:mas
 SFX L6 ua ojeve ua po:noun is:pl is:mas
 
-SFX L7 Y 29
+SFX L7 Y 25
 SFX L7 ë allarë ë po:noun is:pl is:mas
 SFX L7 ë allarësh ë po:noun is:pl is:mas
 SFX L7 ë allarët ë po:noun is:pl is:mas
@@ -5349,16 +5323,12 @@ SFX L7 ër urë ër po:noun is:pl is:mas
 SFX L7 ër urësh ër po:noun is:pl is:mas
 SFX L7 ër urët ër po:noun is:pl is:mas
 SFX L7 ër urëve ër po:noun is:pl is:mas
-SFX L7 i ët [lt]i po:noun is:pl is:mas
-SFX L7 i ëve [lt]i po:noun is:pl is:mas
+SFX L7 i ët [lnt]i po:noun is:pl is:mas
+SFX L7 i ëve [lnt]i po:noun is:pl is:mas
 SFX L7 kall qelle kall po:noun is:pl is:mas
 SFX L7 kall qellesh kall po:noun is:pl is:mas
 SFX L7 kall qellet kall po:noun is:pl is:mas
 SFX L7 kall qelleve kall po:noun is:pl is:mas
-SFX L7 ua onj ua po:noun is:pl is:mas
-SFX L7 ua onjsh ua po:noun is:pl is:mas
-SFX L7 ua onjtë ua po:noun is:pl is:mas
-SFX L7 ua onjve ua po:noun is:pl is:mas
 SFX L7 a erë na po:noun is:pl is:mas
 SFX L7 a erësh na po:noun is:pl is:mas
 SFX L7 a erët na po:noun is:pl is:mas
@@ -5406,7 +5376,7 @@ SFX L8 uar orë ar po:noun is:pl is:mas
 SFX L8 uar orësh ar po:noun is:pl is:mas
 SFX L8 uar orët ar po:noun is:pl is:mas
 
-SFX L9 Y 14
+SFX L9 Y 13
 SFX L9 0 nin [aeiuy] po:noun is:sg is:mas
 SFX L9 0 nit [aeiuy] po:noun is:sg is:mas
 SFX L9 ab ebër ab po:noun is:sg is:mas
@@ -5417,8 +5387,7 @@ SFX L9 ë in ë po:noun is:sg is:mas
 SFX L9 ë it ë po:noun is:sg is:mas
 SFX L9 ër ri ër po:noun is:sg is:mas
 SFX L9 ër rin ër po:noun is:sg is:mas
-SFX L9 ërr rri ërr po:noun is:sg is:mas
-SFX L9 ërr rrin ërr po:noun is:sg is:mas
+SFX L9 ër rit ër po:noun is:sg is:mas
 SFX L9 k qish k po:noun is:pl is:mas
 SFX L9 k qit k po:noun is:pl is:mas
 
@@ -5587,9 +5556,9 @@ SFX M5 ë enëntit ë po:num is:mas
 
 SFX M6 Y 2
 SFX M6 0 ish [çhlmrst] po:noun is:pl is:mas
-SFX M6 0 sh [abeëijnoquyz] po:noun is:pl is:mas
+SFX M6 0 sh [abdeëijnoquyz] po:noun is:pl is:mas
 
-SFX M7 Y 15
+SFX M7 Y 13
 SFX M7 0 enj [hl] po:noun is:pl is:mas
 SFX M7 0 enjsh [hl] po:noun is:pl is:mas
 SFX M7 0 enjtë [hl] po:noun is:pl is:mas
@@ -5602,13 +5571,11 @@ SFX M7 0 rë [aeiu] po:noun is:pl is:mas
 SFX M7 0 rësh [aeiu] po:noun is:pl is:mas
 SFX M7 0 rët [aeiu] po:noun is:pl is:mas
 SFX M7 0 rëve [aeiu] po:noun is:pl is:mas
-SFX M7 ër rit ër po:noun is:sg is:mas
-SFX M7 ërr rrit ërr po:noun is:sg is:mas
 SFX M7 të ve të po:noun is:pl is:mas
 
 SFX M8 Y 2
-SFX M8 0 ë [^aiuy] po:noun is:pl is:mas
-SFX M8 0 së [aiuy] po:noun is:sg is:mas
+SFX M8 0 ë [^aeiouy] po:noun is:pl is:mas
+SFX M8 0 së [aeiouy] po:noun is:sg is:mas
 
 SFX M9 Y 7
 SFX M9 0 ër [^aeëiuy] po:noun is:pl is:mas
@@ -5688,7 +5655,7 @@ SFX O1 Y 1
 SFX O1 0 nj [aeëiou] po:noun is:pl is:mas
 
 SFX O2 Y 1
-SFX O2 0 të [abdeijnqzuy] po:noun is:pl is:mas
+SFX O2 0 të [abdeijnoqzuy] po:noun is:pl is:mas
 
 SFX O3 Y 6
 SFX O3 0 u [aeghik] po:noun is:sg is:mas
@@ -5712,10 +5679,10 @@ SFX O5 0 rat [^bpr] po:noun is:pl is:mas
 SFX O5 0 rave [^bpr] po:noun is:pl is:mas
 
 SFX O6 Y 4
-SFX O6 0 na [iry] po:noun is:pl is:mas
-SFX O6 0 nash [iry] po:noun is:pl is:mas
-SFX O6 0 nat [iry] po:noun is:pl is:mas
-SFX O6 0 nave [iry] po:noun is:pl is:mas
+SFX O6 0 na [eiry] po:noun is:pl is:mas
+SFX O6 0 nash [eiry] po:noun is:pl is:mas
+SFX O6 0 nat [eiry] po:noun is:pl is:mas
+SFX O6 0 nave [eiry] po:noun is:pl is:mas
 
 SFX O7 Y 4
 SFX O7 0 re [ëit] po:noun is:pl is:mas
@@ -6267,7 +6234,7 @@ SFX P4 t-shtet teve-shtet t-shtet po:noun is:pl is:mas
 SFX P5 Y 25
 SFX P5 0 qe lla po:adj is:pl is:fem
 SFX P5 0 ër eq po:adj is:pl is:fem
-SFX P5 a ej lla po:adj is:pl is:mas
+SFX P5 a enj lla po:adj is:pl is:mas
 SFX P5 av evër av po:adj is:pl is:mas
 SFX P5 adh ëdha adh po:adj is:pl is:fem
 SFX P5 adhe ëdha adhe po:adj is:pl is:fem
@@ -6291,7 +6258,7 @@ SFX P5 k qe k po:adj is:pl is:fem
 SFX P5 nëre nare ëre po:adj is:pl is:fem
 SFX P5 ua a ua po:adj is:pl is:fem
 
-SFX P6 Y 227
+SFX P6 Y 245
 SFX P6 0 nj [^t]i po:adj is:pl is:mas
 SFX P6 adh ëdhenj adh po:adj is:pl is:mas
 SFX P6 ah eh ah po:adj is:pl is:mas
@@ -6460,6 +6427,24 @@ SFX P6 0 litërshes tri po:adj is:sg is:fem
 SFX P6 0 litërshja tri po:adj is:sg is:fem
 SFX P6 0 litërshet tri po:adj is:pl is:fem
 SFX P6 0 litërsheve tri po:adj is:pl is:fem
+SFX P6 0 metërsh [deërty] po:adj is:sg is:mas
+SFX P6 0 metërshi [deërty] po:adj is:sg is:mas
+SFX P6 0 metërshin [deërty] po:adj is:sg is:mas
+SFX P6 0 metërshit [deërty] po:adj is:sg is:mas
+SFX P6 0 metërshat [deërty] po:adj is:sg is:mas
+SFX P6 0 metërshave [deërty] po:adj is:sg is:mas
+SFX P6 0 metërshe [dërty] po:adj is:sg is:fem
+SFX P6 0 metërshen [dërty] po:adj is:sg is:fem
+SFX P6 0 metërshes [dërty] po:adj is:sg is:fem
+SFX P6 0 metërshja [dërty] po:adj is:sg is:fem
+SFX P6 0 metërshet [dërty] po:adj is:pl is:fem
+SFX P6 0 metërsheve [dërty] po:adj is:pl is:fem
+SFX P6 0 metërshe tri po:adj is:sg is:fem
+SFX P6 0 metërshen tri po:adj is:sg is:fem
+SFX P6 0 metërshes tri po:adj is:sg is:fem
+SFX P6 0 metërshja tri po:adj is:sg is:fem
+SFX P6 0 metërshet tri po:adj is:pl is:fem
+SFX P6 0 metërsheve tri po:adj is:pl is:fem
 SFX P6 0 muajsh [deërty] po:adj is:sg is:mas
 SFX P6 0 muajshi [deërty] po:adj is:sg is:mas
 SFX P6 0 muajshin [deërty] po:adj is:sg is:mas
@@ -6717,7 +6702,7 @@ SFX S4 0 0 po:greq
 # KALLËZUESIT
 
 SFX S5 Y 1
-SFX S5 0 0 po:kall
+SFX S5 0 0 po:kllz
 
 # FJALËFORMIMET
 
@@ -6727,17 +6712,17 @@ SFX S6 0 0 po:form
 # FOLJET KALIMTARE
 
 SFX S7 Y 1
-SFX S7 0 0 po:verb
+SFX S7 0 0 po:verb is:kal
 
 # FOLJET JOKALIMTARE
 
 SFX S8 Y 1
-SFX S8 0 0 po:verb
+SFX S8 0 0 po:verb is:jkal
 
 # FOLJET E VET. III
 
 SFX S9 Y 1
-SFX S9 0 0 po:verb
+SFX S9 0 0 po:verb is:vet3
 
 # EMRAT PACAK.
 
@@ -6751,15 +6736,16 @@ PFX Sa 0 bashk [aeiouy]
 PFX Sa 0 bashkë [^aeiouy]
 
 PFX Sb Y 2
-PFX Sb 0 gjysm [aeou]
-PFX Sb 0 gjysmë [^aeou]
+PFX Sb 0 gjysm [aeiou]
+PFX Sb 0 gjysmë [^aeiou]
 
 PFX Sc Y 1
 PFX Sc 0 krye .
 
-PFX Sd Y 2
-PFX Sd r kundër r
-PFX Sd 0 kundër [^r]
+PFX Sd Y 3
+PFX Sd 0 kundër r[^r]
+PFX Sd r kundër rr
+PFX Sd 0 kundër [abcçdefghijklmnopqstuvyz]
 
 PFX Se Y 1
 PFX Se 0 mbi .
@@ -6776,3 +6762,14 @@ PFX Sh 0 ri .
 PFX Si Y 2
 PFX Si 0 zëvendës .
 PFX Si 0 zëvendëskrye [mr][ei][dn]
+
+PFX Sj Y 3
+PFX Sj 0 ndër r[^r]
+PFX Sj r ndër rr
+PFX Sj 0 ndër [abcçdefghijklmnopqstuvyz]
+
+PFX Sk Y 1
+PFX Sk 0 mos .
+
+PFX Sl Y 1
+PFX Sl 0 anti .
